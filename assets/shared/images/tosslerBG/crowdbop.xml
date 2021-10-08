@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="crowdbop.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="crowdbop0000" x="0" y="0" width="1896" height="993" frameX="0" frameY="-33" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0001" x="0" y="0" width="1896" height="993" frameX="0" frameY="-33" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0002" x="1896" y="0" width="1868" height="1012" frameX="-14" frameY="-14" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0003" x="1896" y="0" width="1868" height="1012" frameX="-14" frameY="-14" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0004" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0005" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0006" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0007" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0008" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0009" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0010" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0011" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0012" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+	<SubTexture name="crowdbop0013" x="0" y="1012" width="1852" height="1026" frameX="-22" frameY="0" frameWidth="1896" frameHeight="1026"/>
+</TextureAtlas>

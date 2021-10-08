@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "tossleridlerock",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				-18
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "tosslerdownrock",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				40
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "tossleruprock",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-3
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "tosslerrightrock",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				105,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "tosslerleftrock",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				2
+			],
+			"anim": "angy",
+			"fps": 24,
+			"name": "tosslergetangry",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tosslerquirky",
+	"position": [
+		0,
+		290
+	],
+	"healthicon": "tossler",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		0,
+		0
+	],
+	"camera_position": [
+		-50,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

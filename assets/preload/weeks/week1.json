@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Fun N Games", "tossler", [146, 113, 253]],
+		["Real Deal", "tossler", [146, 113, 253]],
+		["Fix The Broken", "tossler", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Rockstar Rumble",
+	"weekBefore": "tutorial",
+	"weekName": "Week 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
