@@ -363,11 +363,13 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 
-			case 'tosslerBG': //Tossler heyy ;)
-				var bg:BGSprite = new BGSprite('tosslerBG/background', -600, -200, 1, 1);
+				case 'tosslerBG': //Tossler heyy ;)
+				var bg:BGSprite = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
+				bg.setGraphicSize(Std.int(bg.width * 1.4));
 				add(bg);
 
-				lights = new BGSprite('tosslerBG/middleground', -50, 50, 1.1, 1.1);
+				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
+				lights.setGraphicSize(Std.int(lights.width * 1.4));
 
 				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 100, 1.5, 1.5);
 				
