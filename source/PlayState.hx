@@ -2965,6 +2965,10 @@ class PlayState extends MusicBeatState
 
 			if (storyPlaylist.length <= 0)
 			{
+				if (curSong == 'Fix-The-Broken')
+				{
+					videoOutro('Week 1 Cutscene 4 GAME');
+				}
 				FlxG.sound.playMusic(Paths.music('menu_variation_0'));
 
 				cancelFadeTween();
