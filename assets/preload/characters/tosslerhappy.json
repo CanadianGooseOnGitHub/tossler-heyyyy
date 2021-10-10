@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "tossleridlemichappy SPRITE"
+			"fps": 24,
+			"name": "tossleridlemichappy SPRITE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				10,
-				-42
+				-43
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "tosslerdownmichappy SPRITE"
+			"fps": 24,
+			"name": "tosslerdownmichappy SPRITE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				78,
+				69,
 				-2
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "tosslerleftmichappy SPRITE"
+			"fps": 24,
+			"name": "tosslerleftmichappy SPRITE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-14,
-				-4
+				-5
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "tosslerrightmichappy SPRITE"
+			"fps": 24,
+			"name": "tosslerrightmichappy SPRITE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				53,
+				49,
 				37
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "tosslerupmichappy SPRITE"
+			"fps": 24,
+			"name": "tosslerupmichappy SPRITE",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

@@ -8,81 +8,70 @@
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "tossleridlemicdepressed SPRITE",
+			"name": "tossleridlesuperascend SPRITE",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-7,
-				-42
+				0,
+				0
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "tosslerdownmicdepressed SPRITE",
+			"name": "tosslerdownsuperascend SPRITE",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-4,
+				0,
 				0
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "tosslerleftmicdepressed SPRITE",
+			"name": "tosslerleftsuperascend SPRITE",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-7,
-				-2
+				0,
+				0
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "tosslerrightmicdepressed SPRITE",
+			"name": "tosslerrightsuperascend SPRITE",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				26,
-				36
+				0,
+				0
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "tosslerupmicdepressed SPRITE",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-3,
-				0
-			],
-			"anim": "getHappy",
-			"fps": 24,
-			"name": "tosslertransitionmicdepressedtohappy SPRITE",
+			"name": "tosslerupsuperascend SPRITE",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/tosslerdepressed",
+	"image": "characters/tossler-acsend/tosslerascendparttwo",
 	"position": [
 		0,
-		290
+		-150
 	],
 	"healthicon": "tossler",
 	"flip_x": false,
 	"healthbar_colors": [
-		175,
-		0,
-		0
+		255,
+		255,
+		255
 	],
 	"camera_position": [
-		30,
-		30
+		-40,
+		-10
 	],
 	"sing_duration": 4,
 	"scale": 1

@@ -156,6 +156,7 @@ class PlayState extends MusicBeatState
 	private var endingSong:Bool = false;
 	private var startingSong:Bool = false;
 	private var updateTime:Bool = false;
+	private var floatshit:Float = 0;
 	public static var practiceMode:Bool = false;
 	public static var usedPractice:Bool = false;
 	public static var changedDifficulty:Bool = false;
@@ -213,6 +214,7 @@ class PlayState extends MusicBeatState
 	public var songMisses:Int = 0;
 	public var ghostMisses:Int = 0;
 	public var scoreTxt:FlxText;
+	public var black:FlxSprite;
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
 
@@ -367,7 +369,7 @@ class PlayState extends MusicBeatState
 				var bg:BGSprite = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
 				bg.setGraphicSize(Std.int(bg.width * 1.4));
 				add(bg);
-
+				
 				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
 				lights.setGraphicSize(Std.int(lights.width * 1.4));
 
@@ -1914,6 +1916,8 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
+		floatshit += 0.03;
+
 		#if !debug
 		perfectMode = false;
 		#end
@@ -2107,6 +2111,14 @@ class PlayState extends MusicBeatState
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
+
+		if (!ClientPrefs.lowQuality)
+		{
+			if (dad.curCharacter == "tossleraccendsecond")
+			{
+				dad.y += Math.sin(floatshit);
+			}
+		}
 
 		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
 		iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
@@ -3781,6 +3793,30 @@ class PlayState extends MusicBeatState
 
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
+
+		if (curSong == 'Fix-The-Broken')
+		{
+			if (curStep == 1024)
+			{
+				black = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+				black.alpha = 0;
+				add(black);
+				FlxTween.tween(black, {alpha: 1}, 0.1);
+				black.scrollFactor.set();
+				camHUD.visible = false;
+			}
+			if (curStep == 1152)
+			{
+				FlxTween.tween(black, {alpha: 0}, 0.1, 
+				{
+					onComplete: function(twn:FlxTween) 
+					{
+						remove(black);
+					}
+				});
+				camHUD.visible = true;
+			}
+		}
 
 		if (curBeat % gfSpeed == 0 && !gf.stunned)
 		{
