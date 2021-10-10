@@ -5,70 +5,59 @@
 				0,
 				0
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "tossleridlemicdepressed SPRITE"
+			"loop": false,
+			"name": "tossleridlemichappy SPRITE"
 		},
 		{
 			"offsets": [
-				-7,
+				10,
 				-42
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "tosslerdownmicdepressed SPRITE"
+			"loop": false,
+			"name": "tosslerdownmichappy SPRITE"
 		},
 		{
 			"offsets": [
-				-4,
+				78,
 				-2
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "tosslerleftmicdepressed SPRITE"
+			"loop": false,
+			"name": "tosslerleftmichappy SPRITE"
 		},
 		{
 			"offsets": [
-				-8,
+				-14,
 				-4
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "tosslerrightmicdepressed SPRITE"
+			"loop": false,
+			"name": "tosslerrightmichappy SPRITE"
 		},
 		{
 			"offsets": [
-				36,
+				53,
 				37
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "tosslerupmicdepressed SPRITE"
-		},
-		{
-			"offsets": [
-				-3,
-				0
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "getHappy",
 			"loop": false,
-			"name": "tosslertransitionmicdepressedtohappy SPRITE"
+			"name": "tosslerupmichappy SPRITE"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/tosslerdepressed",
+	"image": "characters/tosslerhappy",
 	"position": [
 		0,
 		290
