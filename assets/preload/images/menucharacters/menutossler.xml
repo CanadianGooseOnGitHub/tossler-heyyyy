@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menutossler.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tossleridlerock MENU SPRITE0000" x="20" y="20" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0001" x="20" y="20" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0002" x="451" y="20" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0003" x="451" y="20" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0004" x="882" y="20" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0005" x="1313" y="20" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0006" x="20" y="534" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0007" x="451" y="534" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0008" x="882" y="534" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0009" x="882" y="534" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0010" x="1313" y="534" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0011" x="1313" y="534" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0012" x="1313" y="534" width="391" height="474"/>
+	<SubTexture name="tossleridlerock MENU SPRITE0013" x="1313" y="534" width="391" height="474"/>
+</TextureAtlas>
