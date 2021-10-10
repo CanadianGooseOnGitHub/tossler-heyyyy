@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Indy IDLE"
+		},
+		{
+			"offsets": [
+				26,
+				-64
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "indy note DOWN"
+		},
+		{
+			"offsets": [
+				-12,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "indy note UP"
+		},
+		{
+			"offsets": [
+				-24,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "indy note RIGHT"
+		},
+		{
+			"offsets": [
+				31,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "indy note LEFT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				86
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "indy note MISS DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				77,
+				130
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "indy note MISS LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				104,
+				11
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "indy note MISS RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				74,
+				3
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "indy note MISS UP",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/week2/indysmug",
+	"position": [
+		90,
+		250
+	],
+	"healthicon": "tossler",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		160,
+		160
+	],
+	"camera_position": [
+		40,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
