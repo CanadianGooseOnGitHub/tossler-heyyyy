@@ -108,22 +108,29 @@ class TitleState extends MusicBeatState
 		#elseif CHARTING
 		MusicBeatState.switchState(new ChartingState());
 		#else
-		if(FlxG.save.data.prologueplayed == null && !FlashingState.leftState && FlxG.save.data.flashing != null)
+		if(FlxG.save.data.prologueplayed == null && !FlashingState.leftState)
 		{
 			videoIntro('Week 1 Prologue GAME');
 		}
 		else if (FlxG.save.data.prologueplayed != null)
 		{
-			#if desktop
-			DiscordClient.initialize();
-			Application.current.onExit.add (function (exitCode) {
-				DiscordClient.shutdown();
-			});
-			#end
-			new FlxTimer().start(1, function(tmr:FlxTimer)
+			if (!PrologueState.prologuePlayedAgain)
 			{
-				startIntro();
-			});
+				MusicBeatState.switchState(new PrologueState());
+			}
+			if (PrologueState.prologuePlayedAgain)
+			{
+				#if desktop
+				DiscordClient.initialize();
+				Application.current.onExit.add (function (exitCode) {
+					DiscordClient.shutdown();
+				});
+				#end
+				new FlxTimer().start(1, function(tmr:FlxTimer)
+				{
+					startIntro();
+				});
+			}
 		}
 		#end
 	}
@@ -363,7 +370,7 @@ class TitleState extends MusicBeatState
 
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
-					MusicBeatState.switchState(new MainMenuState());
+					MusicBeatState.switchState(new FlashingState());
 					closedState = true;
 				});
 				// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
@@ -525,7 +532,7 @@ class TitleState extends MusicBeatState
 				case 15:
 					addMoreText('Altitude'); // credTextShit.text += '\nFunkin';
 
-				case 17:
+				case 16:
 					skipIntro();
 			}
 		}

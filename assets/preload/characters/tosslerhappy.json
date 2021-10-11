@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "tossleridlemichappy SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-43
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "tosslerdownmichappy SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				69,
+				-2
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "tosslerleftmichappy SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-14,
+				-5
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "tosslerrightmichappy SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				49,
+				37
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "tosslerupmichappy SPRITE",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tosslerhappy",
+	"position": [
+		0,
+		290
+	],
+	"healthicon": "tossler",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		0,
+		0
+	],
+	"camera_position": [
+		30,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

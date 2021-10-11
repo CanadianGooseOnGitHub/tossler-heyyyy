@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="Pixel-Tossler.png"><SubTexture name="Pixel-Tossler Idle0000" x="0" y="0" width="66" height="75" frameX="0" frameY="0" frameWidth="66" frameHeight="75" />
+<TextureAtlas imagePath="Pixel-Tossler.png">
+<SubTexture name="Pixel-Tossler Idle0000" x="0" y="0" width="66" height="75" frameX="0" frameY="0" frameWidth="66" frameHeight="75" />
 <SubTexture name="Pixel-Tossler Left0000" x="66" y="0" width="66" height="75" frameX="0" frameY="0" frameWidth="66" frameHeight="75" />
 <SubTexture name="Pixel-Tossler Left0001" x="132" y="0" width="66" height="75" frameX="0" frameY="0" frameWidth="66" frameHeight="75" />
 <SubTexture name="Pixel-Tossler Left0002" x="0" y="75" width="66" height="75" frameX="0" frameY="0" frameWidth="66" frameHeight="75" />

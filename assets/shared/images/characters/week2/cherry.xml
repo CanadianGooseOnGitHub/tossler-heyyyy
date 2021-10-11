@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cherry.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cherry IDLE0000" x="20" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0001" x="20" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0002" x="547" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0003" x="547" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0004" x="1074" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0005" x="1074" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0006" x="1601" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0007" x="1601" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0008" x="2128" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0009" x="2128" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0010" x="2128" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0011" x="2655" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0012" x="2655" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry IDLE0013" x="2655" y="20" width="487" height="516"/>
+	<SubTexture name="Cherry NOTE DOWN0000" x="3182" y="20" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0001" x="3182" y="20" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0002" x="20" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0003" x="20" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0004" x="578" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0005" x="578" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0006" x="1136" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0007" x="1136" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0008" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0009" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0010" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0011" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0012" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0013" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0014" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0015" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0016" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0017" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0018" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0019" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0020" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0021" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0022" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0023" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0024" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0025" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0026" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0027" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0028" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE DOWN0029" x="1694" y="602" width="518" height="542"/>
+	<SubTexture name="Cherry NOTE LEFT0000" x="2252" y="602" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0001" x="2872" y="602" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0002" x="3492" y="602" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0003" x="3492" y="602" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0004" x="20" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0005" x="640" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0006" x="1260" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0007" x="1880" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0008" x="2500" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0009" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0010" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0011" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0012" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0013" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0014" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0015" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0016" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0017" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0018" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0019" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0020" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0021" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0022" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0023" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0024" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0025" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0026" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0027" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0028" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE LEFT0029" x="3120" y="1232" width="580" height="590"/>
+	<SubTexture name="Cherry NOTE RIGHT0000" x="20" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0001" x="435" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0002" x="850" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0003" x="850" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0004" x="1265" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0005" x="1680" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0006" x="2095" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0007" x="2510" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0008" x="2925" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0009" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0010" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0011" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0012" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0013" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0014" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0015" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0016" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0017" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0018" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0019" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0020" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0021" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0022" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0023" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0024" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0025" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0026" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0027" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0028" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE RIGHT0029" x="3340" y="1862" width="375" height="511"/>
+	<SubTexture name="Cherry NOTE UP0000" x="20" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0001" x="20" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0002" x="473" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0003" x="473" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0004" x="926" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0005" x="926" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0006" x="1379" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0007" x="1832" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0008" x="2285" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0009" x="2285" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0010" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0011" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0012" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0013" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0014" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0015" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0016" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0017" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0018" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0019" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0020" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0021" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0022" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0023" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0024" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0025" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0026" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0027" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0028" x="2738" y="2413" width="413" height="545"/>
+	<SubTexture name="Cherry NOTE UP0029" x="2738" y="2413" width="413" height="545"/>
+</TextureAtlas>

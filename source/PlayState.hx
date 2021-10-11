@@ -156,6 +156,7 @@ class PlayState extends MusicBeatState
 	private var endingSong:Bool = false;
 	private var startingSong:Bool = false;
 	private var updateTime:Bool = false;
+	private var floatshit:Float = 0;
 	public static var practiceMode:Bool = false;
 	public static var usedPractice:Bool = false;
 	public static var changedDifficulty:Bool = false;
@@ -213,6 +214,7 @@ class PlayState extends MusicBeatState
 	public var songMisses:Int = 0;
 	public var ghostMisses:Int = 0;
 	public var scoreTxt:FlxText;
+	public var black:FlxSprite;
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
 
@@ -363,11 +365,13 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 
-			case 'tosslerBG': //Tossler heyy ;)
-				var bg:BGSprite = new BGSprite('tosslerBG/background', -600, -200, 1, 1);
+				case 'tosslerBG': //Tossler heyy ;)
+				var bg:BGSprite = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
+				bg.setGraphicSize(Std.int(bg.width * 1.4));
 				add(bg);
-
-				lights = new BGSprite('tosslerBG/middleground', -50, 50, 1.1, 1.1);
+				
+				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
+				lights.setGraphicSize(Std.int(lights.width * 1.4));
 
 				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 100, 1.5, 1.5);
 				
@@ -1912,6 +1916,8 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
+		floatshit += 0.03;
+
 		#if !debug
 		perfectMode = false;
 		#end
@@ -2105,6 +2111,14 @@ class PlayState extends MusicBeatState
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
+
+		if (!ClientPrefs.lowQuality)
+		{
+			if (dad.curCharacter == "tossleraccendsecond")
+			{
+				dad.y += Math.sin(floatshit);
+			}
+		}
 
 		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
 		iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
@@ -2934,18 +2948,6 @@ class PlayState extends MusicBeatState
 		deathCounter = 0;
 		seenCutscene = false;
 
-		#if ACHIEVEMENTS_ALLOWED
-		if(achievementObj != null) {
-			return;
-		} else {
-			var achieve:Int = checkForAchievement([1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15]);
-			if(achieve > -1) {
-				startAchievement(achieve);
-				return;
-			}
-		}
-		#end
-
 		callOnLuas('onEndSong', []);
 		if (SONG.validScore)
 		{
@@ -2965,6 +2967,10 @@ class PlayState extends MusicBeatState
 
 			if (storyPlaylist.length <= 0)
 			{
+				if (curSong == 'Fix-The-Broken')
+				{
+					videoOutro('Week 1 Cutscene 4 GAME');
+				}
 				FlxG.sound.playMusic(Paths.music('menu_variation_0'));
 
 				cancelFadeTween();
@@ -3337,13 +3343,6 @@ class PlayState extends MusicBeatState
 							keysPressed[i] = true;
 					}
 				}
-
-				#if ACHIEVEMENTS_ALLOWED
-				var achieve:Int = checkForAchievement([11]);
-				if (achieve > -1) {
-					startAchievement(achieve);
-				}
-				#end
 			} else if (boyfriend.holdTimer > Conductor.stepCrochet * 0.001 * boyfriend.singDuration && boyfriend.animation.curAnim.name.startsWith('sing')
 			&& !boyfriend.animation.curAnim.name.endsWith('miss'))
 				boyfriend.dance();
@@ -3689,18 +3688,6 @@ class PlayState extends MusicBeatState
 				limoCorpse.visible = false;
 				limoCorpseTwo.visible = false;
 				limoKillingState = 1;
-
-				#if ACHIEVEMENTS_ALLOWED
-				Achievements.henchmenDeath++;
-				var achieve:Int = checkForAchievement([10]);
-				if(achieve > -1) {
-					startAchievement(achieve);
-				} else {
-					FlxG.save.data.henchmenDeath = Achievements.henchmenDeath;
-					FlxG.save.flush();
-				}
-				FlxG.log.add('Deaths: ' + Achievements.henchmenDeath);
-				#end
 			}
 		}
 	}
@@ -3806,6 +3793,30 @@ class PlayState extends MusicBeatState
 
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
+
+		if (curSong == 'Fix-The-Broken')
+		{
+			if (curStep == 1024)
+			{
+				black = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+				black.alpha = 0;
+				add(black);
+				FlxTween.tween(black, {alpha: 1}, 0.1);
+				black.scrollFactor.set();
+				camHUD.visible = false;
+			}
+			if (curStep == 1152)
+			{
+				FlxTween.tween(black, {alpha: 0}, 0.1, 
+				{
+					onComplete: function(twn:FlxTween) 
+					{
+						remove(black);
+					}
+				});
+				camHUD.visible = true;
+			}
+		}
 
 		if (curBeat % gfSpeed == 0 && !gf.stunned)
 		{
@@ -3950,71 +3961,6 @@ class PlayState extends MusicBeatState
 			setOnLuas('ratingName', ratingString);
 		}
 	}
-
-	#if ACHIEVEMENTS_ALLOWED
-	private function checkForAchievement(arrayIDs:Array<Int>):Int {
-		for (i in 0...arrayIDs.length) {
-			if(!Achievements.achievementsUnlocked[arrayIDs[i]][1]) {
-				switch(arrayIDs[i]) {
-					case 1 | 2 | 3 | 4 | 5 | 6 | 7:
-						if(isStoryMode && campaignMisses + songMisses < 1 && CoolUtil.difficultyString() == 'HARD' &&
-						storyPlaylist.length <= 1 && WeekData.getWeekFileName() == ('week' + arrayIDs[i]) && !changedDifficulty && !usedPractice) {
-							Achievements.unlockAchievement(arrayIDs[i]);
-							return arrayIDs[i];
-						}
-					case 8:
-						if(ratingPercent < 0.2 && !practiceMode && !cpuControlled) {
-							Achievements.unlockAchievement(arrayIDs[i]);
-							return arrayIDs[i];
-						}
-					case 9:
-						if(ratingPercent >= 1 && !usedPractice && !cpuControlled) {
-							Achievements.unlockAchievement(arrayIDs[i]);
-							return arrayIDs[i];
-						}
-					case 10:
-						if(Achievements.henchmenDeath >= 100) {
-							Achievements.unlockAchievement(arrayIDs[i]);
-							return arrayIDs[i];
-						}
-					case 11:
-						if(boyfriend.holdTimer >= 20 && !usedPractice) {
-							Achievements.unlockAchievement(arrayIDs[i]);
-							return arrayIDs[i];
-						}
-					case 12:
-						if(!boyfriendIdled && !usedPractice) {
-							Achievements.unlockAchievement(arrayIDs[i]);
-							return arrayIDs[i];
-						}
-					case 13:
-						if(!usedPractice) {
-							var howManyPresses:Int = 0;
-							for (j in 0...keysPressed.length) {
-								if(keysPressed[j]) howManyPresses++;
-							}
-
-							if(howManyPresses <= 2) {
-								Achievements.unlockAchievement(arrayIDs[i]);
-								return arrayIDs[i];
-							}
-						}
-					case 14:
-						if(/*ClientPrefs.framerate <= 60 &&*/ ClientPrefs.lowQuality && !ClientPrefs.globalAntialiasing && !ClientPrefs.imagesPersist) {
-							Achievements.unlockAchievement(arrayIDs[i]);
-							return arrayIDs[i];
-						}
-					case 15:
-						if(Paths.formatToSongPath(SONG.song) == 'test' && !usedPractice) {
-							Achievements.unlockAchievement(arrayIDs[i]);
-							return arrayIDs[i];
-						}
-				}
-			}
-		}
-		return -1;
-	}
-	#end
 
 	var curLight:Int = 0;
 	var curLightEvent:Int = 0;

@@ -1,0 +1,11 @@
+{
+	
+	"image": "menutossler",
+	"position": [
+		15,
+		25
+	],
+	"scale": 0.6,
+	"idle_anim": "tossleridlerock MENU SPRITE",
+	"confirm_anim": "tossleridlerock MENU SPRITE"
+}
