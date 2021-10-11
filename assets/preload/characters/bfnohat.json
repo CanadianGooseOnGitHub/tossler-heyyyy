@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF ultimate idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				314,
+				188
+			],
+			"anim": "nobrim",
+			"fps": 24,
+			"name": "BF shocked woah",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-2,
+				41
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "BF CAPLESS NOTE LEFT"
+		},
+		{
+			"offsets": [
+				-42,
+				-44
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "BF CAPLESS NOTE DOWN"
+		},
+		{
+			"offsets": [
+				-48,
+				-4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "BF CAPLESS NOTE RIGHT"
+		},
+		{
+			"offsets": [
+				-38,
+				65
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "BF CAPLESS NOTE UP"
+		},
+		{
+			"offsets": [
+				2,
+				49
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "BF CAPLESS MISS LEFT"
+		},
+		{
+			"offsets": [
+				-45,
+				-21
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "BF CAPLESS MISS DOWN"
+		},
+		{
+			"offsets": [
+				-47,
+				15
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "BF CAPLESS MISS RIGHT"
+		},
+		{
+			"offsets": [
+				-46,
+				69
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "BF CAPLESS MISS UP"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfnocap",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		130,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.05
+}

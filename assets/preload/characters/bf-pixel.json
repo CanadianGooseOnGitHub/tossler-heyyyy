@@ -101,10 +101,10 @@
 		}
 	],
 	"no_antialiasing": true,
-	"image": "characters/bfPixel",
+	"image": "characters/artstyles-bf/bfPixel",
 	"position": [
-		0,
-		350
+		210,
+		500
 	],
 	"healthicon": "bf-pixel",
 	"flip_x": true,
@@ -114,8 +114,8 @@
 		246
 	],
 	"camera_position": [
-		50,
-		-60
+		270,
+		-80
 	],
 	"sing_duration": 4,
 	"scale": 6

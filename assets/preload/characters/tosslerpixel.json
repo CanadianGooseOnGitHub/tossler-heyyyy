@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "Pixel-Tossler Idle"
+			"fps": 24,
+			"name": "Pixel-Tossler Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Pixel-Tossler Left"
+			"fps": 24,
+			"name": "Pixel-Tossler Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Pixel-Tossler Down"
+			"fps": 24,
+			"name": "Pixel-Tossler Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Pixel-Tossler Up"
+			"fps": 24,
+			"name": "Pixel-Tossler Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Pixel-Tossler Right"
+			"fps": 24,
+			"name": "Pixel-Tossler Right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": true,
 	"image": "characters/artstyles-tossler/Pixel-Tossler",
 	"position": [
-		160,
-		490
+		150,
+		500
 	],
 	"healthicon": "tossler",
 	"flip_x": false,

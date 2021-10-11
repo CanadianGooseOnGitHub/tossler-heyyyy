@@ -72,6 +72,7 @@ class PlayState extends MusicBeatState
 		['Sick!', 1], //From 90% to 99%
 		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
+	var camMovement:Float = 0.09;
 	
 	#if (haxe >= "4.0.0")
 	public var modchartTweens:Map<String, FlxTween> = new Map();
@@ -201,6 +202,7 @@ class PlayState extends MusicBeatState
 	var santa:BGSprite;
 	var heyTimer:Float;
 
+	var tosslerbg:BGSprite;
 	var audience:FlxSprite;
 	var lights:BGSprite;
 	var foregroundshit:BGSprite;
@@ -365,10 +367,10 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 
-				case 'tosslerBG': //Tossler heyy ;)
-				var bg:BGSprite = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
-				bg.setGraphicSize(Std.int(bg.width * 1.4));
-				add(bg);
+			case 'tosslerBG': //Tossler heyy ;)
+				tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
+				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+				add(tosslerbg);
 				
 				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
 				lights.setGraphicSize(Std.int(lights.width * 1.4));
@@ -386,7 +388,7 @@ class PlayState extends MusicBeatState
 					audience.animation.play('crowdbop');
 					audience.antialiasing = true;
 				}
-				
+					
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
@@ -1168,6 +1170,7 @@ class PlayState extends MusicBeatState
 
 			(new FlxVideo(fileName)).finishCallback = function() {
 				remove(bg);
+				FlxG.sound.playMusic(Paths.music('menu_variation_0'));
 				MusicBeatState.switchState(new StoryMenuState());
 			}
 			return;
@@ -1175,6 +1178,7 @@ class PlayState extends MusicBeatState
 			FlxG.log.warn('Couldnt find video file: ' + fileName);
 		}
 		#end
+		FlxG.sound.playMusic(Paths.music('menu_variation_0'));
 		MusicBeatState.switchState(new StoryMenuState());
 	}
 
@@ -2971,10 +2975,13 @@ class PlayState extends MusicBeatState
 				{
 					videoOutro('Week 1 Cutscene 4 GAME');
 				}
-				FlxG.sound.playMusic(Paths.music('menu_variation_0'));
+				else
+				{
+					FlxG.sound.playMusic(Paths.music('menu_variation_0'));
 
-				cancelFadeTween();
-				MusicBeatState.switchState(new StoryMenuState());
+					cancelFadeTween();
+					MusicBeatState.switchState(new StoryMenuState());
+				}
 
 				// if ()
 				StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
@@ -3801,9 +3808,15 @@ class PlayState extends MusicBeatState
 				black = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
 				black.alpha = 0;
 				add(black);
-				FlxTween.tween(black, {alpha: 1}, 0.1);
 				black.scrollFactor.set();
-				camHUD.visible = false;
+				FlxTween.tween(black, {alpha: 1}, 0.1);
+				FlxTween.tween(camHUD, {alpha: 0}, 0.1,
+				{
+				onComplete: function(twn:FlxTween) 
+				{
+					camHUD.visible = false;
+				}
+				});
 			}
 			if (curStep == 1152)
 			{
@@ -3815,6 +3828,175 @@ class PlayState extends MusicBeatState
 					}
 				});
 				camHUD.visible = true;
+				camHUD.alpha = 0;
+				FlxTween.tween(camHUD, {alpha: 1}, 0.1);
+			}
+			if (curStep == 1408)
+			{
+				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				remove(tosslerbg);
+				remove(lights);
+				remove(foregroundshit);
+				remove(audience);
+				tosslerbg = new BGSprite('tosslerBG/artstyles/background_corrupted', -600, -250, 1, 1);
+				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+				
+				lights = new BGSprite('tosslerBG/artstyles/middleground_corrupted', 50, 0, 1.1, 1.1);
+				lights.setGraphicSize(Std.int(lights.width * 1.4));
+
+				foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_corrupted', -50, 120, 1.5, 1.5);
+				foregroundshit.setGraphicSize(Std.int(foregroundshit.width * 1.4));
+				add(tosslerbg);
+				add(lights);
+				add(foregroundshit);
+			}
+			if (curStep == 1664)
+			{
+				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				remove(tosslerbg);
+				remove(lights);
+				remove(foregroundshit);
+				tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
+				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+				
+				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
+				lights.setGraphicSize(Std.int(lights.width * 1.4));
+
+				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 100, 1.5, 1.5);
+				
+				var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
+
+				audience = new FlxSprite( -350, 50);
+				audience.frames = crowdTex;
+				audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
+				audience.scrollFactor.set(1.5, 1.5);
+				if(!ClientPrefs.lowQuality)
+				{
+					audience.animation.play('crowdbop');
+					audience.antialiasing = true;
+				}
+				add(tosslerbg);
+				add(lights);
+				add(foregroundshit);
+				add(audience);
+			}
+			if (curStep == 1792)
+			{
+				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				remove(tosslerbg);
+				remove(lights);
+				remove(foregroundshit);
+				remove(audience);
+				tosslerbg = new BGSprite('tosslerBG/artstyles/background_pixel', 400, 135, 1, 1);
+				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+				tosslerbg.scale.set(6, 6);
+
+				foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_pixel', 335, 450, 1.5, 1.5);
+				foregroundshit.scale.set(6, 6);
+				add(tosslerbg);
+				add(foregroundshit);
+				remove(strumLineNotes);
+				isPixelStage = true;
+				add(strumLineNotes);
+			}
+			if (curStep == 1920)
+			{
+				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				remove(tosslerbg);
+				remove(foregroundshit);
+				tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
+				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+				
+				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
+				lights.setGraphicSize(Std.int(lights.width * 1.4));
+
+				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 100, 1.5, 1.5);
+				
+				var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
+
+				audience = new FlxSprite( -350, 50);
+				audience.frames = crowdTex;
+				audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
+				audience.scrollFactor.set(1.5, 1.5);
+				if(!ClientPrefs.lowQuality)
+				{
+					audience.animation.play('crowdbop');
+					audience.antialiasing = true;
+				}
+				add(tosslerbg);
+				add(lights);
+				add(foregroundshit);
+				add(audience);
+				remove(strumLineNotes);
+				isPixelStage = false;
+				add(strumLineNotes);
+			}
+			if (curStep == 2176)
+			{
+				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				remove(tosslerbg);
+				remove(lights);
+				remove(foregroundshit);
+				remove(audience);
+				tosslerbg = new BGSprite('tosslerBG/artstyles/background_hd', -600, -250, 1, 1);
+				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+				
+				lights = new BGSprite('tosslerBG/artstyles/middleground_hd', -50, 0, 1.1, 1.1);
+				lights.setGraphicSize(Std.int(lights.width * 1.4));
+
+				foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 155, 1.5, 1.5);
+				add(tosslerbg);
+				add(lights);
+				add(foregroundshit);
+			}
+			if (curStep == 2432)
+			{
+				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				remove(tosslerbg);
+				remove(lights);
+				remove(foregroundshit);
+				tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
+				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+				
+				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
+				lights.setGraphicSize(Std.int(lights.width * 1.4));
+
+				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 100, 1.5, 1.5);
+				
+				var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
+
+				audience = new FlxSprite( -350, 50);
+				audience.frames = crowdTex;
+				audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
+				audience.scrollFactor.set(1.5, 1.5);
+				if(!ClientPrefs.lowQuality)
+				{
+					audience.animation.play('crowdbop');
+					audience.antialiasing = true;
+				}
+				add(tosslerbg);
+				add(foregroundshit);
+				add(audience);
+			}
+			if (curStep == 2688)
+			{
+				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+			}
+			if (curStep == 2944)
+			{
+				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+			}
+			if (curStep == 3200)
+			{
+				camMovement = 0.03;
+				new FlxTimer().start(0.1, function(tmr:FlxTimer)
+				{
+					defaultCamZoom -= 0.01;
+					if (defaultCamZoom > 0.9)
+					{
+						tmr.reset(0.1);
+					}
+				});
 			}
 		}
 
