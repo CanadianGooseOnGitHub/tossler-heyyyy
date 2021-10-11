@@ -59,6 +59,7 @@ class TitleState extends MusicBeatState
 	var easterEggEnabled:Bool = true; //Disable this to hide the easter egg
 	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.B, FlxKey.B]; //bb stands for bbpanzu cuz he wanted this lmao
 	var lastKeysPressed:Array<FlxKey> = [];
+	public static var flashywashyshitalreadyshowed:Bool = false;
 
 	override public function create():Void
 	{
@@ -345,7 +346,14 @@ class TitleState extends MusicBeatState
 
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
-					MusicBeatState.switchState(new FlashingState());
+					if (!flashywashyshitalreadyshowed)
+					{
+						MusicBeatState.switchState(new FlashingState());
+					}
+					else if (flashywashyshitalreadyshowed)
+					{
+						MusicBeatState.switchState(new MainMenuState());
+					}
 					closedState = true;
 				});
 				// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
