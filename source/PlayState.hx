@@ -3833,7 +3833,10 @@ class PlayState extends MusicBeatState
 			}
 			if (curStep == 1408)
 			{
-				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				}
 				remove(tosslerbg);
 				remove(lights);
 				remove(foregroundshit);
@@ -3852,7 +3855,10 @@ class PlayState extends MusicBeatState
 			}
 			if (curStep == 1664)
 			{
-				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				}
 				remove(tosslerbg);
 				remove(lights);
 				remove(foregroundshit);
@@ -3882,7 +3888,10 @@ class PlayState extends MusicBeatState
 			}
 			if (curStep == 1792)
 			{
-				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				}
 				remove(tosslerbg);
 				remove(lights);
 				remove(foregroundshit);
@@ -3901,7 +3910,10 @@ class PlayState extends MusicBeatState
 			}
 			if (curStep == 1920)
 			{
-				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				}
 				remove(tosslerbg);
 				remove(foregroundshit);
 				tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
@@ -3933,7 +3945,10 @@ class PlayState extends MusicBeatState
 			}
 			if (curStep == 2176)
 			{
-				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				}
 				remove(tosslerbg);
 				remove(lights);
 				remove(foregroundshit);
@@ -3951,7 +3966,10 @@ class PlayState extends MusicBeatState
 			}
 			if (curStep == 2432)
 			{
-				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				}
 				remove(tosslerbg);
 				remove(lights);
 				remove(foregroundshit);
@@ -3980,11 +3998,17 @@ class PlayState extends MusicBeatState
 			}
 			if (curStep == 2688)
 			{
-				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				}
 			}
 			if (curStep == 2944)
 			{
-				FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+				}
 			}
 			if (curStep == 3200)
 			{
