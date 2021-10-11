@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Cherry IDLE"
+		},
+		{
+			"offsets": [
+				65,
+				-38
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Cherry NOTE DOWN"
+		},
+		{
+			"offsets": [
+				-42,
+				-5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Cherry NOTE RIGHT"
+		},
+		{
+			"offsets": [
+				82,
+				-7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Cherry NOTE LEFT"
+		},
+		{
+			"offsets": [
+				-10,
+				26
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Cherry NOTE UP"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/week2/cherry",
+	"position": [
+		90,
+		250
+	],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [
+		195,
+		0,
+		40
+	],
+	"camera_position": [
+		20,
+		40
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

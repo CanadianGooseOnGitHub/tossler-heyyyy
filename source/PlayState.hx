@@ -3928,6 +3928,7 @@ class PlayState extends MusicBeatState
 					remove(lights);
 					remove(foregroundshit);
 					remove(audience);
+					defaultCamZoom = 1.1;
 					tosslerbg = new BGSprite('tosslerBG/artstyles/background_pixel', 400, 135, 1, 1);
 					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
 					tosslerbg.scale.set(6, 6);
@@ -3948,6 +3949,7 @@ class PlayState extends MusicBeatState
 				{
 					remove(tosslerbg);
 					remove(foregroundshit);
+					defaultCamZoom = 1;
 					tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
 					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
 					
@@ -3991,7 +3993,7 @@ class PlayState extends MusicBeatState
 					lights = new BGSprite('tosslerBG/artstyles/middleground_hd', -50, 0, 1.1, 1.1);
 					lights.setGraphicSize(Std.int(lights.width * 1.4));
 	
-					foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 155, 1.5, 1.5);
+					foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 185, 1.5, 1.5);
 					add(tosslerbg);
 					add(lights);
 					add(foregroundshit);
@@ -4036,7 +4038,7 @@ class PlayState extends MusicBeatState
 			{
 				if (ClientPrefs.flashing)
 				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.4);
+					FlxG.camera.flash(FlxColor.WHITE, 0.6);
 				}
 			}
 			if (curStep == 3200)

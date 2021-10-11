@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "tossleridlesuper SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tossleridlesuper SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "tosslerdownsuper SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tosslerdownsuper SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "tosslerleftsuper SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tosslerleftsuper SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "tosslerrightsuper SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tosslerrightsuper SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerupsuper SPRITE",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "tosslerupsuper SPRITE"
 		}
 	],
 	"no_antialiasing": false,
@@ -70,7 +70,7 @@
 		255
 	],
 	"camera_position": [
-		-50,
+		0,
 		30
 	],
 	"sing_duration": 4,

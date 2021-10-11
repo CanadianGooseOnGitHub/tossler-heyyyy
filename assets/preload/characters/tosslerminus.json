@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "tosslerdownminus SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tosslerdownminus SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "tossleridleminus SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tossleridleminus SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "tosslerleftminus SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tosslerleftminus SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "tosslerrightminus SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tosslerrightminus SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerupminus SPRITE",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "tosslerupminus SPRITE"
 		}
 	],
 	"no_antialiasing": false,
@@ -70,7 +70,7 @@
 		255
 	],
 	"camera_position": [
-		-50,
+		30,
 		30
 	],
 	"sing_duration": 4,
