@@ -663,6 +663,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 {
 	private static var curSelected:Int = 0;
 	static var unselectableOptions:Array<String> = [
+		'VIDEOS',
 		'GRAPHICS',
 		'GAMEPLAY'
 	];
@@ -672,6 +673,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 	];
 
 	static var options:Array<String> = [
+		'VIDEOS',
+		'Cutscene Subtitles',
 		'GRAPHICS',
 		'Low Quality',
 		'Anti-Aliasing',
@@ -842,6 +845,9 @@ class PreferencesSubstate extends MusicBeatSubstate
 					case 'Note Splashes':
 						ClientPrefs.noteSplashes = !ClientPrefs.noteSplashes;
 
+					case 'Cutscene Subtitles':
+						ClientPrefs.subtitles = !ClientPrefs.subtitles;
+
 					case 'Flashing Lights':
 						ClientPrefs.flashing = !ClientPrefs.flashing;
 
@@ -933,6 +939,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 
 		var daText:String = '';
 		switch(options[curSelected]) {
+			case 'Cutscene Subtitles':
+				daText = "Turns on subtitles for the cutscenes.";
 			case 'Framerate':
 				daText = "Pretty self explanatory, isn't it?\nDefault value is 60.";
 			case 'Note Delay':
@@ -1024,6 +1032,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 						daValue = ClientPrefs.showFPS;
 					case 'Low Quality':
 						daValue = ClientPrefs.lowQuality;
+					case 'Cutscene Subtitles':
+						daValue = ClientPrefs.subtitles;
 					case 'Anti-Aliasing':
 						daValue = ClientPrefs.globalAntialiasing;
 					case 'Note Splashes':

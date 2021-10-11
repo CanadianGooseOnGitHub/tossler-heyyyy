@@ -1690,7 +1690,7 @@
 						-1,
 						"Change Character",
 						"1",
-						"tossleraccendfirst"
+						"tossleraccendsecond"
 					],
 					[
 						266700.143411654,
@@ -1845,13 +1845,6 @@
 				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						288029.31007832,
-						-1,
-						"Change Character",
-						"1",
-						"tossleraccendsecond"
-					],
-					[
 						288279.31007832,
 						-1,
 						"Change Character",
@@ -1864,8 +1857,42 @@
 						"Play Animation",
 						"nobrim",
 						"1"
+					],
+					[
+						288029.31007832,
+						-1,
+						"Change Character",
+						"1",
+						"tossleraccendsecond"
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false

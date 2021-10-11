@@ -375,11 +375,11 @@ class PlayState extends MusicBeatState
 				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
 				lights.setGraphicSize(Std.int(lights.width * 1.4));
 
-				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 100, 1.5, 1.5);
+				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 150, 1.5, 1.5);
 				
 				var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
 
-				audience = new FlxSprite( -350, 50);
+				audience = new FlxSprite( -350, 100);
 				audience.frames = crowdTex;
 				audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
 				audience.scrollFactor.set(1.5, 1.5);
@@ -1022,11 +1022,32 @@ class PlayState extends MusicBeatState
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 				case 'fun-n-games':
-					videoIntro('Week 1 Cutscene 1 GAME');
+					if (ClientPrefs.subtitles)
+					{
+						videoIntro('subtitles/Week 1 Cutscene 1 GAME');
+					}
+					else if (!ClientPrefs.subtitles)
+					{
+						videoIntro('Week 1 Cutscene 1 GAME');
+					}
 				case 'real-deal':
-					videoIntro('Week 1 Cutscene 2 GAME');
+					if (ClientPrefs.subtitles)
+					{
+						videoIntro('subtitles/Week 1 Cutscene 2 GAME');
+					}
+					else if (!ClientPrefs.subtitles)
+					{
+						videoIntro('Week 1 Cutscene 2 GAME');
+					}
 				case 'fix-the-broken':
-					videoIntro('Week 1 Cutscene 3 GAME');
+					if (ClientPrefs.subtitles)
+					{
+						videoIntro('subtitles/Week 1 Cutscene 3 GAME');
+					}
+					else if (!ClientPrefs.subtitles)
+					{
+						videoIntro('Week 1 Cutscene 3 GAME');
+					}
 				default:
 					startCountdown();
 			}
@@ -1920,7 +1941,7 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-		floatshit += 0.03;
+		floatshit += 0.01;
 
 		#if !debug
 		perfectMode = false;
@@ -2973,7 +2994,14 @@ class PlayState extends MusicBeatState
 			{
 				if (curSong == 'Fix-The-Broken')
 				{
-					videoOutro('Week 1 Cutscene 4 GAME');
+					if (ClientPrefs.subtitles)
+					{
+						videoOutro('subtitles/Week 1 Cutscene 4 GAME');
+					}
+					else if (!ClientPrefs.subtitles)
+					{
+						videoOutro('Week 1 Cutscene 4 GAME');
+					}
 				}
 				else
 				{
@@ -3806,17 +3834,13 @@ class PlayState extends MusicBeatState
 			if (curStep == 1024)
 			{
 				black = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
-				black.alpha = 0;
-				add(black);
-				black.scrollFactor.set();
-				FlxTween.tween(black, {alpha: 1}, 0.1);
-				FlxTween.tween(camHUD, {alpha: 0}, 0.1,
+				if(ClientPrefs.flashing)
 				{
-				onComplete: function(twn:FlxTween) 
-				{
-					camHUD.visible = false;
+					FlxG.camera.flash(FlxColor.WHITE, 0.5);
 				}
-				});
+				add(black);
+				camHUD.visible = false;
+				black.scrollFactor.set();
 			}
 			if (curStep == 1152)
 			{
@@ -3835,179 +3859,184 @@ class PlayState extends MusicBeatState
 			{
 				if (ClientPrefs.flashing)
 				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
-				remove(tosslerbg);
-				remove(lights);
-				remove(foregroundshit);
-				remove(audience);
-				tosslerbg = new BGSprite('tosslerBG/artstyles/background_corrupted', -600, -250, 1, 1);
-				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
-				
-				lights = new BGSprite('tosslerBG/artstyles/middleground_corrupted', 50, 0, 1.1, 1.1);
-				lights.setGraphicSize(Std.int(lights.width * 1.4));
+				if (!ClientPrefs.lowQuality)
+				{
+					remove(tosslerbg);
+					remove(lights);
+					remove(foregroundshit);
+					remove(audience);
+					tosslerbg = new BGSprite('tosslerBG/artstyles/background_corrupted', -600, -250, 1, 1);
+					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+					
+					lights = new BGSprite('tosslerBG/artstyles/middleground_corrupted', 50, 0, 1.1, 1.1);
+					lights.setGraphicSize(Std.int(lights.width * 1.4));
 
-				foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_corrupted', -50, 120, 1.5, 1.5);
-				foregroundshit.setGraphicSize(Std.int(foregroundshit.width * 1.4));
-				add(tosslerbg);
-				add(lights);
-				add(foregroundshit);
+					foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_corrupted', -50, 120, 1.5, 1.5);
+					foregroundshit.setGraphicSize(Std.int(foregroundshit.width * 1.4));
+					add(tosslerbg);
+					add(lights);
+					add(foregroundshit);
+				}
 			}
 			if (curStep == 1664)
 			{
 				if (ClientPrefs.flashing)
 				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
-				remove(tosslerbg);
-				remove(lights);
-				remove(foregroundshit);
-				tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
-				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
-				
-				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
-				lights.setGraphicSize(Std.int(lights.width * 1.4));
-
-				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 100, 1.5, 1.5);
-				
-				var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
-
-				audience = new FlxSprite( -350, 50);
-				audience.frames = crowdTex;
-				audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
-				audience.scrollFactor.set(1.5, 1.5);
-				if(!ClientPrefs.lowQuality)
+				if (!ClientPrefs.lowQuality)
 				{
-					audience.animation.play('crowdbop');
-					audience.antialiasing = true;
+					remove(tosslerbg);
+					remove(lights);
+					remove(foregroundshit);
+					tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
+					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+					
+					lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
+					lights.setGraphicSize(Std.int(lights.width * 1.4));
+	
+					foregroundshit = new BGSprite('tosslerBG/foreground', -300, 150, 1.5, 1.5);
+					
+					var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
+	
+					audience = new FlxSprite( -350, 100);
+					audience.frames = crowdTex;
+					audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
+					audience.scrollFactor.set(1.5, 1.5);
+					if(!ClientPrefs.lowQuality)
+					{
+						audience.animation.play('crowdbop');
+						audience.antialiasing = true;
+					}
+					add(tosslerbg);
+					add(lights);
+					add(foregroundshit);
+					add(audience);
 				}
-				add(tosslerbg);
-				add(lights);
-				add(foregroundshit);
-				add(audience);
 			}
 			if (curStep == 1792)
 			{
 				if (ClientPrefs.flashing)
 				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
-				remove(tosslerbg);
-				remove(lights);
-				remove(foregroundshit);
-				remove(audience);
-				tosslerbg = new BGSprite('tosslerBG/artstyles/background_pixel', 400, 135, 1, 1);
-				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
-				tosslerbg.scale.set(6, 6);
-
-				foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_pixel', 335, 450, 1.5, 1.5);
-				foregroundshit.scale.set(6, 6);
-				add(tosslerbg);
-				add(foregroundshit);
-				remove(strumLineNotes);
-				isPixelStage = true;
-				add(strumLineNotes);
+				if (!ClientPrefs.lowQuality)
+				{
+					remove(tosslerbg);
+					remove(lights);
+					remove(foregroundshit);
+					remove(audience);
+					tosslerbg = new BGSprite('tosslerBG/artstyles/background_pixel', 400, 135, 1, 1);
+					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+					tosslerbg.scale.set(6, 6);
+	
+					foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_pixel', 335, 450, 1.5, 1.5);
+					foregroundshit.scale.set(6, 6);
+					add(tosslerbg);
+					add(foregroundshit);
+				}
 			}
 			if (curStep == 1920)
 			{
 				if (ClientPrefs.flashing)
 				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
-				remove(tosslerbg);
-				remove(foregroundshit);
-				tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
-				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
-				
-				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
-				lights.setGraphicSize(Std.int(lights.width * 1.4));
-
-				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 100, 1.5, 1.5);
-				
-				var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
-
-				audience = new FlxSprite( -350, 50);
-				audience.frames = crowdTex;
-				audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
-				audience.scrollFactor.set(1.5, 1.5);
-				if(!ClientPrefs.lowQuality)
+				if (!ClientPrefs.lowQuality)
 				{
-					audience.animation.play('crowdbop');
-					audience.antialiasing = true;
+					remove(tosslerbg);
+					remove(foregroundshit);
+					tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
+					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+					
+					lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
+					lights.setGraphicSize(Std.int(lights.width * 1.4));
+
+					foregroundshit = new BGSprite('tosslerBG/foreground', -300, 150, 1.5, 1.5);
+					
+					var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
+
+					audience = new FlxSprite( -350, 100);
+					audience.frames = crowdTex;
+					audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
+					audience.scrollFactor.set(1.5, 1.5);
+					if(!ClientPrefs.lowQuality)
+					{
+						audience.animation.play('crowdbop');
+						audience.antialiasing = true;
+					}
+					add(tosslerbg);
+					add(lights);
+					add(foregroundshit);
+					add(audience);
 				}
-				add(tosslerbg);
-				add(lights);
-				add(foregroundshit);
-				add(audience);
-				remove(strumLineNotes);
-				isPixelStage = false;
-				add(strumLineNotes);
 			}
 			if (curStep == 2176)
 			{
 				if (ClientPrefs.flashing)
 				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
-				remove(tosslerbg);
-				remove(lights);
-				remove(foregroundshit);
-				remove(audience);
-				tosslerbg = new BGSprite('tosslerBG/artstyles/background_hd', -600, -250, 1, 1);
-				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
-				
-				lights = new BGSprite('tosslerBG/artstyles/middleground_hd', -50, 0, 1.1, 1.1);
-				lights.setGraphicSize(Std.int(lights.width * 1.4));
-
-				foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 155, 1.5, 1.5);
-				add(tosslerbg);
-				add(lights);
-				add(foregroundshit);
+				if (!ClientPrefs.lowQuality)
+				{
+					remove(tosslerbg);
+					remove(lights);
+					remove(foregroundshit);
+					remove(audience);
+					tosslerbg = new BGSprite('tosslerBG/artstyles/background_hd', -600, -250, 1, 1);
+					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+					
+					lights = new BGSprite('tosslerBG/artstyles/middleground_hd', -50, 0, 1.1, 1.1);
+					lights.setGraphicSize(Std.int(lights.width * 1.4));
+	
+					foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 155, 1.5, 1.5);
+					add(tosslerbg);
+					add(lights);
+					add(foregroundshit);
+				}
 			}
 			if (curStep == 2432)
 			{
 				if (ClientPrefs.flashing)
 				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
-				remove(tosslerbg);
-				remove(lights);
-				remove(foregroundshit);
-				tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
-				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
-				
-				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
-				lights.setGraphicSize(Std.int(lights.width * 1.4));
-
-				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 100, 1.5, 1.5);
-				
-				var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
-
-				audience = new FlxSprite( -350, 50);
-				audience.frames = crowdTex;
-				audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
-				audience.scrollFactor.set(1.5, 1.5);
-				if(!ClientPrefs.lowQuality)
+				if (!ClientPrefs.lowQuality)
 				{
-					audience.animation.play('crowdbop');
-					audience.antialiasing = true;
+					remove(tosslerbg);
+					remove(lights);
+					remove(foregroundshit);
+					tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
+					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+					
+					lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
+					lights.setGraphicSize(Std.int(lights.width * 1.4));
+	
+					foregroundshit = new BGSprite('tosslerBG/foreground', -300, 150, 1.5, 1.5);
+					
+					var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
+	
+					audience = new FlxSprite( -350, 100);
+					audience.frames = crowdTex;
+					audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
+					audience.scrollFactor.set(1.5, 1.5);
+					if(!ClientPrefs.lowQuality)
+					{
+						audience.animation.play('crowdbop');
+						audience.antialiasing = true;
+					}
+					add(tosslerbg);
+					add(foregroundshit);
+					add(audience);
 				}
-				add(tosslerbg);
-				add(foregroundshit);
-				add(audience);
 			}
 			if (curStep == 2688)
 			{
 				if (ClientPrefs.flashing)
 				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.3);
-				}
-			}
-			if (curStep == 2944)
-			{
-				if (ClientPrefs.flashing)
-				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.3);
+					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
 			}
 			if (curStep == 3200)
