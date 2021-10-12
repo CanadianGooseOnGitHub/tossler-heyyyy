@@ -4041,6 +4041,13 @@ class PlayState extends MusicBeatState
 					FlxG.camera.flash(FlxColor.WHITE, 0.6);
 				}
 			}
+			if (curStep == 2949)
+			{
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.5);
+				}
+			}
 			if (curStep == 3200)
 			{
 				camMovement = 0.03;
