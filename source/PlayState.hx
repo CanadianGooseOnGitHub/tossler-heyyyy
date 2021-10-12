@@ -3891,8 +3891,8 @@ class PlayState extends MusicBeatState
 					remove(tosslerbg);
 					remove(lights);
 					remove(foregroundshit);
-					tosslerbg = new BGSprite('tosslerBG/background', -600, -250, 1, 1);
-					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+					tosslerbg = new BGSprite('tosslerBG/background',-4190, -2275, 1, 1);
+					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 0.32));
 					
 					lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
 					lights.setGraphicSize(Std.int(lights.width * 1.4));
