@@ -1,81 +1,81 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				40,
 				-18
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerdownirritated SPRITE",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "tosslerdownirritated SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "tossleridleirritated SPRITE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "tossleridleirritated SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				108,
 				0
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerleftirritated SPRITE",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "tosslerleftirritated SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-10,
 				-3
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerrightirritated SPRITE",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "tosslerrightirritated SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-7,
 				40
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerupirritated SPRITE",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "tosslerupirritated SPRITE"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				46,
 				-35
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN-alt",
-			"indices": [],
-			"name": "tosslerdownalt SPRITE"
+			"fps": 24,
+			"name": "tosslerdownalt SPRITE",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-10,
 				-4
 			],
-			"anim": "singRIGHT-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerrightirritated miss",
-			"indices": []
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "tosslerrightirritated miss"
 		}
 	],
 	"no_antialiasing": false,
@@ -92,7 +92,7 @@
 		0
 	],
 	"camera_position": [
-		-50,
+		-30,
 		30
 	],
 	"sing_duration": 6.1,

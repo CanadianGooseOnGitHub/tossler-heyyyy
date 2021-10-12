@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "tossleridlemicdepressed SPRITE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "tossleridlemicdepressed SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-7,
 				-42
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerdownmicdepressed SPRITE",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "tosslerdownmicdepressed SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-4,
 				0
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerleftmicdepressed SPRITE",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "tosslerleftmicdepressed SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-7,
 				-2
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerrightmicdepressed SPRITE",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "tosslerrightmicdepressed SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				26,
 				36
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerupmicdepressed SPRITE",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "tosslerupmicdepressed SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-3,
 				0
 			],
-			"anim": "getHappy",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslertransitionmicdepressedtohappy SPRITE",
-			"indices": []
+			"anim": "getHappy",
+			"indices": [],
+			"name": "tosslertransitionmicdepressedtohappy SPRITE"
 		}
 	],
 	"no_antialiasing": false,
@@ -81,7 +81,7 @@
 		0
 	],
 	"camera_position": [
-		30,
+		40,
 		30
 	],
 	"sing_duration": 4,
