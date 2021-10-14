@@ -2393,21 +2393,23 @@ class PlayState extends MusicBeatState
 					daNote.ignoreNote = true;
 
 					callOnLuas('opponentNoteHit', [notes.members.indexOf(daNote), Math.abs(daNote.noteData), daNote.noteType, daNote.isSustainNote]);
-
-					if (!daNote.isSustainNote && curSong == 'Real-Deal')
-					{
-						if (curStep != 1407 || curStep != 1408 || curStep != 1409 || curStep != 1410)
-						{
-							daNote.kill();
-							notes.remove(daNote, true);
-							daNote.destroy();
-						}
-					}
-					else if (!daNote.isSustainNote && curSong != 'Real-Deal')
+					
+					if (!daNote.isSustainNote)
 					{
 						daNote.kill();
 						notes.remove(daNote, true);
 						daNote.destroy();
+					}
+
+					if (curSong == 'Fix-The-Broken')
+					{
+						if (curStep > 3199)
+						{
+							if (health > 0.07)
+							{
+								health -= 0.07;
+							}
+						}
 					}
 				}
 
@@ -2878,6 +2880,17 @@ class PlayState extends MusicBeatState
 			
 			case 'BG Freaks Expression':
 				if(bgGirls != null) bgGirls.swapDanceType();
+
+			case 'Silly Cam Zooms':
+				{
+					var val1:Float = Std.parseFloat(value1);
+					var val2:Float = Std.parseFloat(value2);
+					if(Math.isNaN(val1)) val1 = 0;
+					if(Math.isNaN(val2)) val2 = 0;
+
+					defaultCamZoom = val1;
+					camMovement = val2;
+				}
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
