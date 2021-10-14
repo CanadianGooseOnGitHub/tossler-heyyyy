@@ -96,6 +96,8 @@ class PlayState extends MusicBeatState
 	public var gfMap:Map<String, Character> = new Map<String, Character>();
 	#end
 
+	private var videoCurrentlyPlaying:FlxVideo;
+	private var isVideoCurrentlyPlaying:Bool;
 	public var BF_X:Float = 770;
 	public var BF_Y:Float = 100;
 	public var DAD_X:Float = 100;
@@ -1149,8 +1151,10 @@ class PlayState extends MusicBeatState
 			var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
 			bg.scrollFactor.set();
 			add(bg);
+			videoCurrentlyPlaying = new FlxVideo(fileName);
+			isVideoCurrentlyPlaying = true;
 
-			(new FlxVideo(fileName)).finishCallback = function() {
+			(videoCurrentlyPlaying).finishCallback = function() {
 				remove(bg);
 				startCountdown();
 			}
@@ -2481,6 +2485,16 @@ class PlayState extends MusicBeatState
 			}
 		}
 		
+		//stole this from taeyai (taeyai is so cool)
+		if(isVideoCurrentlyPlaying)
+		{
+			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ESCAPE)
+			{
+				videoCurrentlyPlaying.skipVideo();
+				isVideoCurrentlyPlaying = false;
+			}
+		}
+
 		#if debug
 		if(!endingSong && !startingSong) {
 			if (FlxG.keys.justPressed.ONE) {
@@ -2523,7 +2537,6 @@ class PlayState extends MusicBeatState
 				vocals.play();
 			}
 		}
-
 		setOnLuas('cameraX', camFollowPos.x);
 		setOnLuas('cameraY', camFollowPos.y);
 		setOnLuas('botPlay', PlayState.cpuControlled);

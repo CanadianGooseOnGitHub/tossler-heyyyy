@@ -105,6 +105,23 @@ class FlxVideo extends FlxBasic {
 		}
 	}
 
+	public function skipVideo() {
+		if(vlcBitmap != null) {
+			vlcBitmap.stop();
+
+			vlcBitmap.dispose();
+
+			if (FlxG.game.contains(vlcBitmap))
+			{
+				FlxG.game.removeChild(vlcBitmap);
+			}
+			if (finishCallback != null)
+			{
+				finishCallback();
+			}
+		}
+	}
+
 	public function onVLCComplete()
 	{
 		vlcBitmap.stop();
