@@ -2405,9 +2405,9 @@ class PlayState extends MusicBeatState
 					{
 						if (curStep > 3199)
 						{
-							if (health > 0.07)
+							if (health > 0.1)
 							{
-								health -= 0.07;
+								health -= 0.1;
 							}
 						}
 					}
@@ -3523,10 +3523,17 @@ class PlayState extends MusicBeatState
 				if(combo > 9999) combo = 9999;
 			}
 
-			if (note.noteData >= 0)
-				health += 0.023;
-			else
-				health += 0.004;
+			if (curSong == 'Fix-The-Broken' && curStep > 3199)
+			{
+				health += 0;
+			}
+			else if (curSong != 'Fix-The-Broken' || curSong == 'Fix-The-Broken' && curStep < 3199)
+			{
+				if (note.noteData >= 0)
+					health += 0.023;
+				else
+					health += 0.004;
+			}
 
 			var daAlt = '';
 			if(note.noteType == 'Alt Animation') daAlt = '-alt';
@@ -4085,6 +4092,18 @@ class PlayState extends MusicBeatState
 						tmr.reset(0.1);
 					}
 				});
+			}
+			if (curStep == 3232)
+			{
+				black = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.RED, 0.6);
+				}
+				add(black);
+				camHUD.visible = false;
+				black.scrollFactor.set();
+				black.screenCenter();
 			}
 		}
 
