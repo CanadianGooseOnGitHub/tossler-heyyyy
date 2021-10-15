@@ -1157,6 +1157,7 @@ class PlayState extends MusicBeatState
 			(videoCurrentlyPlaying).finishCallback = function() {
 				remove(bg);
 				startCountdown();
+				isVideoCurrentlyPlaying = false;
 			}
 			return;
 		} else {
@@ -2405,9 +2406,9 @@ class PlayState extends MusicBeatState
 					{
 						if (curStep > 3199)
 						{
-							if (health > 0.1)
+							if (health > 0.11)
 							{
-								health -= 0.1;
+								health -= 0.11;
 							}
 						}
 					}
@@ -4071,7 +4072,7 @@ class PlayState extends MusicBeatState
 			{
 				if (ClientPrefs.flashing)
 				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.6);
+					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
 			}
 			if (curStep == 2949)
