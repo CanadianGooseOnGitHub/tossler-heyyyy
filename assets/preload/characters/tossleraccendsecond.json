@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "tossleridlesuperascend SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tossleridlesuperascend SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "tosslerdownsuperascend SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tosslerdownsuperascend SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "tosslerleftsuperascend SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tosslerleftsuperascend SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "tosslerrightsuperascend SPRITE",
-			"indices": []
+			"indices": [],
+			"name": "tosslerrightsuperascend SPRITE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerupsuperascend SPRITE",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "tosslerupsuperascend SPRITE"
 		}
 	],
 	"no_antialiasing": false,

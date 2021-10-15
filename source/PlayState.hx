@@ -2142,12 +2142,9 @@ class PlayState extends MusicBeatState
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
-		if (!ClientPrefs.lowQuality)
+		if (dad.curCharacter == "tossleraccendsecond")
 		{
-			if (dad.curCharacter == "tossleraccendsecond")
-			{
-				dad.y += Math.sin(floatshit);
-			}
+			dad.y += Math.sin(floatshit);
 		}
 
 		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
