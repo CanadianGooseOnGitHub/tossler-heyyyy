@@ -209,6 +209,18 @@ class PlayState extends MusicBeatState
 	var lights:BGSprite;
 	var foregroundshit:BGSprite;
 
+	var tosslerbghd:BGSprite;
+	var lightshd:BGSprite;
+	var foregroundshithd:BGSprite;
+
+	var tosslerbgcorrupted:BGSprite;
+	var lightscorrupted:BGSprite;
+	var foregroundshitcorrupted:BGSprite;
+
+	var tosslerbgpixel:BGSprite;
+	var lightspixel:BGSprite;
+	var foregroundshitpixel:BGSprite;
+
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
@@ -390,6 +402,36 @@ class PlayState extends MusicBeatState
 					audience.animation.play('crowdbop');
 					audience.antialiasing = true;
 				}
+
+				tosslerbghd = new BGSprite('tosslerBG/artstyles/background_hd', -600, -250, 1, 1);
+				tosslerbghd.setGraphicSize(Std.int(tosslerbg.width * 0.32));
+				add(tosslerbghd);
+				tosslerbghd.visible = false;
+				
+				lightshd = new BGSprite('tosslerBG/artstyles/middleground_hd', -50, 0, 1.1, 1.1);
+				lightshd.setGraphicSize(Std.int(lights.width * 1.4));
+
+				foregroundshithd = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 185, 1.5, 1.5);
+
+				tosslerbgcorrupted = new BGSprite('tosslerBG/artstyles/background_corrupted', -600, -250, 1, 1);
+				tosslerbgcorrupted.setGraphicSize(Std.int(tosslerbg.width * 0.32));
+				add(tosslerbgcorrupted);
+				tosslerbgcorrupted.visible = false;
+				
+				lightscorrupted = new BGSprite('tosslerBG/artstyles/middleground_corrupted', 50, 0, 1.1, 1.1);
+				lightscorrupted.setGraphicSize(Std.int(lights.width * 1.4));
+
+				foregroundshitcorrupted = new BGSprite('tosslerBG/artstyles/foreground_corrupted', -50, 120, 1.5, 1.5);
+				foregroundshitcorrupted.setGraphicSize(Std.int(foregroundshit.width * 1.4));
+
+				tosslerbgpixel = new BGSprite('tosslerBG/artstyles/background_pixel', 400, 135, 1, 1);
+				tosslerbgpixel.setGraphicSize(Std.int(tosslerbg.width * 1.4));
+				tosslerbgpixel.scale.set(6, 6);
+				add(tosslerbgpixel);
+				tosslerbgpixel.visible = false;
+
+				foregroundshitpixel = new BGSprite('tosslerBG/artstyles/foreground_pixel', 335, 450, 1.5, 1.5);
+				foregroundshitpixel.scale.set(6, 6);
 					
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
@@ -762,6 +804,16 @@ class PlayState extends MusicBeatState
 			add(lights);
 			add(foregroundshit);
 			add(audience);
+			add(lightshd);
+			add(foregroundshithd);
+			add(lightscorrupted);
+			add(foregroundshitcorrupted);
+			add(foregroundshitpixel);
+			lightshd.visible = false;
+			foregroundshithd.visible = false;
+			lightscorrupted.visible = false;
+			foregroundshitcorrupted.visible = false;
+			foregroundshitpixel.visible = false;
 
 
 		add(foregroundGroup);
@@ -3894,21 +3946,13 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					remove(tosslerbg);
-					remove(lights);
-					remove(foregroundshit);
-					remove(audience);
-					tosslerbg = new BGSprite('tosslerBG/artstyles/background_corrupted', -600, -250, 1, 1);
-					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
-					
-					lights = new BGSprite('tosslerBG/artstyles/middleground_corrupted', 50, 0, 1.1, 1.1);
-					lights.setGraphicSize(Std.int(lights.width * 1.4));
-
-					foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_corrupted', -50, 120, 1.5, 1.5);
-					foregroundshit.setGraphicSize(Std.int(foregroundshit.width * 1.4));
-					add(tosslerbg);
-					add(lights);
-					add(foregroundshit);
+					tosslerbg.visible = false;
+					lights.visible = false;
+					foregroundshit.visible = false;
+					audience.visible = false;
+					tosslerbgcorrupted.visible = true;
+					lightscorrupted.visible = true;
+					foregroundshitcorrupted.visible = true;
 				}
 			}
 			if (curStep == 1664)
@@ -3919,32 +3963,13 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					remove(tosslerbg);
-					remove(lights);
-					remove(foregroundshit);
-					tosslerbg = new BGSprite('tosslerBG/background',-4190, -2275, 1, 1);
-					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 0.32));
-					
-					lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
-					lights.setGraphicSize(Std.int(lights.width * 1.4));
-	
-					foregroundshit = new BGSprite('tosslerBG/foreground', -300, 150, 1.5, 1.5);
-					
-					var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
-	
-					audience = new FlxSprite( -350, 100);
-					audience.frames = crowdTex;
-					audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
-					audience.scrollFactor.set(1.5, 1.5);
-					if(!ClientPrefs.lowQuality)
-					{
-						audience.animation.play('crowdbop');
-						audience.antialiasing = true;
-					}
-					add(tosslerbg);
-					add(lights);
-					add(foregroundshit);
-					add(audience);
+					tosslerbg.visible = true;
+					lights.visible = true;
+					foregroundshit.visible = true;
+					audience.visible = true;
+					tosslerbgcorrupted.visible = false;
+					lightscorrupted.visible = false;
+					foregroundshitcorrupted.visible = false;
 				}
 			}
 			if (curStep == 1792)
@@ -3955,19 +3980,13 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					remove(tosslerbg);
-					remove(lights);
-					remove(foregroundshit);
-					remove(audience);
 					defaultCamZoom = 1.1;
-					tosslerbg = new BGSprite('tosslerBG/artstyles/background_pixel', 400, 135, 1, 1);
-					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
-					tosslerbg.scale.set(6, 6);
-	
-					foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_pixel', 335, 450, 1.5, 1.5);
-					foregroundshit.scale.set(6, 6);
-					add(tosslerbg);
-					add(foregroundshit);
+					tosslerbg.visible = false;
+					lights.visible = false;
+					foregroundshit.visible = false;
+					audience.visible = false;
+					tosslerbgpixel.visible = true;
+					foregroundshitpixel.visible = true;
 				}
 			}
 			if (curStep == 1920)
@@ -3978,32 +3997,13 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					remove(tosslerbg);
-					remove(foregroundshit);
 					defaultCamZoom = 1;
-					tosslerbg = new BGSprite('tosslerBG/background',-4190, -2275, 1, 1);
-					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 0.32));
-					
-					lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
-					lights.setGraphicSize(Std.int(lights.width * 1.4));
-
-					foregroundshit = new BGSprite('tosslerBG/foreground', -300, 150, 1.5, 1.5);
-					
-					var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
-
-					audience = new FlxSprite( -350, 100);
-					audience.frames = crowdTex;
-					audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
-					audience.scrollFactor.set(1.5, 1.5);
-					if(!ClientPrefs.lowQuality)
-					{
-						audience.animation.play('crowdbop');
-						audience.antialiasing = true;
-					}
-					add(tosslerbg);
-					add(lights);
-					add(foregroundshit);
-					add(audience);
+					tosslerbg.visible = true;
+					lights.visible = true;
+					foregroundshit.visible = true;
+					audience.visible = true;
+					tosslerbgpixel.visible = false;
+					foregroundshitpixel.visible = false;
 				}
 			}
 			if (curStep == 2176)
@@ -4014,20 +4014,13 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					remove(tosslerbg);
-					remove(lights);
-					remove(foregroundshit);
-					remove(audience);
-					tosslerbg = new BGSprite('tosslerBG/artstyles/background_hd', -600, -250, 1, 1);
-					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 1.4));
-					
-					lights = new BGSprite('tosslerBG/artstyles/middleground_hd', -50, 0, 1.1, 1.1);
-					lights.setGraphicSize(Std.int(lights.width * 1.4));
-	
-					foregroundshit = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 185, 1.5, 1.5);
-					add(tosslerbg);
-					add(lights);
-					add(foregroundshit);
+					tosslerbg.visible = false;
+					lights.visible = false;
+					foregroundshit.visible = false;
+					audience.visible = false;
+					tosslerbghd.visible = true;
+					lightshd.visible = true;
+					foregroundshithd.visible = true;
 				}
 			}
 			if (curStep == 2432)
@@ -4038,31 +4031,12 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					remove(tosslerbg);
-					remove(lights);
-					remove(foregroundshit);
-					tosslerbg = new BGSprite('tosslerBG/background',-4190, -2275, 1, 1);
-					tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 0.32));
-					
-					lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
-					lights.setGraphicSize(Std.int(lights.width * 1.4));
-	
-					foregroundshit = new BGSprite('tosslerBG/foreground', -300, 150, 1.5, 1.5);
-					
-					var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
-	
-					audience = new FlxSprite( -350, 100);
-					audience.frames = crowdTex;
-					audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
-					audience.scrollFactor.set(1.5, 1.5);
-					if(!ClientPrefs.lowQuality)
-					{
-						audience.animation.play('crowdbop');
-						audience.antialiasing = true;
-					}
-					add(tosslerbg);
-					add(foregroundshit);
-					add(audience);
+					tosslerbg.visible = true;
+					foregroundshit.visible = true;
+					audience.visible = true;
+					tosslerbghd.visible = false;
+					lightshd.visible = false;
+					foregroundshithd.visible = false;
 				}
 			}
 			if (curStep == 2688)
