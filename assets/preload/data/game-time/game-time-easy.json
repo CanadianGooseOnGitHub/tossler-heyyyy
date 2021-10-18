@@ -1,7 +1,7 @@
 {
 	"song": {
 		"sectionLengths": [],
-		"player1": "bf",
+		"player1": "indy",
 		"notes": [
 			{
 				"sectionNotes": [
@@ -4365,12 +4365,12 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "pico",
+		"player2": "thomas",
 		"player3": "gf",
-		"song": "game time",
+		"song": "game-time",
 		"validScore": true,
 		"arrowSkin": "",
-		"stage": "stage",
+		"stage": "tosslerBG",
 		"sections": 0,
 		"needsVoices": true,
 		"speed": 2.3,

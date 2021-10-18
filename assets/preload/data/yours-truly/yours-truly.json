@@ -1,7 +1,7 @@
 {
 	"song": {
 		"sectionLengths": [],
-		"player1": "bf",
+		"player1": "indy",
 		"notes": [
 			{
 				"sectionNotes": [
@@ -2974,6 +2974,33 @@
 			},
 			{
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 150,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 150,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 150
+			},
+			{
+				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
@@ -2991,14 +3018,14 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "mom",
+		"player2": "cherry",
 		"player3": "gf",
-		"song": "Yours Truly",
-		"validScore": true,
+		"song": "Yours-Truly",
 		"arrowSkin": "",
-		"stage": "stage",
-		"sections": 0,
+		"validScore": true,
+		"stage": "tosslerBG",
 		"needsVoices": true,
+		"sections": 0,
 		"speed": 2.4,
 		"bpm": 150
 	}

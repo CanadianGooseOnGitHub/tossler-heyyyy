@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "May IdleLeft"
+		},
+		{
+			"offsets": [
+				-25,
+				-6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "May NOTE DOWN"
+		},
+		{
+			"offsets": [
+				-2,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "May NOTE RIGHT"
+		},
+		{
+			"offsets": [
+				-8,
+				-4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "May NOTE LEFT"
+		},
+		{
+			"offsets": [
+				10,
+				59
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "May NOTE UP"
+		},
+		{
+			"offsets": [
+				-3,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "shoot",
+			"loop": false,
+			"name": "May ALT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/week2/may",
+	"position": [
+		90,
+		130
+	],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [
+		195,
+		0,
+		40
+	],
+	"camera_position": [
+		-210,
+		-80
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

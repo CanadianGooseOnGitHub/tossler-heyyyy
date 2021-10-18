@@ -1,8 +1,8 @@
 {
 	"song": {
-		"player1": "bf",
+		"player1": "indy",
 		"sectionLengths": [],
-		"player2": "mom",
+		"player2": "may",
 		"notes": [
 			{
 				"typeOfSection": 0,
@@ -3256,10 +3256,10 @@
 			}
 		],
 		"player3": "gf",
-		"song": "Feast For The Eye",
+		"song": "Feast-For-The-Eye",
 		"needsVoices": true,
 		"sections": 0,
-		"stage": "stage",
+		"stage": "tosslerBG",
 		"validScore": true,
 		"arrowSkin": "",
 		"bpm": 150,
