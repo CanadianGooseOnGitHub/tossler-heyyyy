@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="brainwashedindy.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Indy ALT CHIP IDLE0000" x="20" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0001" x="20" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0002" x="393" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0003" x="393" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0004" x="766" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0005" x="766" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0006" x="1139" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0007" x="1139" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0008" x="1512" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0009" x="1885" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0010" x="1885" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0011" x="1885" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0012" x="2258" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP IDLE0013" x="2258" y="20" width="333" height="548"/>
+	<SubTexture name="Indy ALT CHIP RETURN0000" x="2631" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0001" x="2631" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0002" x="3095" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0003" x="3095" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0004" x="3559" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0005" x="4023" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0006" x="4487" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0007" x="4951" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0008" x="5415" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0009" x="5879" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0010" x="6343" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0011" x="6807" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0012" x="7271" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0013" x="7735" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0014" x="20" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0015" x="484" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0016" x="948" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0017" x="1412" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0018" x="1876" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0019" x="2340" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0020" x="2804" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0021" x="2804" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0022" x="3268" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0023" x="3268" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0024" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0025" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0026" x="4196" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0027" x="4196" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0028" x="4660" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0029" x="4660" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0030" x="5124" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0031" x="5124" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0032" x="5588" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0033" x="5588" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0034" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0035" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0036" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0037" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0038" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0039" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0040" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0041" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0042" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0043" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0044" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0045" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0046" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0047" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0048" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0049" x="6052" y="1271" width="424" height="1211"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0000" x="6516" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0001" x="6516" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0002" x="6897" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0003" x="6897" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0004" x="7278" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0005" x="7278" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0006" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0007" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0008" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0009" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0010" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0011" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0012" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0013" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0014" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0015" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0016" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0017" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0018" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0019" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0020" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0021" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0022" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0023" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0024" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0025" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0026" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0027" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0028" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED DOWN0029" x="7659" y="1271" width="341" height="482"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0000" x="20" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0001" x="20" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0002" x="368" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0003" x="368" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0004" x="716" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0005" x="716" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0006" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0007" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0008" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0009" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0010" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0011" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0012" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0013" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0014" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0015" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0016" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0017" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0018" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0019" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0020" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0021" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0022" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0023" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0024" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0025" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0026" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0027" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0028" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED LEFT0029" x="1064" y="2522" width="308" height="547"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0000" x="1412" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0001" x="1784" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0002" x="1784" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0003" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0004" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0005" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0006" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0007" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0008" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0009" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0010" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0011" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0012" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0013" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0014" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0015" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0016" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0017" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0018" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0019" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0020" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0021" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0022" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0023" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0024" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0025" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0026" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0027" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0028" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS DOWN0029" x="2156" y="2522" width="332" height="486"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0000" x="2528" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0001" x="2877" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0002" x="2877" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0003" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0004" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0005" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0006" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0007" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0008" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0009" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0010" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0011" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0012" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0013" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0014" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0015" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0016" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0017" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0018" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0019" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0020" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0021" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0022" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0023" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0024" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0025" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0026" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0027" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0028" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS LEFT0029" x="3226" y="2522" width="309" height="542"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0000" x="3575" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0001" x="3914" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0002" x="3914" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0003" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0004" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0005" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0006" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0007" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0008" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0009" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0010" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0011" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0012" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0013" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0014" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0015" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0016" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0017" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0018" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0019" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0020" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0021" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0022" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0023" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0024" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0025" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0026" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0027" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0028" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS RIGHT0029" x="4253" y="2522" width="299" height="556"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0000" x="4592" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0001" x="4970" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0002" x="4970" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0003" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0004" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0005" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0006" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0007" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0008" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0009" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0010" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0011" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0012" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0013" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0014" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0015" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0016" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0017" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0018" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0019" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0020" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0021" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0022" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0023" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0024" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0025" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0026" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0027" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0028" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED MISS UP0029" x="5348" y="2522" width="338" height="551"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0000" x="5726" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0001" x="5726" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0002" x="6071" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0003" x="6071" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0004" x="6416" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0005" x="6416" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0006" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0007" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0008" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0009" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0010" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0011" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0012" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0013" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0014" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0015" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0016" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0017" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0018" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0019" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0020" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0021" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0022" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0023" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0024" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0025" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0026" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0027" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0028" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED RIGHT0029" x="6761" y="2522" width="305" height="562"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0000" x="7106" y="2522" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0001" x="7106" y="2522" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0002" x="7487" y="2522" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0003" x="7487" y="2522" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0004" x="20" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0005" x="20" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0006" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0007" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0008" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0009" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0010" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0011" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0012" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0013" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0014" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0015" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0016" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0017" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0018" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0019" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0020" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0021" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0022" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0023" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0024" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0025" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0026" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0027" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0028" x="401" y="3124" width="341" height="560"/>
+	<SubTexture name="indy ALT BRAINWASHED UP0029" x="401" y="3124" width="341" height="560"/>
+</TextureAtlas>

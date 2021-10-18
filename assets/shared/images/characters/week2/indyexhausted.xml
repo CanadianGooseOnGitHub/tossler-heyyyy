@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="indyexhausted.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Indy ALT CHIP RETURN0000" x="20" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0001" x="20" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0002" x="484" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0003" x="484" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0004" x="948" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0005" x="1412" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0006" x="1876" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0007" x="2340" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0008" x="2804" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0009" x="3268" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0010" x="3732" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0011" x="4196" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0012" x="4660" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0013" x="5124" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0014" x="5588" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0015" x="6052" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0016" x="6516" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0017" x="6980" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0018" x="7444" y="20" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0019" x="20" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0020" x="484" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0021" x="484" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0022" x="948" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0023" x="948" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0024" x="1412" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0025" x="1412" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0026" x="1876" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0027" x="1876" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0028" x="2340" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0029" x="2340" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0030" x="2804" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0031" x="2804" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0032" x="3268" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0033" x="3268" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0034" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0035" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0036" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0037" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0038" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0039" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0040" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0041" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0042" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0043" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0044" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0045" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0046" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0047" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0048" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN0049" x="3732" y="1271" width="424" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0000" x="4196" y="1271" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0001" x="4196" y="1271" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0002" x="4910" y="1271" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0003" x="4910" y="1271" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0004" x="5624" y="1271" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0005" x="6338" y="1271" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0006" x="7052" y="1271" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0007" x="20" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0008" x="734" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0009" x="1448" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0010" x="2162" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0011" x="2876" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0012" x="3590" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0013" x="4304" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0014" x="5018" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0015" x="5732" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0016" x="6446" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0017" x="7160" y="2522" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0018" x="20" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0019" x="734" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0020" x="1448" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0021" x="2162" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0022" x="2876" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0023" x="3590" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0024" x="4304" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0025" x="5018" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0026" x="5732" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0027" x="6446" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0028" x="7160" y="3773" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0029" x="20" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0030" x="734" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0031" x="1448" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0032" x="2162" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0033" x="2876" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0034" x="3590" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0035" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0036" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0037" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0038" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0039" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0040" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0041" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0042" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0043" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0044" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0045" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0046" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0047" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0048" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT CHIP RETURN END0049" x="4304" y="5024" width="674" height="1211"/>
+	<SubTexture name="Indy ALT HEART0000" x="5018" y="5024" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0001" x="5750" y="5024" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0002" x="6482" y="5024" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0003" x="7214" y="5024" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0004" x="20" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0005" x="752" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0006" x="1484" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0007" x="1484" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0008" x="2216" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0009" x="2216" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0010" x="2948" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0011" x="2948" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0012" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0013" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0014" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0015" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0016" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0017" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0018" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0019" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0020" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0021" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0022" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0023" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0024" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0025" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0026" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0027" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0028" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART0029" x="3680" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10000" x="5018" y="5024" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10001" x="5750" y="5024" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10002" x="6482" y="5024" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10003" x="7214" y="5024" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10004" x="4412" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10005" x="5144" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10006" x="5876" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10007" x="5876" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10008" x="6608" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10009" x="6608" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10010" x="7340" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10011" x="7340" y="6275" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10012" x="20" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10013" x="20" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10014" x="20" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10015" x="20" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10016" x="20" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10017" x="20" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10018" x="20" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10019" x="20" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10020" x="20" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10021" x="752" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10022" x="1484" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10023" x="2216" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10024" x="2948" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10025" x="3680" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10026" x="4412" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10027" x="5144" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10028" x="5876" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10029" x="6608" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10030" x="7340" y="7203" width="692" height="888"/>
+	<SubTexture name="Indy ALT HEART RECOVER 10031" x="7340" y="7203" width="692" height="888"/>
+</TextureAtlas>
