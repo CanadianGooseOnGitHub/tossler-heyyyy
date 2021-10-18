@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="may.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="May ALT0000" x="20" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0001" x="928" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0002" x="928" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0003" x="1836" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0004" x="1836" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0005" x="2744" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0006" x="3652" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0007" x="4560" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0008" x="4560" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0009" x="5468" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0010" x="5468" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0011" x="5468" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0012" x="6376" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0013" x="6376" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0014" x="7284" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0015" x="7284" y="20" width="868" height="683"/>
+	<SubTexture name="May ALT0016" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0017" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0018" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0019" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0020" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0021" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0022" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0023" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0024" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0025" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0026" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0027" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0028" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May ALT0029" x="20" y="743" width="868" height="683"/>
+	<SubTexture name="May IdleLeft0000" x="928" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0001" x="928" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0002" x="1486" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0003" x="1486" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0004" x="2044" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0005" x="2044" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0006" x="2602" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0007" x="2602" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0008" x="3160" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0009" x="3160" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0010" x="3718" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0011" x="3718" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0012" x="4276" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleLeft0013" x="4276" y="743" width="518" height="680"/>
+	<SubTexture name="May IdleRight0000" x="4834" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0001" x="4834" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0002" x="5260" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0003" x="5260" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0004" x="5686" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0005" x="5686" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0006" x="6112" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0007" x="6112" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0008" x="6538" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0009" x="6538" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0010" x="6964" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0011" x="6964" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0012" x="7390" y="743" width="386" height="683"/>
+	<SubTexture name="May IdleRight0013" x="7390" y="743" width="386" height="683"/>
+	<SubTexture name="May NOTE DOWN0000" x="20" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0001" x="20" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0002" x="513" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0003" x="513" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0004" x="1006" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0005" x="1006" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0006" x="1499" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0007" x="1499" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0008" x="1992" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0009" x="1992" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0010" x="2485" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0011" x="2485" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0012" x="2485" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0013" x="2978" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0014" x="2978" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0015" x="3471" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0016" x="3471" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0017" x="3964" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0018" x="3964" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0019" x="4457" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0020" x="4457" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0021" x="4950" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0022" x="4950" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0023" x="4950" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0024" x="4950" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0025" x="4950" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0026" x="4950" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0027" x="4950" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0028" x="4950" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE DOWN0029" x="4950" y="1466" width="453" height="673"/>
+	<SubTexture name="May NOTE LEFT0000" x="5443" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0001" x="5443" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0002" x="5859" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0003" x="5859" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0004" x="6275" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0005" x="6275" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0006" x="6691" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0007" x="6691" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0008" x="7107" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0009" x="7107" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0010" x="7107" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0011" x="7523" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0012" x="7523" y="1466" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0013" x="20" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0014" x="20" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0015" x="436" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0016" x="436" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0017" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0018" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0019" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0020" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0021" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0022" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0023" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0024" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0025" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0026" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0027" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0028" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE LEFT0029" x="852" y="2182" width="376" height="676"/>
+	<SubTexture name="May NOTE RIGHT0000" x="1268" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0001" x="1268" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0002" x="1861" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0003" x="1861" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0004" x="2454" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0005" x="2454" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0006" x="3047" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0007" x="3047" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0008" x="3640" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0009" x="3640" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0010" x="4233" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0011" x="4233" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0012" x="4233" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0013" x="4826" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0014" x="4826" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0015" x="5419" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0016" x="5419" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0017" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0018" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0019" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0020" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0021" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0022" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0023" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0024" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0025" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0026" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0027" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0028" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE RIGHT0029" x="6012" y="2182" width="553" height="683"/>
+	<SubTexture name="May NOTE UP0000" x="6605" y="2182" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0001" x="6605" y="2182" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0002" x="7053" y="2182" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0003" x="7053" y="2182" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0004" x="7501" y="2182" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0005" x="7501" y="2182" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0006" x="20" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0007" x="20" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0008" x="468" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0009" x="468" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0010" x="916" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0011" x="1364" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0012" x="1364" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0013" x="1812" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0014" x="1812" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0015" x="2260" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0016" x="2260" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0017" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0018" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0019" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0020" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0021" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0022" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0023" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0024" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0025" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0026" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0027" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0028" x="2708" y="2962" width="408" height="740"/>
+	<SubTexture name="May NOTE UP0029" x="2708" y="2962" width="408" height="740"/>
+</TextureAtlas>

@@ -1,6 +1,8 @@
 {
 	"songs": [
-		["Yours Truly", "cherry", [146, 113, 253]]
+		["Yours Truly", "cherry", [146, 113, 253]],
+		["Feast For The Eye", "may", [146, 113, 253]],
+		["Game Time", "thomas", [146, 113, 253]]
 	],
 
 	"weekCharacters": [

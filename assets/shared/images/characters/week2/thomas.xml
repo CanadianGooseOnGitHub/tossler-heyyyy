@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="thomas.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Thomas ALT GRAB CHIP0000" x="20" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0001" x="20" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0002" x="1066" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0003" x="1066" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0004" x="2112" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0005" x="2112" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0006" x="3158" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0007" x="3158" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0008" x="4204" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0009" x="5250" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0010" x="6296" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0011" x="6296" y="20" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0012" x="20" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0013" x="20" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0014" x="1066" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0015" x="2112" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0016" x="2112" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0017" x="2112" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0018" x="3158" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0019" x="3158" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0020" x="3158" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0021" x="4204" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0022" x="4204" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0023" x="5250" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0024" x="5250" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0025" x="6296" y="593" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0026" x="20" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0027" x="1066" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0028" x="2112" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0029" x="2112" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0030" x="3158" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0031" x="3158" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0032" x="3158" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0033" x="3158" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0034" x="3158" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0035" x="4204" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0036" x="4204" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0037" x="5250" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0038" x="5250" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0039" x="6296" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0040" x="6296" y="1166" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0041" x="20" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0042" x="20" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0043" x="1066" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0044" x="1066" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0045" x="2112" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0046" x="2112" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0047" x="3158" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0048" x="3158" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0049" x="4204" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0050" x="4204" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0051" x="5250" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0052" x="5250" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0053" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0054" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0055" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0056" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0057" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0058" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0059" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0060" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0061" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0062" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0063" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0064" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0065" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0066" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0067" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0068" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0069" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0070" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0071" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0072" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0073" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0074" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0075" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0076" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0077" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0078" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas ALT GRAB CHIP0079" x="6296" y="1739" width="1006" height="533"/>
+	<SubTexture name="Thomas IDLE0000" x="7342" y="1739" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0001" x="7342" y="1739" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0002" x="7750" y="1739" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0003" x="7750" y="1739" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0004" x="20" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0005" x="20" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0006" x="428" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0007" x="428" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0008" x="836" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0009" x="836" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0010" x="836" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0011" x="836" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0012" x="836" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas IDLE0013" x="836" y="2312" width="368" height="529"/>
+	<SubTexture name="Thomas NOTE DOWN0000" x="1244" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0001" x="1244" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0002" x="1592" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0003" x="1592" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0004" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0005" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0006" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0007" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0008" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0009" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0010" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0011" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0012" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0013" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0014" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0015" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0016" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0017" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0018" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0019" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0020" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0021" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0022" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0023" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0024" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0025" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0026" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0027" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0028" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE DOWN0029" x="1940" y="2312" width="308" height="508"/>
+	<SubTexture name="Thomas NOTE LEFT0000" x="2288" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0001" x="2288" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0002" x="2636" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0003" x="2636" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0004" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0005" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0006" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0007" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0008" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0009" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0010" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0011" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0012" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0013" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0014" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0015" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0016" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0017" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0018" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0019" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0020" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0021" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0022" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0023" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0024" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0025" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0026" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0027" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0028" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE LEFT0029" x="2984" y="2312" width="308" height="533"/>
+	<SubTexture name="Thomas NOTE RIGHT0000" x="3332" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0001" x="3332" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0002" x="3678" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0003" x="3678" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0004" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0005" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0006" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0007" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0008" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0009" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0010" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0011" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0012" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0013" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0014" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0015" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0016" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0017" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0018" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0019" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0020" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0021" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0022" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0023" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0024" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0025" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0026" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0027" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0028" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE RIGHT0029" x="4024" y="2312" width="306" height="524"/>
+	<SubTexture name="Thomas NOTE UP0000" x="4370" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0001" x="4370" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0002" x="4691" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0003" x="4691" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0004" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0005" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0006" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0007" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0008" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0009" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0010" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0011" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0012" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0013" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0014" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0015" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0016" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0017" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0018" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0019" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0020" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0021" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0022" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0023" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0024" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0025" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0026" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0027" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0028" x="5012" y="2312" width="281" height="560"/>
+	<SubTexture name="Thomas NOTE UP0029" x="5012" y="2312" width="281" height="560"/>
+</TextureAtlas>
