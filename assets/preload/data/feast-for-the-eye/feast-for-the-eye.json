@@ -268,13 +268,13 @@
 						0
 					],
 					[
-						10600,
-						2,
+						11000,
+						3,
 						0
 					],
 					[
-						11000,
-						3,
+						10800,
+						2,
 						0
 					]
 				],
@@ -690,6 +690,12 @@
 						28400,
 						1,
 						300
+					],
+					[
+						27200,
+						1,
+						0,
+						"Lazer Note"
 					]
 				],
 				"altAnim": false,
@@ -770,6 +776,19 @@
 						31600,
 						1,
 						300
+					],
+					[
+						30400,
+						5,
+						0,
+						"Lazer Note"
+					],
+					[
+						30400,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": false
@@ -812,6 +831,19 @@
 						33400,
 						3,
 						0
+					],
+					[
+						32800,
+						1,
+						0,
+						"Lazer Note"
+					],
+					[
+						32800,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": true
@@ -916,6 +948,58 @@
 						36400,
 						7,
 						300
+					],
+					[
+						35600,
+						6,
+						0,
+						"Lazer Note"
+					],
+					[
+						35200,
+						5,
+						0,
+						"Lazer Note"
+					],
+					[
+						36000,
+						7,
+						0,
+						"Lazer Note"
+					],
+					[
+						36400,
+						4,
+						0,
+						"Lazer Note"
+					],
+					[
+						35200,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						35600,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						36000,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						36400,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": false
@@ -988,6 +1072,45 @@
 						38200,
 						0,
 						0
+					],
+					[
+						37200,
+						7,
+						0,
+						"Lazer Note"
+					],
+					[
+						37600,
+						4,
+						0,
+						"Lazer Note"
+					],
+					[
+						38000,
+						5,
+						0,
+						"Lazer Note"
+					],
+					[
+						37200,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						37600,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						38000,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": false
@@ -1030,6 +1153,19 @@
 						39800,
 						2,
 						0
+					],
+					[
+						39200,
+						1,
+						0,
+						"Lazer Note"
+					],
+					[
+						39200,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": true
@@ -1114,6 +1250,19 @@
 						43000,
 						2,
 						0
+					],
+					[
+						42400,
+						4,
+						0,
+						"Lazer Note"
+					],
+					[
+						42400,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": false
@@ -1151,6 +1300,19 @@
 						44400,
 						2,
 						300
+					],
+					[
+						44000,
+						7,
+						0,
+						"Lazer Note"
+					],
+					[
+						44000,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"altAnim": false,
@@ -1193,22 +1355,54 @@
 					[
 						45600,
 						1,
-						100
+						0,
+						"Lazer Note"
 					],
 					[
 						45800,
 						0,
-						100
+						0,
+						"Lazer Note"
 					],
 					[
 						46000,
 						1,
-						100
+						0,
+						"Lazer Note"
 					],
 					[
 						46200,
 						3,
-						100
+						0,
+						"Lazer Note"
+					],
+					[
+						45600,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						45800,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						46000,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						46200,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": true
@@ -1253,16 +1447,6 @@
 						100
 					],
 					[
-						47200,
-						3,
-						0
-					],
-					[
-						47400,
-						2,
-						0
-					],
-					[
 						46600,
 						2,
 						0
@@ -1273,14 +1457,56 @@
 						0
 					],
 					[
+						47200,
+						3,
+						0,
+						"Lazer Note"
+					],
+					[
+						47400,
+						2,
+						0,
+						"Lazer Note"
+					],
+					[
 						47600,
 						1,
-						0
+						0,
+						"Lazer Note"
 					],
 					[
 						47800,
 						3,
-						0
+						0,
+						"Lazer Note"
+					],
+					[
+						47200,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						47400,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						47600,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						47800,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": true
@@ -1496,6 +1722,19 @@
 						55800,
 						0,
 						0
+					],
+					[
+						54800,
+						2,
+						0,
+						"Lazer Note"
+					],
+					[
+						54800,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": true
@@ -1552,16 +1791,6 @@
 				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
-						57600,
-						1,
-						0
-					],
-					[
-						57800,
-						1,
-						0
-					],
-					[
 						58200,
 						2,
 						0
@@ -1582,9 +1811,30 @@
 						0
 					],
 					[
+						57600,
+						5,
+						0,
+						"Lazer Note"
+					],
+					[
 						57800,
-						3,
-						0
+						5,
+						0,
+						"Lazer Note"
+					],
+					[
+						57600,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						57800,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"altAnim": false,
@@ -1680,6 +1930,19 @@
 						62200,
 						0,
 						0
+					],
+					[
+						61200,
+						7,
+						0,
+						"Lazer Note"
+					],
+					[
+						61200,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"mustHitSection": false
@@ -1872,6 +2135,19 @@
 						68600,
 						0,
 						0
+					],
+					[
+						67600,
+						6,
+						0,
+						"Lazer Note"
+					],
+					[
+						67600,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"typeOfSection": 0,
@@ -2267,6 +2543,19 @@
 						81000,
 						2,
 						0
+					],
+					[
+						80800,
+						4,
+						0,
+						"Lazer Note"
+					],
+					[
+						80800,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"altAnim": false,
@@ -2307,6 +2596,32 @@
 						82800,
 						1,
 						300
+					],
+					[
+						82400,
+						7,
+						0,
+						"Lazer Note"
+					],
+					[
+						82800,
+						4,
+						0,
+						"Lazer Note"
+					],
+					[
+						82400,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						82800,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"altAnim": false,
@@ -2347,24 +2662,40 @@
 						100
 					],
 					[
-						84000,
-						0,
-						100
-					],
-					[
 						84200,
 						2,
-						100
-					],
-					[
-						84400,
-						3,
 						100
 					],
 					[
 						84600,
 						1,
 						100
+					],
+					[
+						84000,
+						0,
+						100,
+						"Lazer Note"
+					],
+					[
+						84400,
+						3,
+						100,
+						"Lazer Note"
+					],
+					[
+						84000,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						84400,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"typeOfSection": 0,
@@ -2413,23 +2744,59 @@
 					],
 					[
 						85600,
-						0,
-						0
+						-1,
+						"Play Animation",
+						"ouch",
+						"1"
 					],
 					[
 						85800,
-						1,
-						0
+						-1,
+						"Play Animation",
+						"ouch",
+						"1"
 					],
 					[
 						86000,
-						3,
-						0
+						-1,
+						"Play Animation",
+						"ouch",
+						"1"
 					],
 					[
 						86200,
-						2,
-						0
+						-1,
+						"Play Animation",
+						"recover",
+						"1"
+					],
+					[
+						85587.5,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						85787.5,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						85987.5,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
+					],
+					[
+						86187.5,
+						-1,
+						"Play Animation",
+						"shoot",
+						"0"
 					]
 				],
 				"typeOfSection": 0,
@@ -3247,6 +3614,24 @@
 			},
 			{
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 150,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 150
+			},
+			{
+				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
@@ -3257,11 +3642,11 @@
 		],
 		"player3": "gf",
 		"song": "Feast-For-The-Eye",
-		"needsVoices": true,
 		"sections": 0,
+		"needsVoices": true,
 		"stage": "tosslerBG",
-		"validScore": true,
 		"arrowSkin": "",
+		"validScore": true,
 		"bpm": 150,
 		"speed": 2.8
 	}

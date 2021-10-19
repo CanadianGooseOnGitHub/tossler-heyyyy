@@ -346,11 +346,11 @@ class TitleState extends MusicBeatState
 
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
-					if (!flashywashyshitalreadyshowed)
+					if (!flashywashyshitalreadyshowed && FlxG.save.data.flashing == null)
 					{
 						MusicBeatState.switchState(new FlashingState());
 					}
-					else if (flashywashyshitalreadyshowed)
+					else if (flashywashyshitalreadyshowed || FlxG.save.data.flashing != null)
 					{
 						MusicBeatState.switchState(new MainMenuState());
 					}

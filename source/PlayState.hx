@@ -779,12 +779,8 @@ class PlayState extends MusicBeatState
 
 		add(gfGroup);
 
-		// Shitty layering but whatev it works LOL
-		if (curStage == 'limo')
-			add(limo);
-
-		add(dadGroup);
 		add(boyfriendGroup);
+		add(dadGroup);
 
 		if (curStage == 'tosslerBG')
 			add(lights);
@@ -3469,44 +3465,53 @@ class PlayState extends MusicBeatState
 	{
 		if (!boyfriend.stunned)
 		{
-			health -= 0.04;
-			if (combo > 5 && gf.animOffsets.exists('sad'))
+			var daNote:Note = notes.members[0];
+			if (daNote.noteType == 'Lazer Note')
 			{
-				gf.playAnim('sad');
+				boyfriend.playAnim('ouch', true);
+				health -= 0.15;
 			}
-			combo = 0;
-
-			if(!practiceMode) songScore -= 10;
-			if(!endingSong) {
-				if(ghostMiss) ghostMisses++;
-				songMisses++;
-			}
-			RecalculateRating();
-
-			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
-			// FlxG.sound.play(Paths.sound('missnote1'), 1, false);
-			// FlxG.log.add('played imss note');
-
-			/*boyfriend.stunned = true;
-
-			// get stunned for 1/60 of a second, makes you able to
-			new FlxTimer().start(1 / 60, function(tmr:FlxTimer)
+			else if (daNote.noteType != 'Lazer Note')
 			{
-				boyfriend.stunned = false;
-			});*/
-
-			switch (direction)
-			{
-				case 0:
-					boyfriend.playAnim('singLEFTmiss', true);
-				case 1:
-					boyfriend.playAnim('singDOWNmiss', true);
-				case 2:
-					boyfriend.playAnim('singUPmiss', true);
-				case 3:
-					boyfriend.playAnim('singRIGHTmiss', true);
+				health -= 0.04;
+				if (combo > 5 && gf.animOffsets.exists('sad'))
+				{
+					gf.playAnim('sad');
+				}
+				combo = 0;
+	
+				if(!practiceMode) songScore -= 10;
+				if(!endingSong) {
+					if(ghostMiss) ghostMisses++;
+					songMisses++;
+				}
+				RecalculateRating();
+	
+				FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
+				// FlxG.sound.play(Paths.sound('missnote1'), 1, false);
+				// FlxG.log.add('played imss note');
+	
+				/*boyfriend.stunned = true;
+	
+				// get stunned for 1/60 of a second, makes you able to
+				new FlxTimer().start(1 / 60, function(tmr:FlxTimer)
+				{
+					boyfriend.stunned = false;
+				});*/
+	
+				switch (direction)
+				{		
+					case 0:
+						boyfriend.playAnim('singLEFTmiss', true);
+					case 1:
+						boyfriend.playAnim('singDOWNmiss', true);
+					case 2:
+						boyfriend.playAnim('singUPmiss', true);
+					case 3:
+						boyfriend.playAnim('singRIGHTmiss', true);
+				}
+				vocals.volume = 0;
 			}
-			vocals.volume = 0;
 		}
 	}
 
@@ -3520,7 +3525,7 @@ class PlayState extends MusicBeatState
 
 					if(!boyfriend.stunned)
 					{
-						noteMiss(note.noteData);
+						noteMiss();
 						if(!endingSong)
 						{
 							--songMisses;
@@ -3541,6 +3546,35 @@ class PlayState extends MusicBeatState
 
 						note.wasGoodHit = true;
 						vocals.volume = 0;
+
+						if (!note.isSustainNote)
+						{
+							note.kill();
+							notes.remove(note, true);
+							note.destroy();
+						}
+					}
+					return;
+				case 'Lazer Note': //Silly Little Lazer Note
+					if(!boyfriend.stunned)
+					{
+						if(!endingSong)
+						{
+							if(!note.isSustainNote) {
+								if(!note.noteSplashDisabled) {
+									spawnNoteSplashOnNote(note);
+								}
+							}
+							
+							health += 0.023;
+	
+							if(boyfriend.animation.getByName('dodge') != null) {
+								boyfriend.playAnim('dodge', true);
+								boyfriend.specialAnim = true;
+							}
+						}
+
+						note.wasGoodHit = true;
 
 						if (!note.isSustainNote)
 						{

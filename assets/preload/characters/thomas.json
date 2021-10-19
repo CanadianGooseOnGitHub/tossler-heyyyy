@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				7,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "grab",
+			"loop": false,
+			"name": "Thomas ALT GRAB CHIP"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Thomas IDLE"
+		},
+		{
+			"offsets": [
+				-18,
+				-21
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Thomas NOTE DOWN"
+		},
+		{
+			"offsets": [
+				24,
+				-5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Thomas NOTE RIGHT"
+		},
+		{
+			"offsets": [
+				-18,
+				4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Thomas NOTE LEFT"
+		},
+		{
+			"offsets": [
+				-1,
+				30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Thomas NOTE UP"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/week2/thomas",
+	"position": [
+		120,
+		230
+	],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [
+		195,
+		0,
+		40
+	],
+	"camera_position": [
+		-310,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -61,8 +61,7 @@ class Note extends FlxSprite
 		colorSwap.hue = ClientPrefs.arrowHSV[noteData % 4][0] / 360;
 		colorSwap.saturation = ClientPrefs.arrowHSV[noteData % 4][1] / 100;
 		colorSwap.brightness = ClientPrefs.arrowHSV[noteData % 4][2] / 100;
-
-		if(noteData > -1 && noteType != value) {
+		if(noteData > -2 && noteType != value) {
 			switch(value) {
 				case 'Hurt Note':
 					ignoreNote = true;
@@ -71,6 +70,14 @@ class Note extends FlxSprite
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
+				case 'Lazer Note':
+					ignoreNote = false;
+					reloadNote('LAZER');
+					noteSplashTexture = 'LAZERnoteSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+
 			}
 			noteType = value;
 		}
