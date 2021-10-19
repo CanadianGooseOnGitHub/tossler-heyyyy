@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menuindy.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Indy IDLE MENU0000" x="20" y="20" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0001" x="20" y="20" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0002" x="20" y="20" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0003" x="557" y="20" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0004" x="557" y="20" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0005" x="1094" y="20" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0006" x="1094" y="20" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0007" x="20" y="609" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0008" x="20" y="609" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0009" x="557" y="609" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0010" x="557" y="609" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0011" x="1094" y="609" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0012" x="20" y="1198" width="497" height="549"/>
+	<SubTexture name="Indy IDLE MENU0013" x="20" y="1198" width="497" height="549"/>
+</TextureAtlas>

@@ -52,8 +52,6 @@ class PrologueState extends MusicBeatState
 				FlxTransitionableState.skipNextTransIn = true;
 				FlxTransitionableState.skipNextTransOut = true;
 				if(!back) {
-					ClientPrefs.flashing = false;
-					ClientPrefs.saveSettings();
 					FlxG.sound.play(Paths.sound('confirmMenu'));
 					FlxTween.tween(warnText, {alpha: 0}, 0.5, {
 						onComplete: function (twn:FlxTween) {

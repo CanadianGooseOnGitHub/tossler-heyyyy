@@ -1,88 +1,88 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "May IdleLeft"
+			"fps": 24,
+			"name": "May IdleLeft",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				-5,
+				-16
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "May NOTE DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				24,
+				-1
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "May NOTE RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-47,
+				-12
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "May NOTE LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				-25,
-				-6
+				73
 			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singDOWN",
-			"loop": false,
-			"name": "May NOTE DOWN"
-		},
-		{
-			"offsets": [
-				-2,
-				3
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singLEFT",
-			"loop": false,
-			"name": "May NOTE RIGHT"
-		},
-		{
-			"offsets": [
-				-8,
-				-4
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"loop": false,
-			"name": "May NOTE LEFT"
-		},
-		{
-			"offsets": [
-				10,
-				59
-			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "May NOTE UP"
+			"fps": 24,
+			"name": "May NOTE UP",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-3,
-				3
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "shoot",
 			"loop": false,
-			"name": "May ALT"
+			"offsets": [
+				36,
+				8
+			],
+			"anim": "shoot",
+			"fps": 24,
+			"name": "May ALT",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/week2/may",
 	"position": [
-		90,
-		130
+		50,
+		110
 	],
-	"healthicon": "face",
+	"healthicon": "may",
 	"flip_x": true,
 	"healthbar_colors": [
-		195,
-		0,
-		40
+		115,
+		40,
+		255
 	],
 	"camera_position": [
-		-210,
-		-80
+		-170,
+		-30
 	],
 	"sing_duration": 6.1,
 	"scale": 1

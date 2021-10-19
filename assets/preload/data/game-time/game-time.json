@@ -4586,7 +4586,7 @@
 		"song": "game-time",
 		"sections": 0,
 		"needsVoices": true,
-		"stage": "tosslerBG",
+		"stage": "indyBG",
 		"arrowSkin": "",
 		"validScore": true,
 		"bpm": 180,

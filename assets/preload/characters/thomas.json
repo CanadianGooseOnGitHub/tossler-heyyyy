@@ -3,12 +3,12 @@
 		{
 			"offsets": [
 				7,
-				3
+				-1
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "grab",
-			"loop": false,
+			"indices": [],
 			"name": "Thomas ALT GRAB CHIP"
 		},
 		{
@@ -16,21 +16,21 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "Thomas IDLE"
 		},
 		{
 			"offsets": [
 				-18,
-				-21
+				-14
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "Thomas NOTE DOWN"
 		},
 		{
@@ -38,10 +38,10 @@
 				24,
 				-5
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "Thomas NOTE RIGHT"
 		},
 		{
@@ -49,10 +49,10 @@
 				-18,
 				4
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "Thomas NOTE LEFT"
 		},
 		{
@@ -60,10 +60,10 @@
 				-1,
 				30
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "Thomas NOTE UP"
 		}
 	],
@@ -73,12 +73,12 @@
 		120,
 		230
 	],
-	"healthicon": "face",
+	"healthicon": "thomas",
 	"flip_x": true,
 	"healthbar_colors": [
-		195,
-		0,
-		40
+		80,
+		80,
+		255
 	],
 	"camera_position": [
 		-310,
