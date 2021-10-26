@@ -2263,7 +2263,7 @@ class PlayState extends MusicBeatState
 									}
 								});
 
-								if(!daNote.ignoreNote) {
+								if(!daNote.ignoreNote && !daNote.lazerNote) {
 									health -= 0.0475; //For testing purposes
 									songMisses++;
 									vocals.volume = 0;
@@ -2280,6 +2280,15 @@ class PlayState extends MusicBeatState
 										case 3:
 											boyfriend.playAnim('singRIGHTmiss', true);
 									}
+									callOnLuas('noteMiss', [daNote.noteData, daNote.noteType]);
+								}
+								if(daNote.lazerNote && !daNote.ignoreNote) {
+									health -= 0.5;
+									songMisses++;
+									vocals.volume = 0;
+									RecalculateRating();
+									boyfriend.playAnim('ouch', true);
+
 									callOnLuas('noteMiss', [daNote.noteData, daNote.noteType]);
 								}
 							}
@@ -3251,53 +3260,44 @@ class PlayState extends MusicBeatState
 	{
 		if (!boyfriend.stunned)
 		{
-			var daNote:Note = notes.members[0];
-			if (daNote.noteType == 'Lazer Note')
+			health -= 0.04;
+			if (combo > 5 && gf.animOffsets.exists('sad'))
 			{
-				boyfriend.playAnim('ouch', true);
-				health -= 0.15;
+				gf.playAnim('sad');
 			}
-			else if (daNote.noteType != 'Lazer Note')
+			combo = 0;
+
+			if(!practiceMode) songScore -= 10;
+			if(!endingSong) {
+				if(ghostMiss) ghostMisses++;
+				songMisses++;
+			}
+			RecalculateRating();
+
+			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
+			// FlxG.sound.play(Paths.sound('missnote1'), 1, false);
+			// FlxG.log.add('played imss note');
+
+			/*boyfriend.stunned = true;
+
+			// get stunned for 1/60 of a second, makes you able to
+			new FlxTimer().start(1 / 60, function(tmr:FlxTimer)
 			{
-				health -= 0.04;
-				if (combo > 5 && gf.animOffsets.exists('sad'))
-				{
-					gf.playAnim('sad');
-				}
-				combo = 0;
-	
-				if(!practiceMode) songScore -= 10;
-				if(!endingSong) {
-					if(ghostMiss) ghostMisses++;
-					songMisses++;
-				}
-				RecalculateRating();
-	
-				FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
-				// FlxG.sound.play(Paths.sound('missnote1'), 1, false);
-				// FlxG.log.add('played imss note');
-	
-				/*boyfriend.stunned = true;
-	
-				// get stunned for 1/60 of a second, makes you able to
-				new FlxTimer().start(1 / 60, function(tmr:FlxTimer)
-				{
-					boyfriend.stunned = false;
-				});*/
-	
-				switch (direction)
-				{		
-					case 0:
-						boyfriend.playAnim('singLEFTmiss', true);
-					case 1:
-						boyfriend.playAnim('singDOWNmiss', true);
-					case 2:
-						boyfriend.playAnim('singUPmiss', true);
-					case 3:
-						boyfriend.playAnim('singRIGHTmiss', true);
-				}
-				vocals.volume = 0;
+				boyfriend.stunned = false;
+			});*/
+
+			switch (direction)
+			{		
+				case 0:
+					boyfriend.playAnim('singLEFTmiss', true);
+				case 1:
+					boyfriend.playAnim('singDOWNmiss', true);
+				case 2:
+					boyfriend.playAnim('singUPmiss', true);
+				case 3:
+					boyfriend.playAnim('singRIGHTmiss', true);
 			}
+			vocals.volume = 0;
 		}
 	}
 

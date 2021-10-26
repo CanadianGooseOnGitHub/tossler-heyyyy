@@ -20,6 +20,7 @@ class Note extends FlxSprite
 	public var tooLate:Bool = false;
 	public var wasGoodHit:Bool = false;
 	public var ignoreNote:Bool = false;
+	public var lazerNote:Bool = false;
 	public var prevNote:Note;
 
 	public var sustainLength:Float = 0;
@@ -65,6 +66,7 @@ class Note extends FlxSprite
 			switch(value) {
 				case 'Hurt Note':
 					ignoreNote = true;
+					lazerNote = false;
 					reloadNote('HURT');
 					noteSplashTexture = 'HURTnoteSplashes';
 					colorSwap.hue = 0;
@@ -72,6 +74,7 @@ class Note extends FlxSprite
 					colorSwap.brightness = 0;
 				case 'Lazer Note':
 					ignoreNote = false;
+					lazerNote = true;
 					reloadNote('LAZER');
 					noteSplashTexture = 'LAZERnoteSplashes';
 					colorSwap.hue = 0;
