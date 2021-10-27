@@ -1,0 +1,144 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				60,
+				230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deadConfirm",
+			"indices": [],
+			"name": "indy death confirm"
+		},
+		{
+			"offsets": [
+				48,
+				-8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "IndySkate MISS DOWN"
+		},
+		{
+			"offsets": [
+				57,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "IndySkate MISS LEFT"
+		},
+		{
+			"offsets": [
+				-6,
+				24
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "IndySkate MISS RIGHT"
+		},
+		{
+			"offsets": [
+				-26,
+				33
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "IndySkate MISS UP"
+		},
+		{
+			"offsets": [
+				36,
+				-4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "IndySkate NOTE DOWN"
+		},
+		{
+			"offsets": [
+				-32,
+				29
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "IndySkate NOTE UP"
+		},
+		{
+			"offsets": [
+				-54,
+				30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "IndySkate NOTE RIGHT"
+		},
+		{
+			"offsets": [
+				11,
+				-2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "IndySkate NOTE LEFT"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "IndySkateLeft"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "IndySkateRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "bonus/skater/skaterindy",
+	"position": [
+		90,
+		250
+	],
+	"healthicon": "indy",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		160,
+		160
+	],
+	"camera_position": [
+		80,
+		10
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

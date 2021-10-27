@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Indy ALT CHIP IDLE"
+		},
+		{
+			"offsets": [
+				26,
+				-64
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "indy ALT BRAINWASHED DOWN"
+		},
+		{
+			"offsets": [
+				-32,
+				19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "indy ALT BRAINWASHED UP"
+		},
+		{
+			"offsets": [
+				1,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "indy ALT BRAINWASHED LEFT"
+		},
+		{
+			"offsets": [
+				-54,
+				17
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "indy ALT BRAINWASHED RIGHT"
+		},
+		{
+			"offsets": [
+				7,
+				-56
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "indy ALT BRAINWASHED MISS DOWN"
+		},
+		{
+			"offsets": [
+				-3,
+				2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "indy ALT BRAINWASHED MISS LEFT"
+		},
+		{
+			"offsets": [
+				-86,
+				11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "indy ALT BRAINWASHED MISS RIGHT"
+		},
+		{
+			"offsets": [
+				-29,
+				9
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "indy ALT BRAINWASHED MISS UP"
+		},
+		{
+			"offsets": [
+				44,
+				150
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "return",
+			"loop": false,
+			"name": "Indy ALT CHIP RETURN"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/week2/brainwashedindy",
+	"position": [
+		90,
+		250
+	],
+	"healthicon": "indy",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		160,
+		160
+	],
+	"camera_position": [
+		80,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

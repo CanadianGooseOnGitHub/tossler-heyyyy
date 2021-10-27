@@ -127,7 +127,7 @@
 				101,
 				22
 			],
-			"anim": "die",
+			"anim": "firstDeath",
 			"fps": 24,
 			"name": "indy die",
 			"indices": []
@@ -138,7 +138,7 @@
 				91,
 				22
 			],
-			"anim": "dead",
+			"anim": "deathLoop",
 			"fps": 24,
 			"name": "indy dead loop",
 			"indices": []
@@ -149,7 +149,7 @@
 				60,
 				230
 			],
-			"anim": "deadConfirm",
+			"anim": "deathConfirm",
 			"fps": 24,
 			"name": "indy death confirm",
 			"indices": []

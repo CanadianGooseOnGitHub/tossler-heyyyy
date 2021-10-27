@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tosslertrickyg.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TosslerDeath0000" x="20" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0001" x="519" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0002" x="1018" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0003" x="1517" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0004" x="1517" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0005" x="2016" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0006" x="2515" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0007" x="2515" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0008" x="2515" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0009" x="2515" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0010" x="2515" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0011" x="2515" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0012" x="2515" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0013" x="2515" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0014" x="2515" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0015" x="3014" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0016" x="3014" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0017" x="3513" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0018" x="3513" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0019" x="4012" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0020" x="4012" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0021" x="4511" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0022" x="4511" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0023" x="5010" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0024" x="5509" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0025" x="6008" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0026" x="6008" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0027" x="6507" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0028" x="6507" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0029" x="7006" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0030" x="7006" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0031" x="7505" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0032" x="7505" y="20" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0033" x="20" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0034" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0035" x="1018" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0036" x="1018" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0037" x="1018" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0038" x="1018" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0039" x="1018" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0040" x="1517" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0041" x="1517" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0042" x="1517" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0043" x="1517" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0044" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0045" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0046" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0047" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0048" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0049" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0050" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0051" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0052" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0053" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0054" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0055" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0056" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeath0057" x="519" y="543" width="459" height="483"/>
+	<SubTexture name="TosslerDeathConfirm0000" x="2016" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0001" x="2508" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0002" x="3000" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0003" x="3492" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0004" x="3984" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0005" x="4476" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0006" x="4968" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0007" x="5460" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0008" x="5952" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0009" x="6444" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0010" x="6936" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0011" x="7428" y="543" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0012" x="20" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0013" x="512" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0014" x="1004" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0015" x="1496" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0016" x="1988" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0017" x="2480" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0018" x="2972" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0019" x="3464" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0020" x="3956" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0021" x="4448" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0022" x="4940" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0023" x="4940" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0024" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0025" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0026" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0027" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0028" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0029" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0030" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0031" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0032" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathConfirm0033" x="5432" y="1207" width="452" height="624"/>
+	<SubTexture name="TosslerDeathLoop0000" x="5924" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0001" x="6404" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0002" x="6404" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0003" x="6884" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0004" x="6884" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0005" x="7364" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0006" x="7364" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0007" x="20" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0008" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0009" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0010" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0011" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0012" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0013" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0014" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0015" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0016" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0017" x="5924" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0018" x="6404" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0019" x="6404" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0020" x="6884" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0021" x="6884" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0022" x="7364" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0023" x="7364" y="1207" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0024" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0025" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0026" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0027" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0028" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0029" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0030" x="980" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0031" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0032" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="TosslerDeathLoop0033" x="500" y="1871" width="440" height="478"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0000" x="1460" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0001" x="1965" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0002" x="2470" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0003" x="2470" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0004" x="2975" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0005" x="2975" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0006" x="3480" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0007" x="3480" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0008" x="3985" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0009" x="3985" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0010" x="4490" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0011" x="4490" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0012" x="4995" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0013" x="4995" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0014" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0015" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0016" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0017" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0018" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0019" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0020" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0021" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0022" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0023" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0024" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0025" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0026" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0027" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0028" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg SPRITE0029" x="5500" y="1871" width="465" height="459"/>
+	<SubTexture name="tosslerdowntrickyg miss0000" x="6005" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0001" x="6539" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0002" x="6539" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0003" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0004" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0005" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0006" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0007" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0008" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0009" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0010" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0011" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0012" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0013" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0014" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0015" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0016" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0017" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0018" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0019" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0020" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0021" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0022" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0023" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0024" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0025" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0026" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0027" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0028" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tosslerdowntrickyg miss0029" x="7073" y="1871" width="494" height="596"/>
+	<SubTexture name="tossleridletrickyg SPRITE0000" x="7607" y="1871" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0001" x="7607" y="1871" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0002" x="20" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0003" x="20" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0004" x="456" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0005" x="892" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0006" x="1328" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0007" x="1764" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0008" x="2200" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0009" x="2200" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0010" x="2636" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0011" x="2636" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0012" x="3072" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickyg SPRITE0013" x="3072" y="2507" width="396" height="474"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0000" x="3508" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0001" x="3508" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0002" x="3998" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0003" x="4488" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0004" x="4978" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0005" x="5468" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0006" x="5958" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0007" x="5958" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0008" x="6448" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0009" x="6448" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0010" x="6938" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0011" x="6938" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0012" x="7428" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0013" x="7428" y="2507" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0014" x="20" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0015" x="20" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0016" x="510" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0017" x="510" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0018" x="1000" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0019" x="1000" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0020" x="1490" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0021" x="1490" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0022" x="1490" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0023" x="1980" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0024" x="1980" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0025" x="2470" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0026" x="2960" y="3023" width="450" height="476"/>
+	<SubTexture name="tossleridletrickytransitiontomic SPRITE0027" x="2960" y="3023" width="450" height="476"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0000" x="3450" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0001" x="3881" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0002" x="4312" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0003" x="4312" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0004" x="4743" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0005" x="4743" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0006" x="5174" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0007" x="5174" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0008" x="5605" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0009" x="5605" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0010" x="6036" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0011" x="6036" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0012" x="6467" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0013" x="6467" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0014" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0015" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0016" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0017" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0018" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0019" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0020" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0021" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0022" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0023" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0024" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0025" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0026" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0027" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0028" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg SPRITE0029" x="6898" y="3023" width="391" height="475"/>
+	<SubTexture name="tosslerlefttrickyg miss0000" x="7329" y="3023" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0001" x="20" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0002" x="20" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0003" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0004" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0005" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0006" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0007" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0008" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0009" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0010" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0011" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0012" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0013" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0014" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0015" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0016" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0017" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0018" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0019" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0020" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0021" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0022" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0023" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0024" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0025" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0026" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0027" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0028" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerlefttrickyg miss0029" x="518" y="3671" width="458" height="608"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0000" x="1016" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0001" x="1491" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0002" x="1966" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0003" x="1966" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0004" x="2441" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0005" x="2441" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0006" x="2916" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0007" x="2916" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0008" x="3391" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0009" x="3391" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0010" x="3866" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0011" x="3866" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0012" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0013" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0014" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0015" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0016" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0017" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0018" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0019" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0020" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0021" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0022" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0023" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0024" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0025" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0026" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0027" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0028" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg SPRITE0029" x="4341" y="3671" width="435" height="471"/>
+	<SubTexture name="tosslerrighttrickyg miss0000" x="4816" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0001" x="5372" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0002" x="5372" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0003" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0004" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0005" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0006" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0007" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0008" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0009" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0010" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0011" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0012" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0013" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0014" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0015" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0016" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0017" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0018" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0019" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0020" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0021" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0022" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0023" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0024" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0025" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0026" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0027" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0028" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tosslerrighttrickyg miss0029" x="5928" y="3671" width="516" height="606"/>
+	<SubTexture name="tossleruptrickyg SPRITE0000" x="6484" y="3671" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0001" x="6927" y="3671" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0002" x="7370" y="3671" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0003" x="20" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0004" x="463" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0005" x="463" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0006" x="906" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0007" x="1349" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0008" x="1792" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0009" x="2235" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0010" x="2678" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0011" x="3121" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0012" x="3121" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0013" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0014" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0015" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0016" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0017" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0018" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0019" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0020" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0021" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0022" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0023" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0024" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0025" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0026" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0027" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0028" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg SPRITE0029" x="3564" y="4319" width="403" height="514"/>
+	<SubTexture name="tossleruptrickyg miss0000" x="4007" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0001" x="4465" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0002" x="4465" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0003" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0004" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0005" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0006" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0007" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0008" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0009" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0010" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0011" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0012" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0013" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0014" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0015" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0016" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0017" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0018" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0019" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0020" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0021" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0022" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0023" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0024" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0025" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0026" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0027" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0028" x="4923" y="4319" width="418" height="516"/>
+	<SubTexture name="tossleruptrickyg miss0029" x="4923" y="4319" width="418" height="516"/>
+</TextureAtlas>

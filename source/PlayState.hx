@@ -330,6 +330,8 @@ class PlayState extends MusicBeatState
 					curStage = 'tosslerBG';
 				case 'yours-truly' | 'feast-for-the-eye' | 'game-time':
 					curStage = 'indyBG';
+				case 'joyride':
+					curStage = 'street';
 				default:
 					curStage = 'tosslerBG';
 			}
@@ -441,6 +443,12 @@ class PlayState extends MusicBeatState
 
 				ringfront = new BGSprite('indyBG/5_ringfront', 50, 50, 1.2, 1.2);
 				ringfront.setGraphicSize(Std.int(ringfront.width * 1.3));
+			
+			case 'street':
+				var street:BGSprite = new BGSprite('bonus/skater/streetbg', -600, -250, 0.9, 0.9);
+				street.animation.addByPrefix('Skater Background', 'Skater Background', 24, true);
+				street.animation.play('Skater Background');
+				add(street);
 		}
 
 		#if LUA_ALLOWED

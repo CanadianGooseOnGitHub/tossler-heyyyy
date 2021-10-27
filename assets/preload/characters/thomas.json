@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				7,
-				-1
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				8,
+				-2
+			],
 			"anim": "grab",
-			"indices": [],
-			"name": "Thomas ALT GRAB CHIP"
+			"fps": 24,
+			"name": "Thomas ALT GRAB CHIP",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Thomas IDLE"
+			"fps": 24,
+			"name": "Thomas IDLE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-18,
 				-14
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Thomas NOTE DOWN"
+			"fps": 24,
+			"name": "Thomas NOTE DOWN",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				24,
 				-5
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Thomas NOTE RIGHT"
+			"fps": 24,
+			"name": "Thomas NOTE RIGHT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-18,
 				4
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Thomas NOTE LEFT"
+			"fps": 24,
+			"name": "Thomas NOTE LEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-1,
-				30
+				31
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Thomas NOTE UP"
+			"fps": 24,
+			"name": "Thomas NOTE UP",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
