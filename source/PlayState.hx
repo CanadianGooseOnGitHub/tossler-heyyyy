@@ -867,6 +867,12 @@ class PlayState extends MusicBeatState
 					{
 						videoIntro('Week 1 Cutscene 3 GAME');
 					}
+				case 'yours-truly':
+					videoIntro('week2/Week 2 Prologue GAME');
+				case 'feast-for-the-eye':
+					videoIntro('week2/Week 2 Cutscene 1 GAME');
+				case 'game-time':
+					videoIntro('week2/Week 2 Cutscene 2 GAME');
 				default:
 					startCountdown();
 			}
@@ -2864,6 +2870,10 @@ class PlayState extends MusicBeatState
 						videoOutro('Week 1 Cutscene 4 GAME');
 					}
 				}
+				if (curSong == 'Game-Time')
+				{
+					videoOutro('week2/Week 2 Cutscene 3 GAME');
+				}
 				else
 				{
 					FlxG.sound.playMusic(Paths.music('menu_variation_0'));
@@ -3354,6 +3364,14 @@ class PlayState extends MusicBeatState
 					{
 						if(!endingSong)
 						{
+							playerStrums.forEach(function(spr:StrumNote)
+							{
+								if (Math.abs(note.noteData) == spr.ID)
+								{
+									spr.playAnim('confirm', true);
+								}
+							});
+
 							if(!note.isSustainNote) {
 								if(!note.noteSplashDisabled) {
 									spawnNoteSplashOnNote(note);

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="trickyhimself.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TRICKY IDLE LEFT0000" x="20" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0001" x="820" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0002" x="1620" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0003" x="2420" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0004" x="3220" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0005" x="4020" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0006" x="4820" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0007" x="5620" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0008" x="6420" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0009" x="7220" y="20" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE LEFT0010" x="20" y="1083" width="760" height="1023"/>
+	<SubTexture name="TRICKY IDLE RIGHT0000" x="820" y="1083" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0001" x="1630" y="1083" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0002" x="2440" y="1083" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0003" x="3250" y="1083" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0004" x="4060" y="1083" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0005" x="4870" y="1083" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0006" x="5680" y="1083" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0007" x="6490" y="1083" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0008" x="7300" y="1083" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0009" x="20" y="2146" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE RIGHT0010" x="830" y="2146" width="770" height="1019"/>
+	<SubTexture name="TRICKY NOTE DOWN0000" x="1640" y="2146" width="835" height="888"/>
+	<SubTexture name="TRICKY NOTE DOWN0001" x="2515" y="2146" width="835" height="888"/>
+	<SubTexture name="TRICKY NOTE DOWN0002" x="3390" y="2146" width="835" height="888"/>
+	<SubTexture name="TRICKY NOTE DOWN0003" x="4265" y="2146" width="835" height="888"/>
+	<SubTexture name="TRICKY NOTE DOWN0004" x="5140" y="2146" width="835" height="888"/>
+	<SubTexture name="TRICKY NOTE DOWN0005" x="6015" y="2146" width="835" height="888"/>
+	<SubTexture name="TRICKY NOTE LEFT0000" x="6890" y="2146" width="874" height="1070"/>
+	<SubTexture name="TRICKY NOTE LEFT0001" x="20" y="3256" width="874" height="1070"/>
+	<SubTexture name="TRICKY NOTE LEFT0002" x="934" y="3256" width="874" height="1070"/>
+	<SubTexture name="TRICKY NOTE LEFT0003" x="1848" y="3256" width="874" height="1070"/>
+	<SubTexture name="TRICKY NOTE LEFT0004" x="2762" y="3256" width="874" height="1070"/>
+	<SubTexture name="TRICKY NOTE LEFT0005" x="3676" y="3256" width="874" height="1070"/>
+	<SubTexture name="TRICKY NOTE RIGHT0000" x="4590" y="3256" width="959" height="988"/>
+	<SubTexture name="TRICKY NOTE RIGHT0001" x="5589" y="3256" width="959" height="988"/>
+	<SubTexture name="TRICKY NOTE RIGHT0002" x="6588" y="3256" width="959" height="988"/>
+	<SubTexture name="TRICKY NOTE RIGHT0003" x="20" y="4366" width="959" height="988"/>
+	<SubTexture name="TRICKY NOTE RIGHT0004" x="1019" y="4366" width="959" height="988"/>
+	<SubTexture name="TRICKY NOTE RIGHT0005" x="2018" y="4366" width="959" height="988"/>
+	<SubTexture name="TRICKY NOTE UP0000" x="3017" y="4366" width="847" height="968"/>
+	<SubTexture name="TRICKY NOTE UP0001" x="3904" y="4366" width="847" height="968"/>
+	<SubTexture name="TRICKY NOTE UP0002" x="4791" y="4366" width="847" height="968"/>
+	<SubTexture name="TRICKY NOTE UP0003" x="5678" y="4366" width="847" height="968"/>
+	<SubTexture name="TRICKY NOTE UP0004" x="6565" y="4366" width="847" height="968"/>
+	<SubTexture name="TRICKY NOTE UP0005" x="20" y="5394" width="847" height="968"/>
+</TextureAtlas>
