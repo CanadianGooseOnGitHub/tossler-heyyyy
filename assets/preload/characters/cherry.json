@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry IDLE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Cherry IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				65,
 				-38
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry NOTE DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Cherry NOTE DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-42,
 				-5
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry NOTE RIGHT",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Cherry NOTE RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				82,
 				-7
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry NOTE LEFT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Cherry NOTE LEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-10,
 				26
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry NOTE UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Cherry NOTE UP"
 		}
 	],
 	"no_antialiasing": false,
@@ -65,9 +65,9 @@
 	"healthicon": "cherry",
 	"flip_x": true,
 	"healthbar_colors": [
-		195,
-		0,
-		40
+		215,
+		60,
+		100
 	],
 	"camera_position": [
 		20,

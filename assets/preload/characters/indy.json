@@ -1,169 +1,169 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Indy IDLE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Indy IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				26,
 				-64
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "indy note DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "indy note DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-12,
 				9
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "indy note UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "indy note UP"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-24,
 				10
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "indy note RIGHT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "indy note RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				31,
 				-2
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "indy note LEFT",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "indy note LEFT"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				48,
 				86
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "indy note MISS DOWN"
+			"fps": 24,
+			"name": "indy note MISS DOWN",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				77,
 				130
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "indy note MISS LEFT"
+			"fps": 24,
+			"name": "indy note MISS LEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				104,
 				11
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "indy note MISS RIGHT"
+			"fps": 24,
+			"name": "indy note MISS RIGHT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				74,
 				3
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUPmiss",
-			"indices": [],
-			"name": "indy note MISS UP"
+			"fps": 24,
+			"name": "indy note MISS UP",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				181,
 				214
 			],
-			"anim": "recover",
+			"loop": false,
 			"fps": 24,
-			"name": "Indy ALT HEART RECOVER 1",
-			"indices": []
+			"anim": "recover",
+			"indices": [],
+			"name": "Indy ALT HEART RECOVER 1"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				80,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "dodge",
-			"indices": [],
-			"name": "Indy DODGE"
+			"fps": 24,
+			"name": "Indy DODGE",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				101,
 				22
 			],
-			"anim": "firstDeath",
+			"loop": false,
 			"fps": 24,
-			"name": "indy die",
-			"indices": []
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "indy die"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				91,
 				22
 			],
-			"anim": "deathLoop",
+			"loop": false,
 			"fps": 24,
-			"name": "indy dead loop",
-			"indices": []
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "indy dead loop"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				60,
 				230
 			],
-			"anim": "deathConfirm",
+			"loop": false,
 			"fps": 24,
-			"name": "indy death confirm",
-			"indices": []
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "indy death confirm"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				190,
 				209
 			],
-			"anim": "ouch",
+			"loop": false,
 			"fps": 24,
-			"name": "Indy HEART",
-			"indices": []
+			"anim": "ouch",
+			"indices": [],
+			"name": "Indy HEART"
 		}
 	],
 	"no_antialiasing": false,
@@ -175,9 +175,9 @@
 	"healthicon": "indy",
 	"flip_x": true,
 	"healthbar_colors": [
-		255,
-		160,
-		160
+		80,
+		235,
+		120
 	],
 	"camera_position": [
 		270,
