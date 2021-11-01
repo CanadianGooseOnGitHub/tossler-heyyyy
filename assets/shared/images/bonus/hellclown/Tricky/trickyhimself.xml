@@ -2,28 +2,28 @@
 <TextureAtlas imagePath="trickyhimself.png">
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="TRICKY IDLE LEFT0000" x="20" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0001" x="820" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0002" x="1620" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0003" x="2420" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0004" x="3220" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0005" x="4020" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0006" x="4820" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0007" x="5620" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0008" x="6420" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0009" x="7220" y="20" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE LEFT0010" x="20" y="1083" width="760" height="1023"/>
-	<SubTexture name="TRICKY IDLE RIGHT0000" x="820" y="1083" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0001" x="1630" y="1083" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0002" x="2440" y="1083" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0003" x="3250" y="1083" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0004" x="4060" y="1083" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0005" x="4870" y="1083" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0006" x="5680" y="1083" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0007" x="6490" y="1083" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0008" x="7300" y="1083" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0009" x="20" y="2146" width="770" height="1019"/>
-	<SubTexture name="TRICKY IDLE RIGHT0010" x="830" y="2146" width="770" height="1019"/>
+	<SubTexture name="TRICKY IDLE0000" x="20" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0001" x="830" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0002" x="1640" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0003" x="2450" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0004" x="3260" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0005" x="4070" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0006" x="4880" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0007" x="5690" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0008" x="6500" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0009" x="7310" y="20" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0010" x="20" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0011" x="830" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0012" x="1640" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0013" x="2450" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0014" x="3260" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0015" x="4070" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0016" x="4880" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0017" x="5690" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0018" x="6500" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0019" x="7310" y="1083" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0020" x="20" y="2146" width="770" height="1023"/>
+	<SubTexture name="TRICKY IDLE0021" x="830" y="2146" width="770" height="1023"/>
 	<SubTexture name="TRICKY NOTE DOWN0000" x="1640" y="2146" width="835" height="888"/>
 	<SubTexture name="TRICKY NOTE DOWN0001" x="2515" y="2146" width="835" height="888"/>
 	<SubTexture name="TRICKY NOTE DOWN0002" x="3390" y="2146" width="835" height="888"/>

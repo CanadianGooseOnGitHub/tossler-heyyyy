@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "tossleridletrickymic SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				-10
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "tosslerdowntrickymic SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				10
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "tossleruptrickymic SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "tosslerlefttrickymic SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "tosslerrighttrickymic SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				24
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "tosslerdowntrickymic miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				11
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "tossleruptrickymic miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				32
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "tosslerlefttrickymic miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				33
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "tosslerrighttrickymic miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "bonus/hellclown/tosslertrickym",
+	"position": [
+		140,
+		430
+	],
+	"healthicon": "tossler",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		-150,
+		170
+	],
+	"sing_duration": 6.1,
+	"scale": 0.25
+}

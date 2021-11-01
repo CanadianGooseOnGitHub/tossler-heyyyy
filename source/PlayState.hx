@@ -380,12 +380,15 @@ class PlayState extends MusicBeatState
 			case 'tosslerBG': //Tossler heyy ;)
 				tosslerbg = new BGSprite('tosslerBG/background',-4190, -2275, 1, 1);
 				tosslerbg.setGraphicSize(Std.int(tosslerbg.width * 0.32));
+				tosslerbg.antialiasing = ClientPrefs.globalAntialiasing;
 				add(tosslerbg);
 				
 				lights = new BGSprite('tosslerBG/middleground', -50, 0, 1.1, 1.1);
 				lights.setGraphicSize(Std.int(lights.width * 1.4));
+				lights.antialiasing = ClientPrefs.globalAntialiasing;
 
 				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 150, 1.5, 1.5);
+				foregroundshit.antialiasing = ClientPrefs.globalAntialiasing;
 				
 				var crowdTex = Paths.getSparrowAtlas('tosslerBG/crowdbop');
 
@@ -393,6 +396,7 @@ class PlayState extends MusicBeatState
 				audience.frames = crowdTex;
 				audience.animation.addByPrefix('crowdbop', 'crowdbop', 24, true);
 				audience.scrollFactor.set(1.5, 1.5);
+				audience.antialiasing = ClientPrefs.globalAntialiasing;
 				if(!ClientPrefs.lowQuality)
 				{
 					audience.animation.play('crowdbop');
@@ -401,22 +405,28 @@ class PlayState extends MusicBeatState
 
 				tosslerbghd = new BGSprite('tosslerBG/artstyles/background_hd', -600, -250, 1, 1);
 				tosslerbghd.setGraphicSize(Std.int(tosslerbg.width * 0.32));
+				tosslerbghd.antialiasing = ClientPrefs.globalAntialiasing;
 				add(tosslerbghd);
 				
 				lightshd = new BGSprite('tosslerBG/artstyles/middleground_hd', -50, 0, 1.1, 1.1);
 				lightshd.setGraphicSize(Std.int(lights.width * 1.4));
+				lightshd.antialiasing = ClientPrefs.globalAntialiasing;
 
 				foregroundshithd = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 185, 1.5, 1.5);
+				foregroundshithd.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tosslerbgcorrupted = new BGSprite('tosslerBG/artstyles/background_corrupted', -600, -250, 1, 1);
 				tosslerbgcorrupted.setGraphicSize(Std.int(tosslerbg.width * 0.32));
+				tosslerbgcorrupted.antialiasing = ClientPrefs.globalAntialiasing;
 				add(tosslerbgcorrupted);
 				
 				lightscorrupted = new BGSprite('tosslerBG/artstyles/middleground_corrupted', 50, 0, 1.1, 1.1);
 				lightscorrupted.setGraphicSize(Std.int(lights.width * 1.4));
+				lightscorrupted.antialiasing = ClientPrefs.globalAntialiasing;
 
 				foregroundshitcorrupted = new BGSprite('tosslerBG/artstyles/foreground_corrupted', -50, 120, 1.5, 1.5);
 				foregroundshitcorrupted.setGraphicSize(Std.int(foregroundshit.width * 1.4));
+				foregroundshitcorrupted.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tosslerbgpixel = new BGSprite('tosslerBG/artstyles/background_pixel', 400, 135, 1, 1);
 				tosslerbgpixel.setGraphicSize(Std.int(tosslerbg.width * 1.4));
@@ -428,27 +438,49 @@ class PlayState extends MusicBeatState
 
 			case 'indyBG':
 				indybg = new BGSprite('indyBG/1_wall', -600, -250, 0.7, 0.7);
+				indybg.antialiasing = ClientPrefs.globalAntialiasing;
 				add(indybg);
 				
 				crowd = new BGSprite('indyBG/2_crowd', 50, 50, 0.7, 0.7);
 				crowd.setGraphicSize(Std.int(crowd.width * 1.3));
+				crowd.antialiasing = ClientPrefs.globalAntialiasing;
 				add(crowd);
 				
 				ring = new BGSprite('indyBG/3_ring', 50, 50, 1, 1);
 				ring.setGraphicSize(Std.int(ring.width * 1.3));
+				ring.antialiasing = ClientPrefs.globalAntialiasing;
 				add(ring);
 
 				lightsindy = new BGSprite('indyBG/4_lights', 50, 50, 1.2, 1.2);
 				lightsindy.setGraphicSize(Std.int(lightsindy.width * 1.3));
+				lightsindy.antialiasing = ClientPrefs.globalAntialiasing;
 
 				ringfront = new BGSprite('indyBG/5_ringfront', 50, 50, 1.2, 1.2);
 				ringfront.setGraphicSize(Std.int(ringfront.width * 1.3));
+				ringfront.antialiasing = ClientPrefs.globalAntialiasing;
 			
 			case 'street':
-				var street:BGSprite = new BGSprite('bonus/skater/streetbg', -600, -250, 0.9, 0.9);
-				street.animation.addByPrefix('Skater Background', 'Skater Background', 24, true);
-				street.animation.play('Skater Background');
+				var street:FlxSprite = new FlxSprite(-600, -250);
+				street.frames = Paths.getSparrowAtlas('bonus/skater/streetbg');
+				street.animation.addByPrefix('street', 'Skater Background', 24, true);
+				street.animation.play('street');
+				street.scrollFactor.set(0.95, 0.95);
+				street.antialiasing = ClientPrefs.globalAntialiasing;
 				add(street);
+
+			case 'hellclown':
+				var island:BGSprite = new BGSprite('bonus/hellclown/island_but_red', -2000, -400, 0.95, 0.95);
+				island.antialiasing = ClientPrefs.globalAntialiasing;
+				add(island);
+
+				var hank:FlxSprite = new FlxSprite(-50, 125);
+				hank.frames = Paths.getSparrowAtlas('bonus/hellclown/Hank');
+				hank.animation.addByPrefix('dance','Hank',24);
+				hank.animation.play('dance');
+				hank.scrollFactor.set(0.95, 0.95);
+				hank.setGraphicSize(Std.int(hank.width * 0.5));
+				hank.antialiasing = ClientPrefs.globalAntialiasing;
+				add(hank);
 		}
 
 		#if LUA_ALLOWED
@@ -563,7 +595,7 @@ class PlayState extends MusicBeatState
 				add(evilTrail);
 		}
 
-		if (curStage != 'indyBG')
+		if (boyfriend.curCharacter == 'bf')
 		{
 			add(gfGroup);
 		}
@@ -1016,8 +1048,10 @@ class PlayState extends MusicBeatState
 			var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
 			bg.scrollFactor.set();
 			add(bg);
+			videoCurrentlyPlaying = new FlxVideo(fileName);
+			isVideoCurrentlyPlaying = true;
 
-			(new FlxVideo(fileName)).finishCallback = function() {
+			(videoCurrentlyPlaying).finishCallback = function() {
 				remove(bg);
 				FlxG.sound.playMusic(Paths.music('menu_variation_0'));
 				MusicBeatState.switchState(new StoryMenuState());
@@ -2233,6 +2267,11 @@ class PlayState extends MusicBeatState
 						daNote.destroy();
 					}
 
+					if (dad.curCharacter == 'tricky')
+					{
+						FlxG.camera.shake(0.01,0.2);
+					}
+
 					if (curSong == 'Fix-The-Broken')
 					{
 						if (curStep > 3199)
@@ -2859,27 +2898,19 @@ class PlayState extends MusicBeatState
 
 			if (storyPlaylist.length <= 0)
 			{
-				if (curSong == 'Fix-The-Broken')
+				switch (SONG.song.toLowerCase())
 				{
-					if (ClientPrefs.subtitles)
-					{
-						videoOutro('subtitles/Week 1 Cutscene 4 GAME');
-					}
-					else if (!ClientPrefs.subtitles)
-					{
-						videoOutro('Week 1 Cutscene 4 GAME');
-					}
-				}
-				if (curSong == 'Game-Time')
-				{
-					videoOutro('week2/Week 2 Cutscene 3 GAME');
-				}
-				else
-				{
-					FlxG.sound.playMusic(Paths.music('menu_variation_0'));
-
-					cancelFadeTween();
-					MusicBeatState.switchState(new StoryMenuState());
+					case 'fix-the-broken':
+						if (ClientPrefs.subtitles)
+						{
+							videoOutro('subtitles/Week 1 Cutscene 4 GAME');
+						}
+						else if (!ClientPrefs.subtitles)
+						{
+							videoOutro('Week 1 Cutscene 4 GAME');
+						}	
+					case 'game-time':
+						videoOutro('week2/Week 2 Cutscene 3 GAME');
 				}
 
 				// if ()
