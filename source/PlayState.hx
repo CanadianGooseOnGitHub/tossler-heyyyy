@@ -332,6 +332,10 @@ class PlayState extends MusicBeatState
 					curStage = 'indyBG';
 				case 'joyride':
 					curStage = 'street';
+				case 'reconnect':
+					curStage = 'cafe';
+				case 'hellclown':
+					curStage = 'hellclown';
 				default:
 					curStage = 'tosslerBG';
 			}
@@ -467,6 +471,11 @@ class PlayState extends MusicBeatState
 				street.scrollFactor.set(0.95, 0.95);
 				street.antialiasing = ClientPrefs.globalAntialiasing;
 				add(street);
+
+			case 'cafe':
+				var cafe:BGSprite = new BGSprite('bonus/cafe/cafe', -600, -250, 0.95, 0.95);
+				cafe.antialiasing = ClientPrefs.globalAntialiasing;
+				add(cafe);
 
 			case 'hellclown':
 				var island:BGSprite = new BGSprite('bonus/hellclown/island_but_red', -2000, -400, 0.95, 0.95);
