@@ -3,7 +3,7 @@
 		{
 			"offsets": [
 				55,
-				-176
+				-166
 			],
 			"loop": false,
 			"fps": 24,
@@ -14,7 +14,7 @@
 		{
 			"offsets": [
 				134,
-				17
+				4
 			],
 			"loop": false,
 			"fps": 24,
@@ -25,7 +25,7 @@
 		{
 			"offsets": [
 				115,
-				-197
+				-177
 			],
 			"loop": false,
 			"fps": 24,
@@ -60,7 +60,7 @@
 	"image": "bonus/hellclown/Tricky/trickyhimself",
 	"position": [
 		-50,
-		-240
+		-180
 	],
 	"healthicon": "tricky",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		255
 	],
 	"camera_position": [
-		30,
-		200
+		60,
+		220
 	],
 	"sing_duration": 4,
-	"scale": 0.999999999999999
+	"scale": 0.899999999999999
 }
