@@ -683,6 +683,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 		'Framerate', //Apparently 120FPS isn't correctly supported on Browser? Probably it has some V-Sync shit enabled by default, idk
 		#end
 		'GAMEPLAY',
+		'Sticky',
 		'Downscroll',
 		'Middlescroll',
 		'Ghost Tapping',
@@ -860,6 +861,9 @@ class PreferencesSubstate extends MusicBeatSubstate
 					case 'Downscroll':
 						ClientPrefs.downScroll = !ClientPrefs.downScroll;
 
+					case 'Sticky':
+						ClientPrefs.sticky = !ClientPrefs.sticky;
+
 					case 'Middlescroll':
 						ClientPrefs.middleScroll = !ClientPrefs.middleScroll;
 
@@ -939,6 +943,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 
 		var daText:String = '';
 		switch(options[curSelected]) {
+			case 'Sticky':
+				daText = "Makes you become sticky from fnf";
 			case 'Cutscene Subtitles':
 				daText = "Turns on subtitles for the cutscenes.";
 			case 'Framerate':
@@ -1042,6 +1048,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 						daValue = ClientPrefs.flashing;
 					case 'Downscroll':
 						daValue = ClientPrefs.downScroll;
+					case 'Sticky':
+						daValue = ClientPrefs.sticky;
 					case 'Middlescroll':
 						daValue = ClientPrefs.middleScroll;
 					case 'Ghost Tapping':

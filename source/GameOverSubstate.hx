@@ -43,13 +43,23 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		if (PlayState.curStage == 'indyBG')
 		{
-			bf = new Boyfriend(x, y, 'indy');
+			characterName = 'indy';
 		}
 		else
 		{
-			bf = new Boyfriend(x, y, characterName);
-			
+			characterName = 'bf';
 		}
+		
+		if (ClientPrefs.sticky)
+		{
+			characterName = 'sticky';
+		}
+		else
+		{
+			characterName = 'bf';
+		}
+		
+		bf = new Boyfriend(x, y, characterName);	
 		add(bf);
 
 		camFollow = new FlxPoint(bf.getGraphicMidpoint().x, bf.getGraphicMidpoint().y);

@@ -573,10 +573,20 @@ class PlayState extends MusicBeatState
 		dad.y += dad.positionArray[1];
 		dadGroup.add(dad);
 
-		boyfriend = new Boyfriend(BF_X, BF_Y, SONG.player1);
-		boyfriend.x += boyfriend.positionArray[0];
-		boyfriend.y += boyfriend.positionArray[1];
-		boyfriendGroup.add(boyfriend);
+		if (ClientPrefs.sticky)
+		{
+			boyfriend = new Boyfriend(BF_X, BF_Y, 'sticky');
+			boyfriend.x += boyfriend.positionArray[0];
+			boyfriend.y += boyfriend.positionArray[1];
+			boyfriendGroup.add(boyfriend);
+		}
+		else if (!ClientPrefs.sticky)
+		{
+			boyfriend = new Boyfriend(BF_X, BF_Y, SONG.player1);
+			boyfriend.x += boyfriend.positionArray[0];
+			boyfriend.y += boyfriend.positionArray[1];
+			boyfriendGroup.add(boyfriend);
+		}
 		
 		var camPos:FlxPoint = new FlxPoint(gf.getGraphicMidpoint().x, gf.getGraphicMidpoint().y);
 		camPos.x += gf.cameraPosition[0];
@@ -604,7 +614,7 @@ class PlayState extends MusicBeatState
 				add(evilTrail);
 		}
 
-		if (boyfriend.curCharacter == 'bf')
+		if (curStage == 'tosslerBG')
 		{
 			add(gfGroup);
 		}
