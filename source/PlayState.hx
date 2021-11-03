@@ -2031,7 +2031,7 @@ class PlayState extends MusicBeatState
 
 		if (dad.curCharacter == "tossleraccendsecond")
 		{
-			dad.y += Math.sin(floatshit);
+			dad.y = Math.sin((Conductor.songPosition / 1000)*(Conductor.bpm/60) * 1) * 15;
 		}
 
 		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
