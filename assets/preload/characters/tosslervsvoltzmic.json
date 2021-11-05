@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				50
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "tossler NOTE up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				50
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "tossler MISS up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				-40
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "tossler NOTE down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "tossler IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				2
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "tossler NOTE left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "tossler NOTE right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				-34
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "tossler MISS down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				152,
+				70
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "tossler MISS left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-66,
+				1
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "tossler MISS right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				83,
+				0
+			],
+			"anim": "guitar",
+			"fps": 24,
+			"name": "tosslertransitiontobass",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "bonus/danvolt/tosslervsvoltzmic",
+	"position": [
+		0,
+		310
+	],
+	"healthicon": "tossler",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		0,
+		0
+	],
+	"camera_position": [
+		50,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -336,6 +336,8 @@ class PlayState extends MusicBeatState
 					curStage = 'cafe';
 				case 'hellclown':
 					curStage = 'hellclown';
+				case 'doomah':
+					curStage = 'dan';
 				default:
 					curStage = 'tosslerBG';
 			}
@@ -490,6 +492,11 @@ class PlayState extends MusicBeatState
 				hank.setGraphicSize(Std.int(hank.width * 0.5));
 				hank.antialiasing = ClientPrefs.globalAntialiasing;
 				add(hank);
+
+			case 'dan':
+				var bg:FlxSprite = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+				bg.screenCenter();
+				add(bg);
 		}
 
 		#if LUA_ALLOWED

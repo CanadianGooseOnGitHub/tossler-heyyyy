@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="voltzvstosslermic.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Voltz Idle0000" x="20" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0001" x="20" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0002" x="496" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0003" x="496" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0004" x="972" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0005" x="972" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0006" x="1448" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0007" x="1448" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0008" x="1924" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0009" x="1924" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0010" x="1924" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0011" x="1924" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0012" x="1924" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz Idle0013" x="1924" y="20" width="436" height="561"/>
+	<SubTexture name="Voltz NOTE down0000" x="2400" y="20" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0001" x="2400" y="20" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0002" x="2885" y="20" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0003" x="2885" y="20" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0004" x="3370" y="20" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0005" x="3370" y="20" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0006" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0007" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0008" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0009" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0010" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0011" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0012" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0013" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0014" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0015" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0016" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0017" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0018" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0019" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0020" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0021" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0022" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0023" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0024" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0025" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0026" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0027" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0028" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE down0029" x="20" y="621" width="445" height="513"/>
+	<SubTexture name="Voltz NOTE left0000" x="505" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0001" x="505" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0002" x="1052" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0003" x="1052" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0004" x="1599" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0005" x="1599" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0006" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0007" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0008" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0009" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0010" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0011" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0012" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0013" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0014" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0015" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0016" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0017" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0018" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0019" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0020" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0021" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0022" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0023" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0024" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0025" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0026" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0027" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0028" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE left0029" x="2146" y="621" width="507" height="550"/>
+	<SubTexture name="Voltz NOTE right0000" x="2693" y="621" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0001" x="2693" y="621" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0002" x="3167" y="621" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0003" x="3167" y="621" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0004" x="3641" y="621" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0005" x="3641" y="621" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0006" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0007" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0008" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0009" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0010" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0011" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0012" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0013" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0014" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0015" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0016" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0017" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0018" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0019" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0020" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0021" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0022" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0023" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0024" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0025" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0026" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0027" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0028" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE right0029" x="20" y="1212" width="434" height="551"/>
+	<SubTexture name="Voltz NOTE up0000" x="494" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0001" x="494" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0002" x="988" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0003" x="988" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0004" x="1482" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0005" x="1482" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0006" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0007" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0008" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0009" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0010" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0011" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0012" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0013" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0014" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0015" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0016" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0017" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0018" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0019" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0020" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0021" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0022" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0023" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0024" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0025" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0026" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0027" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0028" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="Voltz NOTE up0029" x="1976" y="1212" width="454" height="575"/>
+	<SubTexture name="voltztransitiontosynth0000" x="2470" y="1212" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0001" x="3042" y="1212" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0002" x="3042" y="1212" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0003" x="20" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0004" x="20" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0005" x="592" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0006" x="1164" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0007" x="1736" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0008" x="1736" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0009" x="2308" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0010" x="2308" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0011" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0012" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0013" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0014" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0015" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0016" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0017" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0018" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0019" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0020" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0021" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0022" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0023" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0024" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0025" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0026" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0027" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0028" x="2880" y="1827" width="532" height="560"/>
+	<SubTexture name="voltztransitiontosynth0029" x="2880" y="1827" width="532" height="560"/>
+</TextureAtlas>

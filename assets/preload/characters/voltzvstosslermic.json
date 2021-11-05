@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				90,
+				16
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Voltz NOTE up"
+		},
+		{
+			"offsets": [
+				-13,
+				-50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Voltz NOTE down"
+		},
+		{
+			"offsets": [
+				145,
+				-13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Voltz NOTE left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Voltz Idle"
+		},
+		{
+			"offsets": [
+				-37,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Voltz NOTE right"
+		},
+		{
+			"offsets": [
+				69,
+				-11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "synth",
+			"loop": false,
+			"name": "voltztransitiontosynth"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "bonus/danvolt/voltzvstosslermic",
+	"position": [
+		0,
+		220
+	],
+	"healthicon": "tossler",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		60,
+		0
+	],
+	"camera_position": [
+		50,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

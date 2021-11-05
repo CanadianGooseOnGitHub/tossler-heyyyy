@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				20
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "voltz synth UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				127,
+				262
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "voltz synth DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				189,
+				255
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "voltz synth LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "voltz synth IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-14,
+				-6
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "voltz synth RIGHT",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "bonus/danvolt/voltzvstosslersynth",
+	"position": [
+		0,
+		230
+	],
+	"healthicon": "tossler",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		60,
+		0
+	],
+	"camera_position": [
+		0,
+		-60
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
