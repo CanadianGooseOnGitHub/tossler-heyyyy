@@ -102,23 +102,12 @@
 		{
 			"loop": false,
 			"offsets": [
-				-3,
+				-10,
 				6
 			],
 			"anim": "hey",
 			"fps": 24,
 			"name": "BF HEY",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				9,
-				-12
-			],
-			"anim": "hurt",
-			"fps": 24,
-			"name": "BF hit",
 			"indices": []
 		},
 		{
@@ -175,12 +164,34 @@
 			"fps": 24,
 			"name": "boyfriend dodge",
 			"indices": []
+		},
+		{
+			"offsets": [
+				-12,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "recover",
+			"loop": true,
+			"name": "BF idle shaking"
+		},
+		{
+			"offsets": [
+				0,
+				-12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "ouch",
+			"loop": false,
+			"name": "BF hit"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "sticky/BOYFRIEND",
 	"position": [
-		0,
+		100,
 		310
 	],
 	"healthicon": "sticky",

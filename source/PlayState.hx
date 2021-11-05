@@ -1203,6 +1203,15 @@ class PlayState extends MusicBeatState
 			return;
 		}
 
+		if (ClientPrefs.sticky)
+		{
+			if (curStage == 'hellclown')
+			{
+				boyfriend.scale.set(0.3, 0.3);
+				BF_Y += 100;
+			}
+		}
+
 		if (curStage == 'tosslerBG')
 		{
 			lightshd.visible = false;
@@ -2744,23 +2753,26 @@ class PlayState extends MusicBeatState
 						}
 
 					case 1:
-						if(dad.curCharacter != value2) {
-							if(!dadMap.exists(value2)) {
-								addCharacterToList(value2, charType);
-							}
-
-							var wasGf:Bool = dad.curCharacter.startsWith('gf');
-							dad.visible = false;
-							dad = dadMap.get(value2);
-							if(!dad.curCharacter.startsWith('gf')) {
-								if(wasGf) {
-									gf.visible = true;
+						if (!ClientPrefs.sticky)
+						{	
+							if(dad.curCharacter != value2) {
+								if(!dadMap.exists(value2)) {
+									addCharacterToList(value2, charType);
 								}
-							} else {
-								gf.visible = false;
+	
+								var wasGf:Bool = dad.curCharacter.startsWith('gf');
+								dad.visible = false;
+								dad = dadMap.get(value2);
+								if(!dad.curCharacter.startsWith('gf')) {
+									if(wasGf) {
+										gf.visible = true;
+									}
+								} else {
+									gf.visible = false;
+								}
+								dad.visible = true;
+								iconP2.changeIcon(dad.healthIcon);
 							}
-							dad.visible = true;
-							iconP2.changeIcon(dad.healthIcon);
 						}
 
 					case 2:
@@ -3430,6 +3442,8 @@ class PlayState extends MusicBeatState
 							
 							health += 0.023;
 	
+							dad.playAnim('shoot', true);
+
 							if(boyfriend.animation.getByName('dodge') != null) {
 								boyfriend.playAnim('dodge', true);
 								boyfriend.specialAnim = true;
