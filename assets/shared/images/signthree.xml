@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="signthree.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sign 30000" x="0" y="0" width="1578" height="1372"/>
+	<SubTexture name="Sign 30001" x="1578" y="0" width="1578" height="1372"/>
+	<SubTexture name="Sign 30002" x="3156" y="0" width="1578" height="1372"/>
+	<SubTexture name="Sign 30003" x="4734" y="0" width="1578" height="1372"/>
+	<SubTexture name="Sign 30004" x="4734" y="0" width="1578" height="1372"/>
+	<SubTexture name="Sign 30005" x="6312" y="0" width="1578" height="1372"/>
+	<SubTexture name="Sign 30006" x="6312" y="0" width="1578" height="1372"/>
+	<SubTexture name="Sign 30007" x="0" y="1372" width="1578" height="1372"/>
+	<SubTexture name="Sign 30008" x="1578" y="1372" width="1578" height="1372"/>
+	<SubTexture name="Sign 30009" x="3156" y="1372" width="1578" height="1372"/>
+	<SubTexture name="Sign 30010" x="4734" y="1372" width="1578" height="1372"/>
+	<SubTexture name="Sign 30011" x="4734" y="1372" width="1578" height="1372"/>
+	<SubTexture name="Sign 30012" x="6312" y="1372" width="1578" height="1372"/>
+	<SubTexture name="Sign 30013" x="6312" y="1372" width="1578" height="1372"/>
+	<SubTexture name="Sign 30014" x="0" y="2744" width="1578" height="1372"/>
+	<SubTexture name="Sign 30015" x="0" y="2744" width="1578" height="1372"/>
+	<SubTexture name="Sign 30016" x="1578" y="2744" width="1578" height="1372"/>
+	<SubTexture name="Sign 30017" x="1578" y="2744" width="1578" height="1372"/>
+	<SubTexture name="Sign 30018" x="3156" y="2744" width="1578" height="1372"/>
+	<SubTexture name="Sign 30019" x="3156" y="2744" width="1578" height="1372"/>
+	<SubTexture name="Sign 30020" x="4734" y="2744" width="1578" height="1372"/>
+</TextureAtlas>

@@ -131,9 +131,9 @@
 	"healthicon": "indy",
 	"flip_x": true,
 	"healthbar_colors": [
-		255,
-		160,
-		160
+		80,
+		235,
+		120
 	],
 	"camera_position": [
 		80,

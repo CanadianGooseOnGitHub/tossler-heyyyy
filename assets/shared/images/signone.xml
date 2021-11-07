@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="signone.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sign 10000" x="0" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10001" x="825" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10002" x="1650" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10003" x="2475" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10004" x="2475" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10005" x="3300" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10006" x="3300" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10007" x="4125" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10008" x="4125" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10009" x="4950" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10010" x="4950" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10011" x="5775" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10012" x="5775" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10013" x="6600" y="0" width="825" height="1551"/>
+	<SubTexture name="Sign 10014" x="0" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10015" x="0" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10016" x="825" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10017" x="1650" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10018" x="2475" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10019" x="3300" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10020" x="3300" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10021" x="4125" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10022" x="4125" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10023" x="4125" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10024" x="4950" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10025" x="4950" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10026" x="5775" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10027" x="6600" y="1551" width="825" height="1551"/>
+	<SubTexture name="Sign 10028" x="0" y="3102" width="825" height="1551"/>
+</TextureAtlas>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="signtwo.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sign 20000" x="0" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20001" x="0" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20002" x="1548" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20003" x="1548" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20004" x="3096" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20005" x="3096" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20006" x="4644" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20007" x="4644" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20008" x="4644" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20009" x="6192" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20010" x="6192" y="0" width="1548" height="1345"/>
+	<SubTexture name="Sign 20011" x="0" y="1345" width="1548" height="1345"/>
+	<SubTexture name="Sign 20012" x="1548" y="1345" width="1548" height="1345"/>
+	<SubTexture name="Sign 20013" x="3096" y="1345" width="1548" height="1345"/>
+	<SubTexture name="Sign 20014" x="4644" y="1345" width="1548" height="1345"/>
+	<SubTexture name="Sign 20015" x="4644" y="1345" width="1548" height="1345"/>
+	<SubTexture name="Sign 20016" x="6192" y="1345" width="1548" height="1345"/>
+	<SubTexture name="Sign 20017" x="6192" y="1345" width="1548" height="1345"/>
+	<SubTexture name="Sign 20018" x="0" y="2690" width="1548" height="1345"/>
+	<SubTexture name="Sign 20019" x="1548" y="2690" width="1548" height="1345"/>
+	<SubTexture name="Sign 20020" x="3096" y="2690" width="1548" height="1345"/>
+	<SubTexture name="Sign 20021" x="4644" y="2690" width="1548" height="1345"/>
+	<SubTexture name="Sign 20022" x="6192" y="2690" width="1548" height="1345"/>
+	<SubTexture name="Sign 20023" x="0" y="4035" width="1548" height="1345"/>
+	<SubTexture name="Sign 20024" x="0" y="4035" width="1548" height="1345"/>
+	<SubTexture name="Sign 20025" x="1548" y="4035" width="1548" height="1345"/>
+	<SubTexture name="Sign 20026" x="1548" y="4035" width="1548" height="1345"/>
+	<SubTexture name="Sign 20027" x="3096" y="4035" width="1548" height="1345"/>
+	<SubTexture name="Sign 20028" x="4644" y="4035" width="1548" height="1345"/>
+	<SubTexture name="Sign 20029" x="6192" y="4035" width="1548" height="1345"/>
+	<SubTexture name="Sign 20030" x="0" y="5380" width="1548" height="1345"/>
+	<SubTexture name="Sign 20031" x="1548" y="5380" width="1548" height="1345"/>
+</TextureAtlas>

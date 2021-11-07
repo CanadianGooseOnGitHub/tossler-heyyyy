@@ -35,7 +35,7 @@ class StoryMenuState extends MusicBeatState
 	var txtWeekTitle:FlxText;
 	var bgSprite:FlxSprite;
 
-	private static var curWeek:Int = 0;
+	public static var curWeek:Int = 0;
 
 	var txtTracklist:FlxText;
 

@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				26,
-				-64
+				8,
+				-89
 			],
 			"loop": false,
 			"fps": 24,
@@ -25,7 +25,7 @@
 		{
 			"offsets": [
 				-12,
-				9
+				-1
 			],
 			"loop": false,
 			"fps": 24,
@@ -36,7 +36,7 @@
 		{
 			"offsets": [
 				-24,
-				10
+				-6
 			],
 			"loop": false,
 			"fps": 24,
@@ -47,7 +47,7 @@
 		{
 			"offsets": [
 				31,
-				-2
+				-12
 			],
 			"loop": false,
 			"fps": 24,
@@ -58,8 +58,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				48,
-				86
+				28,
+				-81
 			],
 			"anim": "singDOWNmiss",
 			"fps": 24,
@@ -69,8 +69,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				77,
-				130
+				27,
+				-14
 			],
 			"anim": "singLEFTmiss",
 			"fps": 24,
@@ -80,8 +80,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				104,
-				11
+				-24,
+				-6
 			],
 			"anim": "singRIGHTmiss",
 			"fps": 24,
@@ -91,8 +91,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				74,
-				3
+				-6,
+				0
 			],
 			"anim": "singUPmiss",
 			"fps": 24,
@@ -102,7 +102,7 @@
 		{
 			"offsets": [
 				181,
-				214
+				204
 			],
 			"loop": false,
 			"fps": 24,
@@ -113,8 +113,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				80,
-				0
+				40,
+				-20
 			],
 			"anim": "dodge",
 			"fps": 24,
@@ -122,54 +122,76 @@
 			"indices": []
 		},
 		{
-			"offsets": [
-				101,
-				22
-			],
 			"loop": false,
-			"fps": 24,
-			"anim": "firstDeath",
-			"indices": [],
-			"name": "indy die"
-		},
-		{
-			"offsets": [
-				91,
-				22
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "deathLoop",
-			"indices": [],
-			"name": "indy dead loop"
-		},
-		{
-			"offsets": [
-				60,
-				230
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "deathConfirm",
-			"indices": [],
-			"name": "indy death confirm"
-		},
-		{
 			"offsets": [
 				190,
+				179
+			],
+			"anim": "ouch",
+			"fps": 24,
+			"name": "Indy ALT HEART SPRITE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				110,
+				-1
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "indy death",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				20
+			],
+			"anim": "shake",
+			"fps": 24,
+			"name": "indy ALT SHAKE SPRITE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				70,
 				209
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "ouch",
 			"indices": [],
-			"name": "Indy HEART"
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "indy confirm death"
+		},
+		{
+			"offsets": [
+				101,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "indy looped death"
+		},
+		{
+			"offsets": [
+				-5,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hey",
+			"loop": true,
+			"name": "Indy HEY!!"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/week2/indysmug",
 	"position": [
-		90,
+		110,
 		250
 	],
 	"healthicon": "indy",

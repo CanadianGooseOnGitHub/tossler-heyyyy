@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				90,
 				16
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Voltz NOTE up"
+			"fps": 24,
+			"name": "Voltz NOTE up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-13,
 				-50
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Voltz NOTE down"
+			"fps": 24,
+			"name": "Voltz NOTE down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				145,
 				-13
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Voltz NOTE left"
+			"fps": 24,
+			"name": "Voltz NOTE left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "Voltz Idle"
+			"fps": 24,
+			"name": "Voltz Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-37,
 				-10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Voltz NOTE right"
+			"fps": 24,
+			"name": "Voltz NOTE right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				69,
 				-11
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "synth",
-			"loop": false,
-			"name": "voltztransitiontosynth"
+			"fps": 24,
+			"name": "voltztransitiontosynth",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -73,12 +73,12 @@
 		0,
 		220
 	],
-	"healthicon": "tossler",
+	"healthicon": "voltz",
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
-		60,
-		0
+		120,
+		60
 	],
 	"camera_position": [
 		50,

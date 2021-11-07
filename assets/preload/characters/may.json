@@ -3,17 +3,6 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "May IdleLeft",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
 				-5,
 				-16
 			],
@@ -36,7 +25,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				-47,
+				-48,
 				-12
 			],
 			"anim": "singRIGHT",
@@ -58,13 +47,35 @@
 		{
 			"loop": false,
 			"offsets": [
-				36,
-				8
+				53,
+				23
 			],
 			"anim": "shoot",
 			"fps": 24,
 			"name": "May ALT",
 			"indices": []
+		},
+		{
+			"offsets": [
+				32,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "May IdleRight SPRITE"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "May IdleLeft SPRITE"
 		}
 	],
 	"no_antialiasing": false,
@@ -81,8 +92,8 @@
 		255
 	],
 	"camera_position": [
-		-170,
-		-30
+		-200,
+		-120
 	],
 	"sing_duration": 6.1,
 	"scale": 1

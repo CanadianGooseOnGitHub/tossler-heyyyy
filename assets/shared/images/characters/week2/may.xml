@@ -2,182 +2,182 @@
 <TextureAtlas imagePath="may.png">
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="May ALT SPRITE0000" x="20" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0001" x="995" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0002" x="995" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0003" x="1970" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0004" x="1970" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0005" x="2945" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0006" x="3920" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0007" x="4895" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0008" x="4895" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0009" x="5870" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0010" x="5870" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0011" x="5870" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0012" x="6845" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0013" x="6845" y="20" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0014" x="20" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0015" x="20" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0016" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0017" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0018" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0019" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0020" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0021" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0022" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0023" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0024" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0025" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0026" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0027" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0028" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May ALT SPRITE0029" x="995" y="803" width="895" height="703"/>
-	<SubTexture name="May IdleLeft SPRITE0000" x="1970" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0001" x="1970" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0002" x="2480" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0003" x="2480" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0004" x="2990" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0005" x="2990" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0006" x="3500" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0007" x="3500" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0008" x="4010" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0009" x="4010" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0010" x="4520" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0011" x="4520" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0012" x="5030" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleLeft SPRITE0013" x="5030" y="803" width="430" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0000" x="5540" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0001" x="5540" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0002" x="6048" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0003" x="6048" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0004" x="6556" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0005" x="6556" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0006" x="7064" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0007" x="7064" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0008" x="7572" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0009" x="7572" y="803" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0010" x="20" y="1586" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0011" x="20" y="1586" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0012" x="528" y="1586" width="428" height="683"/>
-	<SubTexture name="May IdleRight SPRITE0013" x="528" y="1586" width="428" height="683"/>
-	<SubTexture name="May NOTE DOWN SPRITE0000" x="1036" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0001" x="1036" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0002" x="1557" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0003" x="1557" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0004" x="2078" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0005" x="2078" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0006" x="2599" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0007" x="2599" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0008" x="3120" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0009" x="3120" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0010" x="3641" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0011" x="3641" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0012" x="3641" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0013" x="4162" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0014" x="4162" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0015" x="4683" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0016" x="4683" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0017" x="5204" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0018" x="5204" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0019" x="5725" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0020" x="5725" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0021" x="6246" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0022" x="6246" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0023" x="6246" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0024" x="6246" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0025" x="6246" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0026" x="6246" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0027" x="6246" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0028" x="6246" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE DOWN SPRITE0029" x="6246" y="1586" width="441" height="666"/>
-	<SubTexture name="May NOTE LEFT SPRITE0000" x="6767" y="1586" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0001" x="6767" y="1586" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0002" x="7183" y="1586" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0003" x="7183" y="1586" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0004" x="7599" y="1586" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0005" x="7599" y="1586" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0006" x="20" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0007" x="20" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0008" x="436" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0009" x="436" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0010" x="436" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0011" x="852" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0012" x="852" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0013" x="1268" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0014" x="1268" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0015" x="1684" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0016" x="1684" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0017" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0018" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0019" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0020" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0021" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0022" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0023" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0024" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0025" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0026" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0027" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0028" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE LEFT SPRITE0029" x="2100" y="2349" width="336" height="671"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0000" x="2516" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0001" x="2516" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0002" x="3169" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0003" x="3169" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0004" x="3822" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0005" x="3822" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0006" x="4475" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0007" x="4475" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0008" x="5128" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0009" x="5128" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0010" x="5781" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0011" x="5781" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0012" x="5781" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0013" x="6434" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0014" x="6434" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0015" x="7087" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0016" x="7087" y="2349" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0017" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0018" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0019" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0020" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0021" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0022" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0023" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0024" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0025" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0026" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0027" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0028" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE RIGHT SPRITE0029" x="20" y="3111" width="573" height="682"/>
-	<SubTexture name="May NOTE UP SPRITE0000" x="673" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0001" x="673" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0002" x="1172" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0003" x="1172" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0004" x="1671" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0005" x="1671" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0006" x="2170" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0007" x="2170" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0008" x="2669" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0009" x="2669" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0010" x="3168" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0011" x="3667" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0012" x="3667" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0013" x="4166" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0014" x="4166" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0015" x="4665" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0016" x="4665" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0017" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0018" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0019" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0020" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0021" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0022" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0023" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0024" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0025" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0026" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0027" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0028" x="5164" y="3111" width="419" height="757"/>
-	<SubTexture name="May NOTE UP SPRITE0029" x="5164" y="3111" width="419" height="757"/>
+	<SubTexture name="May ALT SPRITE0000" x="20" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0001" x="973" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0002" x="973" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0003" x="1926" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0004" x="1926" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0005" x="2879" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0006" x="3832" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0007" x="4785" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0008" x="4785" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0009" x="5738" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0010" x="5738" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0011" x="5738" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0012" x="6691" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0013" x="6691" y="20" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0014" x="20" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0015" x="20" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0016" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0017" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0018" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0019" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0020" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0021" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0022" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0023" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0024" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0025" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0026" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0027" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0028" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May ALT SPRITE0029" x="973" y="793" width="913" height="733"/>
+	<SubTexture name="May IdleLeft SPRITE0000" x="1926" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0001" x="1926" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0002" x="2396" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0003" x="2396" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0004" x="2866" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0005" x="2866" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0006" x="3336" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0007" x="3336" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0008" x="3806" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0009" x="3806" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0010" x="4276" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0011" x="4276" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0012" x="4746" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleLeft SPRITE0013" x="4746" y="793" width="430" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0000" x="5216" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0001" x="5216" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0002" x="5684" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0003" x="5684" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0004" x="6152" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0005" x="6152" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0006" x="6620" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0007" x="6620" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0008" x="7088" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0009" x="7088" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0010" x="7556" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0011" x="7556" y="793" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0012" x="20" y="1566" width="428" height="683"/>
+	<SubTexture name="May IdleRight SPRITE0013" x="20" y="1566" width="428" height="683"/>
+	<SubTexture name="May NOTE DOWN SPRITE0000" x="488" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0001" x="488" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0002" x="969" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0003" x="969" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0004" x="1450" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0005" x="1450" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0006" x="1931" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0007" x="1931" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0008" x="2412" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0009" x="2412" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0010" x="2893" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0011" x="2893" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0012" x="2893" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0013" x="3374" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0014" x="3374" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0015" x="3855" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0016" x="3855" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0017" x="4336" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0018" x="4336" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0019" x="4817" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0020" x="4817" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0021" x="5298" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0022" x="5298" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0023" x="5298" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0024" x="5298" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0025" x="5298" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0026" x="5298" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0027" x="5298" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0028" x="5298" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE DOWN SPRITE0029" x="5298" y="1566" width="441" height="666"/>
+	<SubTexture name="May NOTE LEFT SPRITE0000" x="5779" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0001" x="5779" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0002" x="6155" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0003" x="6155" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0004" x="6531" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0005" x="6531" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0006" x="6907" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0007" x="6907" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0008" x="7283" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0009" x="7283" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0010" x="7283" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0011" x="7659" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0012" x="7659" y="1566" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0013" x="20" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0014" x="20" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0015" x="396" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0016" x="396" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0017" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0018" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0019" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0020" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0021" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0022" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0023" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0024" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0025" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0026" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0027" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0028" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE LEFT SPRITE0029" x="772" y="2289" width="336" height="671"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0000" x="1148" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0001" x="1148" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0002" x="1761" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0003" x="1761" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0004" x="2374" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0005" x="2374" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0006" x="2987" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0007" x="2987" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0008" x="3600" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0009" x="3600" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0010" x="4213" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0011" x="4213" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0012" x="4213" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0013" x="4826" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0014" x="4826" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0015" x="5439" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0016" x="5439" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0017" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0018" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0019" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0020" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0021" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0022" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0023" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0024" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0025" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0026" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0027" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0028" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE RIGHT SPRITE0029" x="6052" y="2289" width="573" height="682"/>
+	<SubTexture name="May NOTE UP SPRITE0000" x="6665" y="2289" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0001" x="6665" y="2289" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0002" x="7124" y="2289" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0003" x="7124" y="2289" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0004" x="7583" y="2289" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0005" x="7583" y="2289" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0006" x="20" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0007" x="20" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0008" x="479" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0009" x="479" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0010" x="938" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0011" x="1397" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0012" x="1397" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0013" x="1856" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0014" x="1856" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0015" x="2315" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0016" x="2315" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0017" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0018" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0019" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0020" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0021" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0022" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0023" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0024" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0025" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0026" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0027" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0028" x="2774" y="3086" width="419" height="757"/>
+	<SubTexture name="May NOTE UP SPRITE0029" x="2774" y="3086" width="419" height="757"/>
 </TextureAtlas>

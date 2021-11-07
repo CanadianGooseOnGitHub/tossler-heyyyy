@@ -59,15 +59,15 @@
 	"no_antialiasing": false,
 	"image": "bonus/danvolt/voltzvstosslersynth",
 	"position": [
-		0,
-		230
+		10,
+		250
 	],
-	"healthicon": "tossler",
+	"healthicon": "voltz",
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
-		60,
-		0
+		120,
+		60
 	],
 	"camera_position": [
 		0,
