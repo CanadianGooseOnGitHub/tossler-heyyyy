@@ -1202,7 +1202,7 @@ class PlayState extends MusicBeatState
 						dad.dance();
 					}
 				}
-				else if(dad.danceIdle && dad.animation.curAnim != null && !dad.specialAnim && !dad.curCharacter.startsWith('gf') && !dad.animation.curAnim.name.startsWith("sing"))
+				else if(dad.danceIdle && dad.animation.curAnim != null && !dad.specialAnim && !dad.curCharacter.startsWith('gf') && !dad.animation.curAnim.name.startsWith("sing") && dad.curCharacter != 'may')
 				{
 					dad.dance();
 				}
@@ -1354,7 +1354,7 @@ class PlayState extends MusicBeatState
 						dad.dance();
 					}
 				}
-				else if(dad.danceIdle && dad.animation.curAnim != null && !dad.specialAnim && !dad.curCharacter.startsWith('gf') && !dad.animation.curAnim.name.startsWith("sing"))
+				else if(dad.danceIdle && dad.animation.curAnim != null && !dad.specialAnim && !dad.curCharacter.startsWith('gf') && !dad.animation.curAnim.name.startsWith("sing") && dad.curCharacter != 'may')
 				{
 					dad.dance();
 				}
@@ -2338,6 +2338,18 @@ class PlayState extends MusicBeatState
 								animToPlay = 'singRIGHT';
 						}
 						dad.playAnim(animToPlay + altAnim, true);
+						if(daNote.noteType == 'Gold Note')
+						{
+							switch (SONG.player2)
+							{
+								case 'cherry':
+									dad.playAnim('balance');
+								case 'may':
+									dad.playAnim('shoot');
+								case 'thomas':
+									dad.playAnim('attack');
+							}
+						}
 					}
 
 					dad.holdTimer = 0;
@@ -2410,7 +2422,7 @@ class PlayState extends MusicBeatState
 									}
 								});
 
-								if(!daNote.ignoreNote && !daNote.lazerNote) {
+								if(!daNote.ignoreNote) {
 									health -= 0.1; //For testing purposes
 									songMisses++;
 									vocals.volume = 0;
@@ -2427,15 +2439,6 @@ class PlayState extends MusicBeatState
 										case 3:
 											boyfriend.playAnim('singRIGHTmiss', true);
 									}
-									callOnLuas('noteMiss', [daNote.noteData, daNote.noteType]);
-								}
-								if(daNote.lazerNote && !daNote.ignoreNote) {
-									health -= 0.5;
-									songMisses++;
-									vocals.volume = 0;
-									RecalculateRating();
-									boyfriend.playAnim('ouch', true);
-
 									callOnLuas('noteMiss', [daNote.noteData, daNote.noteType]);
 								}
 							}
@@ -3487,7 +3490,7 @@ class PlayState extends MusicBeatState
 						}
 					}
 					return;
-				case 'Lazer Note': //Silly Little Lazer Note
+				case 'Gold Note': //FUNNY GOLD NOTE
 					if(!boyfriend.stunned)
 					{
 						if(!endingSong)
@@ -3507,16 +3510,12 @@ class PlayState extends MusicBeatState
 							}
 							
 							health += 0.023;
-	
-							dad.playAnim('shoot', true);
-
-							if(boyfriend.animation.getByName('dodge') != null) {
-								boyfriend.playAnim('dodge', true);
-								boyfriend.specialAnim = true;
-							}
 						}
 
 						note.wasGoodHit = true;
+
+						boyfriend.playAnim('shake', true);
+						dad.playAnim('balance');
 
 						if (!note.isSustainNote)
 						{
@@ -4048,7 +4047,7 @@ class PlayState extends MusicBeatState
 			{
 				dad.dance();
 			}
-		} else if(dad.danceIdle && dad.animation.curAnim.name != null && !dad.curCharacter.startsWith('gf') && !dad.animation.curAnim.name.startsWith("sing") && !dad.stunned) {
+		} else if(dad.danceIdle && dad.animation.curAnim.name != null && !dad.curCharacter.startsWith('gf') && !dad.animation.curAnim.name.startsWith("sing") && !dad.stunned && dad.curCharacter != 'may') {
 			dad.dance();
 		}
 

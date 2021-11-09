@@ -1,114 +1,114 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "Indy ALT CHIP IDLE"
-		},
-		{
-			"offsets": [
-				26,
-				-64
-			],
-			"indices": [],
 			"fps": 24,
-			"anim": "singDOWN",
-			"loop": false,
-			"name": "indy ALT BRAINWASHED DOWN"
+			"name": "Indy ALT CHIP IDLE",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-91
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "indy ALT BRAINWASHED DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				-32,
-				19
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singUP",
-			"loop": false,
-			"name": "indy ALT BRAINWASHED UP"
-		},
-		{
-			"offsets": [
-				1,
-				1
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singLEFT",
-			"loop": false,
-			"name": "indy ALT BRAINWASHED LEFT"
-		},
-		{
-			"offsets": [
-				-54,
-				17
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"loop": false,
-			"name": "indy ALT BRAINWASHED RIGHT"
-		},
-		{
-			"offsets": [
-				7,
-				-56
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singDOWNmiss",
-			"loop": false,
-			"name": "indy ALT BRAINWASHED MISS DOWN"
-		},
-		{
-			"offsets": [
-				-3,
 				2
 			],
-			"indices": [],
+			"anim": "singUP",
 			"fps": 24,
+			"name": "indy ALT BRAINWASHED UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				-10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "indy ALT BRAINWASHED LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-54,
+				-4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "indy ALT BRAINWASHED RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-81
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "indy ALT BRAINWASHED MISS DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				-6
+			],
 			"anim": "singLEFTmiss",
-			"loop": false,
-			"name": "indy ALT BRAINWASHED MISS LEFT"
+			"fps": 24,
+			"name": "indy ALT BRAINWASHED MISS LEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-86,
-				11
+				-76,
+				6
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"loop": false,
-			"name": "indy ALT BRAINWASHED MISS RIGHT"
+			"fps": 24,
+			"name": "indy ALT BRAINWASHED MISS RIGHT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-29,
-				9
+				-35,
+				7
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUPmiss",
-			"loop": false,
-			"name": "indy ALT BRAINWASHED MISS UP"
+			"fps": 24,
+			"name": "indy ALT BRAINWASHED MISS UP",
+			"indices": []
 		},
 		{
 			"offsets": [
-				44,
-				150
+				-7,
+				-5
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "return",
+			"anim": "transition",
 			"loop": false,
-			"name": "Indy ALT CHIP RETURN"
+			"name": "Indy ALT CHIP TRANSITION"
 		}
 	],
 	"no_antialiasing": false,

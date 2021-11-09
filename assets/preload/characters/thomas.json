@@ -1,70 +1,136 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				8,
 				-2
 			],
-			"anim": "grab",
+			"loop": false,
 			"fps": 24,
-			"name": "Thomas ALT GRAB CHIP",
-			"indices": []
+			"anim": "grab",
+			"indices": [],
+			"name": "Thomas ALT GRAB CHIP"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Thomas IDLE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Thomas IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-18,
 				-14
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Thomas NOTE DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Thomas NOTE DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				24,
 				-5
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Thomas NOTE RIGHT",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Thomas NOTE RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-18,
 				4
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Thomas NOTE LEFT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Thomas NOTE LEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-1,
 				31
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Thomas NOTE UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Thomas NOTE UP"
+		},
+		{
+			"offsets": [
+				16,
+				8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "attack",
+			"loop": false,
+			"name": "Thomas ALT STRONK SPRITE"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "Thomas CHIP IDLE"
+		},
+		{
+			"offsets": [
+				-18,
+				-14
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "Thomas Controller NOTE DOWN"
+		},
+		{
+			"offsets": [
+				24,
+				-5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "Thomas Controller NOTE RIGHT"
+		},
+		{
+			"offsets": [
+				-18,
+				4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "Thomas Controller NOTE LEFT"
+		},
+		{
+			"offsets": [
+				-1,
+				31
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "Thomas Controller NOTE UP"
 		}
 	],
 	"no_antialiasing": false,

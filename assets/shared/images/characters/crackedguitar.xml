@@ -142,27 +142,6 @@
 	<SubTexture name="tosslerguitarbroken SPRITE0077" x="5080" y="3224" width="972" height="761"/>
 	<SubTexture name="tosslerguitarbroken SPRITE0078" x="4068" y="3224" width="972" height="761"/>
 	<SubTexture name="tosslerguitarbroken SPRITE0079" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0080" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0081" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0082" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0083" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0084" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0085" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0086" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0087" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0088" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0089" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0090" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0091" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0092" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0093" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0094" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0095" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0096" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0097" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0098" x="4068" y="3224" width="972" height="761"/>
-	<SubTexture name="tosslerguitarbroken SPRITE0099" x="5080" y="3224" width="972" height="761"/>
-		<SubTexture name="tosslerguitarbroken SPRITE0100" x="4068" y="3224" width="972" height="761"/>
 	<SubTexture name="tossleridleirritatedbroken SPRITE0000" x="6092" y="3224" width="391" height="474"/>
 	<SubTexture name="tossleridleirritatedbroken SPRITE0001" x="6092" y="3224" width="391" height="474"/>
 	<SubTexture name="tossleridleirritatedbroken SPRITE0002" x="6523" y="3224" width="391" height="474"/>
@@ -207,36 +186,36 @@
 	<SubTexture name="tosslerleftirritatedbroken SPRITE0027" x="4678" y="4025" width="449" height="475"/>
 	<SubTexture name="tosslerleftirritatedbroken SPRITE0028" x="4189" y="4025" width="449" height="475"/>
 	<SubTexture name="tosslerleftirritatedbroken SPRITE0029" x="4189" y="4025" width="449" height="475"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0000" x="5444" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0001" x="5922" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0002" x="5922" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0003" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0004" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0005" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0006" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0007" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0008" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0009" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0010" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0011" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0012" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0013" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0014" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0015" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0016" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0017" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0018" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0019" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0020" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0021" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0022" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0023" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0024" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0025" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0026" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0027" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0028" x="6400" y="4540" width="438" height="608"/>
-	<SubTexture name="tosslerleftirritatedbroken miss0029" x="6400" y="4540" width="438" height="608"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0000" x="5444" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0001" x="6130" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0002" x="6130" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0003" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0004" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0005" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0006" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0007" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0008" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0009" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0010" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0011" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0012" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0013" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0014" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0015" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0016" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0017" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0018" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0019" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0020" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0021" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0022" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0023" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0024" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0025" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0026" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0027" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0028" x="6816" y="4540" width="646" height="607"/>
+	<SubTexture name="tosslerleftirritatedbroken miss0029" x="6816" y="4540" width="646" height="607"/>
 	<SubTexture name="tosslerrightirritatedbroken SPRITE0000" x="5167" y="4025" width="395" height="471"/>
 	<SubTexture name="tosslerrightirritatedbroken SPRITE0001" x="5602" y="4025" width="395" height="471"/>
 	<SubTexture name="tosslerrightirritatedbroken SPRITE0002" x="6037" y="4025" width="395" height="471"/>
@@ -267,36 +246,36 @@
 	<SubTexture name="tosslerrightirritatedbroken SPRITE0027" x="7777" y="4025" width="395" height="471"/>
 	<SubTexture name="tosslerrightirritatedbroken SPRITE0028" x="7342" y="4025" width="395" height="471"/>
 	<SubTexture name="tosslerrightirritatedbroken SPRITE0029" x="7342" y="4025" width="395" height="471"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0000" x="6878" y="4540" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0001" x="7412" y="4540" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0002" x="7412" y="4540" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0003" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0004" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0005" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0006" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0007" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0008" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0009" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0010" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0011" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0012" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0013" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0014" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0015" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0016" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0017" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0018" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0019" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0020" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0021" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0022" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0023" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0024" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0025" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0026" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0027" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0028" x="20" y="5188" width="494" height="606"/>
-	<SubTexture name="tosslerrightirritatedbroken miss0029" x="20" y="5188" width="494" height="606"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0000" x="7502" y="4540" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0001" x="20" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0002" x="20" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0003" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0004" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0005" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0006" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0007" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0008" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0009" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0010" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0011" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0012" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0013" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0014" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0015" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0016" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0017" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0018" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0019" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0020" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0021" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0022" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0023" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0024" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0025" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0026" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0027" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0028" x="651" y="5187" width="591" height="596"/>
+	<SubTexture name="tosslerrightirritatedbroken miss0029" x="651" y="5187" width="591" height="596"/>
 	<SubTexture name="tosslerupirritatedbroken SPRITE0000" x="20" y="4540" width="394" height="514"/>
 	<SubTexture name="tosslerupirritatedbroken SPRITE0001" x="454" y="4540" width="394" height="514"/>
 	<SubTexture name="tosslerupirritatedbroken SPRITE0002" x="888" y="4540" width="394" height="514"/>
@@ -327,34 +306,34 @@
 	<SubTexture name="tosslerupirritatedbroken SPRITE0027" x="3492" y="4540" width="394" height="514"/>
 	<SubTexture name="tosslerupirritatedbroken SPRITE0028" x="2624" y="4540" width="394" height="514"/>
 	<SubTexture name="tosslerupirritatedbroken SPRITE0029" x="3058" y="4540" width="394" height="514"/>
-	<SubTexture name="tosslerupirritatedbroken miss0000" x="554" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0001" x="1201" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0002" x="1201" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0003" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0004" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0005" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0006" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0007" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0008" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0009" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0010" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0011" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0012" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0013" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0014" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0015" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0016" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0017" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0018" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0019" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0020" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0021" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0022" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0023" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0024" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0025" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0026" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0027" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0028" x="1848" y="5188" width="607" height="597"/>
-	<SubTexture name="tosslerupirritatedbroken miss0029" x="1848" y="5188" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0000" x="1282" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0001" x="1929" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0002" x="1929" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0003" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0004" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0005" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0006" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0007" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0008" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0009" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0010" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0011" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0012" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0013" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0014" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0015" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0016" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0017" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0018" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0019" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0020" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0021" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0022" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0023" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0024" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0025" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0026" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0027" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0028" x="2576" y="5187" width="607" height="597"/>
+	<SubTexture name="tosslerupirritatedbroken miss0029" x="2576" y="5187" width="607" height="597"/>
 </TextureAtlas>
