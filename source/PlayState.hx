@@ -2338,6 +2338,7 @@ class PlayState extends MusicBeatState
 								animToPlay = 'singRIGHT';
 						}
 						dad.playAnim(animToPlay + altAnim, true);
+
 						if(daNote.noteType == 'Gold Note')
 						{
 							switch (SONG.player2)
@@ -2350,6 +2351,21 @@ class PlayState extends MusicBeatState
 									dad.playAnim('attack');
 							}
 						}
+
+						if (daNote.noteType == 'Miss Note')
+						{
+							switch (Math.abs(daNote.noteData))
+							{
+								case 0:
+									dad.playAnim('missLEFT', true);
+								case 1:
+									dad.playAnim('missDOWN', true);
+								case 2:
+									dad.playAnim('missUP', true);
+								case 3:
+									dad.playAnim('missRIGHT', true);
+							}
+						}
 					}
 
 					dad.holdTimer = 0;
@@ -2358,7 +2374,7 @@ class PlayState extends MusicBeatState
 						vocals.volume = 1;
 
 					var time:Float = 0.15;
-					if(daNote.isSustainNote && !daNote.animation.curAnim.name.endsWith('end')) {
+					if(daNote.isSustainNote && !daNote.animation.curAnim.name.endsWith('end') && daNote.noteType != 'Miss Note') {
 						time += 0.15;
 					}
 					StrumPlayAnim(true, Std.int(Math.abs(daNote.noteData)) % 4, time);
@@ -2366,7 +2382,7 @@ class PlayState extends MusicBeatState
 
 					callOnLuas('opponentNoteHit', [notes.members.indexOf(daNote), Math.abs(daNote.noteData), daNote.noteType, daNote.isSustainNote]);
 					
-					if (!daNote.isSustainNote)
+					if (!daNote.isSustainNote && daNote.noteType != 'Miss Note')
 					{
 						daNote.kill();
 						notes.remove(daNote, true);
@@ -2810,38 +2826,38 @@ class PlayState extends MusicBeatState
 
 				switch(charType) {
 					case 0:
-						if(boyfriend.curCharacter != value2) {
-							if(!boyfriendMap.exists(value2)) {
-								addCharacterToList(value2, charType);
-							}
-
-							boyfriend.visible = false;
-							boyfriend = boyfriendMap.get(value2);
-							boyfriend.visible = true;
-							iconP1.changeIcon(boyfriend.healthIcon);
-						}
-
-					case 1:
 						if (!ClientPrefs.sticky)
-						{	
-							if(dad.curCharacter != value2) {
-								if(!dadMap.exists(value2)) {
+						{
+							if(boyfriend.curCharacter != value2) {
+								if(!boyfriendMap.exists(value2)) {
 									addCharacterToList(value2, charType);
 								}
 	
-								var wasGf:Bool = dad.curCharacter.startsWith('gf');
-								dad.visible = false;
-								dad = dadMap.get(value2);
-								if(!dad.curCharacter.startsWith('gf')) {
-									if(wasGf) {
-										gf.visible = true;
-									}
-								} else {
-									gf.visible = false;
-								}
-								dad.visible = true;
-								iconP2.changeIcon(dad.healthIcon);
+								boyfriend.visible = false;
+								boyfriend = boyfriendMap.get(value2);
+								boyfriend.visible = true;
+								iconP1.changeIcon(boyfriend.healthIcon);
 							}
+						}
+
+					case 1:
+						if(dad.curCharacter != value2) {
+							if(!dadMap.exists(value2)) {
+								addCharacterToList(value2, charType);
+							}
+
+							var wasGf:Bool = dad.curCharacter.startsWith('gf');
+							dad.visible = false;
+							dad = dadMap.get(value2);
+							if(!dad.curCharacter.startsWith('gf')) {
+								if(wasGf) {
+									gf.visible = true;
+								}
+							} else {
+								gf.visible = false;
+							}
+							dad.visible = true;
+							iconP2.changeIcon(dad.healthIcon);
 						}
 
 					case 2:

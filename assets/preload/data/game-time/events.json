@@ -2,7 +2,7 @@
 	"song": {
 		"speed": 2.5,
 		"stage": "indyBG",
-		"player1": "indy",
+		"player1": "indyworried",
 		"player2": "thomas",
 		"player3": "gf",
 		"notes": [
@@ -82,7 +82,15 @@
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						11000,
+						-1,
+						"Play Animation",
+						"dodge",
+						"1"
+					]
+				],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
@@ -239,6 +247,13 @@
 						"Alt Idle Animation",
 						"0",
 						"-alt"
+					],
+					[
+						30677.0833333333,
+						-1,
+						"Play Animation",
+						"transition",
+						"1"
 					]
 				],
 				"bpm": 0,
@@ -351,16 +366,16 @@
 					[
 						45333.3333333333,
 						-1,
+						"Change Character",
+						"0",
+						"indyexhausted"
+					],
+					[
+						45343.75,
+						-1,
 						"Play Animation",
 						"return",
 						"1"
-					],
-					[
-						46083.3333333333,
-						-1,
-						"Change Character",
-						"0",
-						"indy"
 					]
 				],
 				"bpm": 0,
@@ -380,7 +395,15 @@
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						48333.3333333334,
+						-1,
+						"Play Animation",
+						"dodge",
+						"1"
+					]
+				],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
@@ -609,6 +632,13 @@
 						"Alt Idle Animation",
 						"0",
 						"-alt"
+					],
+					[
+						78677.0833333333,
+						-1,
+						"Play Animation",
+						"transition",
+						"1"
 					]
 				],
 				"bpm": 0,
@@ -755,6 +785,23 @@
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						101333.333333333,
+						-1,
+						"Play Animation",
+						"die",
+						"1"
+					]
+				],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false

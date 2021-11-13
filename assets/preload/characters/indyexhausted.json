@@ -1,6 +1,39 @@
 {
 	"animations": [
 		{
+			"offsets": [
+				181,
+				204
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "recover",
+			"indices": [],
+			"name": "Indy ALT HEART RECOVER 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				-20
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "Indy DODGE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				190,
+				179
+			],
+			"anim": "ouch",
+			"fps": 24,
+			"name": "Indy ALT HEART SPRITE",
+			"indices": []
+		},
+		{
 			"loop": false,
 			"offsets": [
 				0,
@@ -8,125 +41,114 @@
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "Indy ALT CHIP IDLE",
+			"name": "Indy exhausted IDLE",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-4,
+				21,
+				-13
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "indy exhausted note LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
 				-91
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "indy ALT BRAINWASHED DOWN",
+			"name": "indy exhausted note DOWN",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-32,
-				2
+				-12,
+				1
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "indy ALT BRAINWASHED UP",
+			"name": "indy exhausted note UP",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				6,
-				-10
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "indy ALT BRAINWASHED LEFT",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-54,
-				-4
+				-24,
+				-6
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "indy ALT BRAINWASHED RIGHT",
+			"name": "indy exhausted note RIGHT",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-13,
+				28,
 				-81
 			],
 			"anim": "singDOWNmiss",
 			"fps": 24,
-			"name": "indy ALT BRAINWASHED MISS DOWN",
+			"name": "indy exhausted MISS DOWN",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-3,
-				-6
+				27,
+				-14
 			],
 			"anim": "singLEFTmiss",
 			"fps": 24,
-			"name": "indy ALT BRAINWASHED MISS LEFT",
+			"name": "indy exhausted MISS LEFT",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-76,
-				6
+				-24,
+				-6
 			],
 			"anim": "singRIGHTmiss",
 			"fps": 24,
-			"name": "indy ALT BRAINWASHED MISS RIGHT",
+			"name": "indy exhausted MISS RIGHT",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-35,
-				7
+				-6,
+				0
 			],
 			"anim": "singUPmiss",
 			"fps": 24,
-			"name": "indy ALT BRAINWASHED MISS UP",
+			"name": "indy exhausted MISS UP",
 			"indices": []
 		},
 		{
 			"offsets": [
-				-7,
-				-4
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "transition",
-			"indices": [],
-			"name": "Indy ALT CHIP TRANSITION"
-		},
-		{
-			"offsets": [
-				272,
-				-5
+				23,
+				0
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "die",
+			"anim": "return",
 			"loop": false,
-			"name": "Indy ALT CHIP RETURN END"
+			"name": "Indy ALT CHIP RETURN"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/week2/brainwashedindy",
+	"image": "characters/week2/indyexhausted",
 	"position": [
-		90,
-		240
+		110,
+		250
 	],
 	"healthicon": "indy",
 	"flip_x": true,
@@ -136,8 +158,8 @@
 		120
 	],
 	"camera_position": [
-		80,
-		0
+		150,
+		-260
 	],
 	"sing_duration": 6.1,
 	"scale": 1

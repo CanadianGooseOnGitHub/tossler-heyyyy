@@ -62,7 +62,7 @@
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singDOWN-alt",
+			"anim": "missDOWN",
 			"loop": false,
 			"name": "tosslerdownirritatedbroken miss"
 		},
@@ -73,7 +73,7 @@
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singLEFT-alt",
+			"anim": "missLEFT",
 			"loop": false,
 			"name": "tosslerleftirritatedbroken miss"
 		},
@@ -84,7 +84,7 @@
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singRIGHT-alt",
+			"anim": "missRIGHT",
 			"loop": false,
 			"name": "tosslerrightirritatedbroken miss"
 		},
@@ -95,7 +95,7 @@
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singUP-alt",
+			"anim": "missUP",
 			"loop": false,
 			"name": "tosslerupirritatedbroken miss"
 		},

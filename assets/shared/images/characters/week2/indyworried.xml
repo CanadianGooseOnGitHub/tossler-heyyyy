@@ -2,411 +2,274 @@
 <TextureAtlas imagePath="indyworried.png">
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Indy ALT CHIP TRANSITION0000" x="20" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0001" x="392" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0002" x="764" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0003" x="1136" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0004" x="1508" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0005" x="1880" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0006" x="1880" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0007" x="2252" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0008" x="2624" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0009" x="2996" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0010" x="3368" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0011" x="3740" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0012" x="4112" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0013" x="4484" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0014" x="4856" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0015" x="5228" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0016" x="5600" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0017" x="5600" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0018" x="5972" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0019" x="5972" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0020" x="6344" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0021" x="6344" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0022" x="6716" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0023" x="6716" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0024" x="6716" y="20" width="332" height="539"/>
-	<SubTexture name="Indy ALT CHIP TRANSITION0025" x="6716" y="20" width="332" height="539"/>
-	<SubTexture name="Indy IDLE WORRIED0000" x="7088" y="20" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0001" x="7088" y="20" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0002" x="7088" y="20" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0003" x="7454" y="20" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0004" x="7454" y="20" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0005" x="7820" y="20" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0006" x="7820" y="20" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0007" x="20" y="815" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0008" x="20" y="815" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0009" x="386" y="815" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0010" x="386" y="815" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0011" x="752" y="815" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0012" x="1118" y="815" width="326" height="755"/>
-	<SubTexture name="Indy IDLE WORRIED0013" x="1118" y="815" width="326" height="755"/>
-	<SubTexture name="indy death0000" x="1484" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0001" x="1934" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0002" x="2384" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0003" x="2834" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0004" x="2834" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0005" x="3284" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0006" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0007" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0008" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0009" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0010" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0011" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0012" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0013" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0014" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0015" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0016" x="3734" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0017" x="4184" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0018" x="4184" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0019" x="4634" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0020" x="4634" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0021" x="5084" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0022" x="5084" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0023" x="5534" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0024" x="5534" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0025" x="5984" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0026" x="5984" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0027" x="6434" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0028" x="6434" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0029" x="6884" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0030" x="6884" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0031" x="7334" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0032" x="7334" y="815" width="410" height="602"/>
-	<SubTexture name="indy death0033" x="20" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0034" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0035" x="920" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0036" x="920" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0037" x="920" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0038" x="920" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0039" x="920" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0040" x="1370" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0041" x="1370" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0042" x="1370" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0043" x="1370" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0044" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0045" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0046" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0047" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0048" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0049" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0050" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0051" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0052" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0053" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0054" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0055" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0056" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death0057" x="470" y="1610" width="410" height="602"/>
-	<SubTexture name="indy death confirm0000" x="1820" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0001" x="2253" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0002" x="2686" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0003" x="3119" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0004" x="3552" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0005" x="3985" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0006" x="4418" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0007" x="4851" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0008" x="5284" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0009" x="5717" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0010" x="6150" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0011" x="6583" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0012" x="7016" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0013" x="7449" y="1610" width="393" height="781"/>
-	<SubTexture name="indy death confirm0014" x="20" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0015" x="453" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0016" x="886" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0017" x="1319" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0018" x="1752" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0019" x="2185" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0020" x="2618" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0021" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0022" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0023" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0024" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0025" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0026" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0027" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0028" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0029" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0030" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0031" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0032" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death confirm0033" x="3051" y="2431" width="393" height="781"/>
-	<SubTexture name="indy death loop0000" x="3484" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0001" x="3920" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0002" x="3920" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0003" x="4356" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0004" x="4356" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0005" x="4792" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0006" x="4792" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0007" x="5228" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0008" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0009" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0010" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0011" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0012" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0013" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0014" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0015" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0016" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0017" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0018" x="6100" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0019" x="6536" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0020" x="6536" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0021" x="6972" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0022" x="6972" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0023" x="7408" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0024" x="7408" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0025" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0026" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0027" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0028" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0029" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0030" x="5228" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0031" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0032" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy death loop0033" x="5664" y="2431" width="396" height="600"/>
-	<SubTexture name="indy note DOWN0000" x="7844" y="2431" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0001" x="7844" y="2431" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0002" x="20" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0003" x="20" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0004" x="384" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0005" x="384" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0006" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0007" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0008" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0009" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0010" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0011" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0012" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0013" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0014" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0015" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0016" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0017" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0018" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0019" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0020" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0021" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0022" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0023" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0024" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0025" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0026" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0027" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0028" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note DOWN0029" x="748" y="3252" width="324" height="480"/>
-	<SubTexture name="indy note LEFT0000" x="1112" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0001" x="1112" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0002" x="1466" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0003" x="1466" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0004" x="1820" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0005" x="1820" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0006" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0007" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0008" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0009" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0010" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0011" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0012" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0013" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0014" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0015" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0016" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0017" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0018" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0019" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0020" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0021" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0022" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0023" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0024" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0025" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0026" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0027" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0028" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note LEFT0029" x="2174" y="3252" width="314" height="543"/>
-	<SubTexture name="indy note MISS DOWN0000" x="2528" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0001" x="2903" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0002" x="2903" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0003" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0004" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0005" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0006" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0007" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0008" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0009" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0010" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0011" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0012" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0013" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0014" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0015" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0016" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0017" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0018" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0019" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0020" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0021" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0022" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0023" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0024" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0025" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0026" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0027" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0028" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS DOWN0029" x="3278" y="3252" width="335" height="624"/>
-	<SubTexture name="indy note MISS LEFT0000" x="3653" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0001" x="4039" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0002" x="4039" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0003" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0004" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0005" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0006" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0007" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0008" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0009" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0010" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0011" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0012" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0013" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0014" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0015" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0016" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0017" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0018" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0019" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0020" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0021" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0022" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0023" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0024" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0025" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0026" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0027" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0028" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS LEFT0029" x="4425" y="3252" width="346" height="672"/>
-	<SubTexture name="indy note MISS RIGHT0000" x="4811" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0001" x="5308" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0002" x="5308" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0003" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0004" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0005" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0006" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0007" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0008" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0009" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0010" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0011" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0012" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0013" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0014" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0015" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0016" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0017" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0018" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0019" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0020" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0021" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0022" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0023" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0024" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0025" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0026" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0027" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0028" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0029" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS RIGHT0030" x="5805" y="3252" width="457" height="767"/>
-	<SubTexture name="indy note MISS UP0000" x="6302" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0001" x="6816" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0002" x="6816" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0003" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0004" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0005" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0006" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0007" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0008" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0009" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0010" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0011" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0012" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0013" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0014" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0015" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0016" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0017" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0018" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0019" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0020" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0021" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0022" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0023" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0024" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0025" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0026" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0027" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0028" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note MISS UP0029" x="7330" y="3252" width="474" height="751"/>
-	<SubTexture name="indy note RIGHT0000" x="7844" y="3252" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0001" x="7844" y="3252" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0002" x="20" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0003" x="20" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0004" x="353" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0005" x="353" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0006" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0007" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0008" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0009" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0010" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0011" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0012" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0013" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0014" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0015" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0016" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0017" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0018" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0019" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0020" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0021" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0022" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0023" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0024" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0025" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0026" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0027" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0028" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note RIGHT0029" x="686" y="4059" width="293" height="556"/>
-	<SubTexture name="indy note UP0000" x="1019" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0001" x="1019" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0002" x="1396" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0003" x="1396" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0004" x="1773" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0005" x="1773" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0006" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0007" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0008" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0009" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0010" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0011" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0012" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0013" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0014" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0015" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0016" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0017" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0018" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0019" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0020" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0021" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0022" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0023" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0024" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0025" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0026" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0027" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0028" x="2150" y="4059" width="337" height="551"/>
-	<SubTexture name="indy note UP0029" x="2150" y="4059" width="337" height="551"/>
+	<SubTexture name="Indy DODGE SPRITE0000" x="0" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0001" x="379" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0002" x="758" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0003" x="1137" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0004" x="1516" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0005" x="1895" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0006" x="2274" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0007" x="1516" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0008" x="1895" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0009" x="2274" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0010" x="1516" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0011" x="1895" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0012" x="2274" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0013" x="1516" y="0" width="379" height="524"/>
+	<SubTexture name="Indy DODGE SPRITE0014" x="1895" y="0" width="379" height="524"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0000" x="2653" y="0" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0001" x="2653" y="0" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0002" x="2653" y="0" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0003" x="2970" y="0" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0004" x="2970" y="0" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0005" x="3287" y="0" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0006" x="3287" y="0" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0007" x="3604" y="0" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0008" x="3604" y="0" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0009" x="0" y="549" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0010" x="0" y="549" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0011" x="317" y="549" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0012" x="634" y="549" width="317" height="549"/>
+	<SubTexture name="Indy IDLE WORRIED SPRITE0013" x="634" y="549" width="317" height="549"/>
+	<SubTexture name="indy note DOWN SPRITE0000" x="951" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0001" x="951" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0002" x="1252" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0003" x="1252" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0004" x="1553" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0005" x="1553" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0006" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0007" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0008" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0009" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0010" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0011" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0012" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0013" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0014" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0015" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0016" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0017" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0018" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0019" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0020" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0021" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0022" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0023" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0024" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0025" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0026" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0027" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0028" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note DOWN SPRITE0029" x="1854" y="549" width="301" height="462"/>
+	<SubTexture name="indy note LEFT SPRITE0000" x="2155" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0001" x="2155" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0002" x="2462" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0003" x="2462" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0004" x="2769" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0005" x="2769" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0006" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0007" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0008" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0009" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0010" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0011" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0012" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0013" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0014" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0015" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0016" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0017" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0018" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0019" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0020" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0021" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0022" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0023" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0024" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0025" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0026" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0027" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0028" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note LEFT SPRITE0029" x="3076" y="549" width="307" height="535"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0000" x="3383" y="549" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0001" x="3684" y="549" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0002" x="3684" y="549" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0003" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0004" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0005" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0006" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0007" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0008" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0009" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0010" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0011" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0012" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0013" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0014" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0015" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0016" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0017" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0018" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0019" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0020" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0021" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0022" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0023" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0024" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0025" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0026" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0027" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0028" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS DOWN SPRITE0029" x="0" y="1098" width="301" height="465"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0000" x="301" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0001" x="602" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0002" x="602" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0003" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0004" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0005" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0006" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0007" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0008" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0009" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0010" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0011" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0012" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0013" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0014" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0015" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0016" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0017" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0018" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0019" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0020" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0021" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0022" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0023" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0024" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0025" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0026" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0027" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0028" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS LEFT SPRITE0029" x="903" y="1098" width="301" height="535"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0000" x="1204" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0001" x="1470" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0002" x="1470" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0003" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0004" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0005" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0006" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0007" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0008" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0009" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0010" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0011" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0012" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0013" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0014" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0015" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0016" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0017" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0018" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0019" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0020" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0021" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0022" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0023" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0024" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0025" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0026" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0027" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0028" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0029" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS RIGHT SPRITE0030" x="1736" y="1098" width="266" height="541"/>
+	<SubTexture name="indy note MISS UP SPRITE0000" x="2002" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0001" x="2309" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0002" x="2309" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0003" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0004" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0005" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0006" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0007" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0008" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0009" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0010" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0011" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0012" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0013" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0014" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0015" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0016" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0017" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0018" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0019" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0020" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0021" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0022" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0023" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0024" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0025" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0026" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0027" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0028" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note MISS UP SPRITE0029" x="2616" y="1098" width="307" height="546"/>
+	<SubTexture name="indy note RIGHT SPRITE0000" x="2923" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0001" x="2923" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0002" x="3204" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0003" x="3204" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0004" x="3485" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0005" x="3485" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0006" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0007" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0008" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0009" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0010" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0011" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0012" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0013" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0014" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0015" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0016" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0017" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0018" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0019" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0020" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0021" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0022" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0023" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0024" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0025" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0026" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0027" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0028" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note RIGHT SPRITE0029" x="3766" y="1098" width="281" height="543"/>
+	<SubTexture name="indy note UP SPRITE0000" x="0" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0001" x="0" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0002" x="306" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0003" x="306" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0004" x="612" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0005" x="612" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0006" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0007" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0008" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0009" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0010" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0011" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0012" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0013" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0014" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0015" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0016" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0017" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0018" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0019" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0020" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0021" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0022" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0023" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0024" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0025" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0026" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0027" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0028" x="918" y="1644" width="306" height="549"/>
+	<SubTexture name="indy note UP SPRITE0029" x="918" y="1644" width="306" height="549"/>
 </TextureAtlas>
