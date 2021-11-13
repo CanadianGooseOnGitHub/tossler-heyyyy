@@ -2374,7 +2374,7 @@ class PlayState extends MusicBeatState
 						vocals.volume = 1;
 
 					var time:Float = 0.15;
-					if(daNote.isSustainNote && !daNote.animation.curAnim.name.endsWith('end') && daNote.noteType != 'Miss Note') {
+					if(daNote.isSustainNote && !daNote.animation.curAnim.name.endsWith('end')) {
 						time += 0.15;
 					}
 					StrumPlayAnim(true, Std.int(Math.abs(daNote.noteData)) % 4, time);
@@ -2382,7 +2382,7 @@ class PlayState extends MusicBeatState
 
 					callOnLuas('opponentNoteHit', [notes.members.indexOf(daNote), Math.abs(daNote.noteData), daNote.noteType, daNote.isSustainNote]);
 					
-					if (!daNote.isSustainNote && daNote.noteType != 'Miss Note')
+					if (!daNote.isSustainNote)
 					{
 						daNote.kill();
 						notes.remove(daNote, true);
@@ -3901,9 +3901,25 @@ class PlayState extends MusicBeatState
 				add(black);
 				camHUD.visible = false;
 				black.scrollFactor.set();
+				lightshd.visible = true;
+				foregroundshithd.visible = true;
+				lightscorrupted.visible = true;
+				foregroundshitcorrupted.visible = true;
+				foregroundshitpixel.visible = true;
+				tosslerbghd.visible = true;
+				tosslerbgcorrupted.visible = true;
+				tosslerbgpixel.visible = true;
 			}
 			if (curStep == 1152)
 			{
+				lightshd.visible = false;
+				foregroundshithd.visible = false;
+				lightscorrupted.visible = false;
+				foregroundshitcorrupted.visible = false;
+				foregroundshitpixel.visible = false;
+				tosslerbghd.visible = false;
+				tosslerbgcorrupted.visible = false;
+				tosslerbgpixel.visible = false;
 				FlxTween.tween(black, {alpha: 0}, 0.1, 
 				{
 					onComplete: function(twn:FlxTween) 

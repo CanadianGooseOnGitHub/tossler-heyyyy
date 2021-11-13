@@ -1,114 +1,114 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "tossleridleirritatedbroken",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "tossleridleirritatedbroken"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				39,
 				-19
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "tosslerdownirritatedbroken"
+			"fps": 24,
+			"name": "tosslerdownirritatedbroken",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-6,
 				40
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "tosslerupirritatedbroken"
+			"fps": 24,
+			"name": "tosslerupirritatedbroken",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-12,
 				-4
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "tosslerrightirritatedbroken"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				104,
-				0
-			],
-			"anim": "singLEFT",
 			"fps": 24,
-			"name": "tosslerleftirritatedbroken SPRITE",
+			"name": "tosslerrightirritatedbroken",
 			"indices": []
 		},
 		{
 			"offsets": [
+				104,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "tosslerleftirritatedbroken SPRITE"
+		},
+		{
+			"loop": false,
+			"offsets": [
 				29,
 				-20
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "missDOWN",
-			"loop": false,
-			"name": "tosslerdownirritatedbroken miss"
+			"fps": 24,
+			"name": "tosslerdownirritatedbroken miss",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				94,
-				134
+				131,
+				40
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "missLEFT",
-			"loop": false,
-			"name": "tosslerleftirritatedbroken miss"
-		},
-		{
-			"offsets": [
-				100,
-				132
-			],
-			"indices": [],
 			"fps": 24,
-			"anim": "missRIGHT",
-			"loop": false,
-			"name": "tosslerrightirritatedbroken miss"
+			"name": "tosslerleftirritatedbroken miss",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				-11,
+				35
+			],
+			"anim": "missRIGHT",
+			"fps": 24,
+			"name": "tosslerrightirritatedbroken miss",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				29,
 				111
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "missUP",
-			"loop": false,
-			"name": "tosslerupirritatedbroken miss"
+			"fps": 24,
+			"name": "tosslerupirritatedbroken miss",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				242,
 				238
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "break",
-			"loop": false,
-			"name": "tosslerguitarbroken SPRITE"
+			"fps": 24,
+			"name": "tosslerguitarbroken SPRITE",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -121,8 +121,8 @@
 	"flip_x": false,
 	"healthbar_colors": [
 		175,
-		102,
-		206
+		0,
+		0
 	],
 	"camera_position": [
 		-50,

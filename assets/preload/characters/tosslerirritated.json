@@ -1,81 +1,114 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				40,
 				-18
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "tosslerdownirritated SPRITE"
+			"fps": 24,
+			"name": "tosslerdownirritated SPRITE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "tossleridleirritated SPRITE"
+			"fps": 24,
+			"name": "tossleridleirritated SPRITE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				108,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "tosslerleftirritated SPRITE"
+			"fps": 24,
+			"name": "tosslerleftirritated SPRITE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				-3
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "tosslerrightirritated SPRITE"
+			"fps": 24,
+			"name": "tosslerrightirritated SPRITE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-7,
 				40
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "tosslerupirritated SPRITE"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				46,
-				-35
-			],
-			"anim": "singDOWN-alt",
 			"fps": 24,
-			"name": "tosslerdownalt SPRITE",
+			"name": "tosslerupirritated SPRITE",
 			"indices": []
 		},
 		{
 			"offsets": [
-				-10,
-				-4
+				99,
+				132
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT-alt",
 			"indices": [],
+			"fps": 24,
+			"anim": "missRIGHT",
+			"loop": false,
 			"name": "tosslerrightirritated miss"
+		},
+		{
+			"offsets": [
+				97,
+				134
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "missLEFT",
+			"loop": false,
+			"name": "tosslerleftirritated miss"
+		},
+		{
+			"offsets": [
+				96,
+				168
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "missUP",
+			"loop": false,
+			"name": "tosslerupirritated miss"
+		},
+		{
+			"offsets": [
+				29,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "missDOWN",
+			"loop": false,
+			"name": "tosslerdownirritated miss"
+		},
+		{
+			"offsets": [
+				46,
+				-35
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "tosslerdownalt SPRITE"
 		}
 	],
 	"no_antialiasing": false,
