@@ -1,10 +1,10 @@
 {
 	"idle_anim": "Indy MENU IDLE",
-	"image": "menuindy",
+	"confirm_anim": "Indy MENU PEACE",
 	"position": [
-		1,
-		102
+		-300,
+		99
 	],
-	"scale": 0.7,
-	"confirm_anim": "Indy MENU PEACE"
+	"scale": 0.69,
+	"image": "menuindy"
 }

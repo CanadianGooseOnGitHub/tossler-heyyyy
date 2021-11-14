@@ -290,11 +290,25 @@
 						"Gold Note"
 					],
 					[
+						10666.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1.2",
+						""
+					],
+					[
 						11000,
 						-1,
 						"Play Animation",
 						"dodge",
 						"1"
+					],
+					[
+						11333.3333333333,
+						-1,
+						"Silly Cam Zooms",
+						"1",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -562,6 +576,13 @@
 						19666.6666666667,
 						0,
 						250
+					],
+					[
+						18666.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1.1",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -619,6 +640,13 @@
 						20958.3333333333,
 						3,
 						250
+					],
+					[
+						20000,
+						-1,
+						"Silly Cam Zooms",
+						"1.2",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -647,6 +675,13 @@
 						22333.3333333333,
 						3,
 						250
+					],
+					[
+						21333.3333333333,
+						-1,
+						"Silly Cam Zooms",
+						"1",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -665,6 +700,13 @@
 						23333.3333333333,
 						2,
 						583.333333333333
+					],
+					[
+						22666.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1.05",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -703,6 +745,13 @@
 						25000,
 						0,
 						250
+					],
+					[
+						24000,
+						-1,
+						"Silly Cam Zooms",
+						"1.1",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -740,6 +789,13 @@
 						26250,
 						2,
 						250
+					],
+					[
+						25333.3333333333,
+						-1,
+						"Silly Cam Zooms",
+						"1.15",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -777,6 +833,13 @@
 						27666.6666666667,
 						0,
 						250
+					],
+					[
+						26666.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1.2",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -804,6 +867,13 @@
 						29000,
 						3,
 						250
+					],
+					[
+						28000,
+						-1,
+						"Silly Cam Zooms",
+						"1.25",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -814,35 +884,49 @@
 				"sectionNotes": [
 					[
 						29333.3333333333,
-						3,
+						7,
 						250
 					],
 					[
 						29666.6666666667,
-						2,
+						6,
 						250
 					],
 					[
 						30000,
-						1,
+						5,
 						250
 					],
 					[
 						30333.3333333333,
-						0,
+						4,
 						250
 					],
 					[
-						29333.3333333333,
+						29500,
 						-1,
 						"Play Animation",
 						"grab",
 						"0"
+					],
+					[
+						29333.3333333333,
+						-1,
+						"Silly Cam Zooms",
+						"1.3",
+						""
+					],
+					[
+						30583.3333333333,
+						-1,
+						"Silly Cam Zooms",
+						"1",
+						""
 					]
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
@@ -1585,6 +1669,13 @@
 						"Alt Idle Animation",
 						"0",
 						""
+					],
+					[
+						42677.0833333333,
+						-1,
+						"Silly Cam Zooms",
+						"1.15",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -1688,6 +1779,20 @@
 						"Play Animation",
 						"dodge",
 						"1"
+					],
+					[
+						48000,
+						-1,
+						"Silly Cam Zooms",
+						"1.25",
+						""
+					],
+					[
+						48666.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -2082,6 +2187,41 @@
 						57000,
 						5,
 						250
+					],
+					[
+						56000,
+						-1,
+						"Silly Cam Zooms",
+						"1.1",
+						""
+					],
+					[
+						56208.3333333334,
+						-1,
+						"Silly Cam Zooms",
+						"1.15",
+						""
+					],
+					[
+						56416.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1.2",
+						""
+					],
+					[
+						56666.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1.25",
+						""
+					],
+					[
+						57000,
+						-1,
+						"Silly Cam Zooms",
+						"1",
+						""
 					]
 				],
 				"lengthInSteps": 16,
@@ -2117,6 +2257,41 @@
 						58291.6666666667,
 						0,
 						250
+					],
+					[
+						57333.3333333334,
+						-1,
+						"Silly Cam Zooms",
+						"1.1",
+						""
+					],
+					[
+						57541.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1.15",
+						""
+					],
+					[
+						57750,
+						-1,
+						"Silly Cam Zooms",
+						"1.2",
+						""
+					],
+					[
+						57958.3333333334,
+						-1,
+						"Silly Cam Zooms",
+						"1.25",
+						""
+					],
+					[
+						58291.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1",
+						""
 					]
 				],
 				"altAnim": false,
@@ -2632,6 +2807,13 @@
 						70333.3333333334,
 						1,
 						250
+					],
+					[
+						69333.3333333334,
+						-1,
+						"Silly Cam Zooms",
+						"1.1",
+						""
 					]
 				],
 				"altAnim": false,
@@ -2697,6 +2879,13 @@
 						73000,
 						0,
 						250
+					],
+					[
+						72000,
+						-1,
+						"Silly Cam Zooms",
+						"1.2",
+						""
 					]
 				],
 				"altAnim": false,
@@ -2772,6 +2961,13 @@
 						75666.6666666667,
 						0,
 						333.333333333333
+					],
+					[
+						74666.6666666667,
+						-1,
+						"Silly Cam Zooms",
+						"1.3",
+						""
 					]
 				],
 				"altAnim": false,
@@ -2813,36 +3009,43 @@
 				"sectionNotes": [
 					[
 						77333.3333333334,
-						2,
+						6,
 						250
 					],
 					[
 						77666.6666666667,
-						3,
+						7,
 						250
 					],
 					[
 						78333.3333333334,
-						0,
+						4,
 						250
 					],
 					[
 						78000,
-						1,
+						5,
 						250
 					],
 					[
-						77333.3333333333,
+						77500,
 						-1,
 						"Play Animation",
 						"grab",
 						"0"
+					],
+					[
+						77333.3333333333,
+						-1,
+						"Silly Cam Zooms",
+						"1.35",
+						""
 					]
 				],
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"mustHitSection": false,
 				"changeBPM": false,
 				"bpm": 100
 			},
@@ -2970,6 +3173,13 @@
 						81000,
 						4,
 						250
+					],
+					[
+						80000,
+						-1,
+						"Silly Cam Zooms",
+						"1",
+						""
 					]
 				],
 				"altAnim": true,
@@ -4151,7 +4361,7 @@
 				"sectionNotes": [
 					[
 						101333.333333333,
-						0,
+						4,
 						1250
 					],
 					[
@@ -4165,7 +4375,7 @@
 				"typeOfSection": 0,
 				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"mustHitSection": true,
 				"changeBPM": false,
 				"bpm": 120
 			},
@@ -4663,6 +4873,24 @@
 				"bpm": 180,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 180,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 180
 			},
 			{
 				"lengthInSteps": 16,
@@ -4713,11 +4941,11 @@
 		"player2": "thomas",
 		"player3": "gf",
 		"song": "game-time",
-		"arrowSkin": "",
 		"validScore": true,
+		"arrowSkin": "",
 		"stage": "indyBG",
-		"needsVoices": true,
 		"sections": 0,
+		"needsVoices": true,
 		"speed": 2.5,
 		"bpm": 180
 	}

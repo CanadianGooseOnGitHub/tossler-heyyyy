@@ -1,11 +1,10 @@
 {
-	
-	"image": "menutossler",
+	"confirm_anim": "tossleridlerock MENU SPRITE",
+	"idle_anim": "tossleridlerock MENU SPRITE",
 	"position": [
-		15,
+		35,
 		25
 	],
 	"scale": 0.6,
-	"idle_anim": "tossleridlerock MENU SPRITE",
-	"confirm_anim": "tossleridlerock MENU SPRITE"
+	"image": "menutossler"
 }

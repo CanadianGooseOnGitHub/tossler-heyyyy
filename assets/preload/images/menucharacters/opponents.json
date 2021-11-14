@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "M Dad Idle",
+	"idle_anim": "opponents main menu left",
+	"position": [
+		96,
+		67
+	],
+	"scale": 0.8,
+	"image": "opponents"
+}

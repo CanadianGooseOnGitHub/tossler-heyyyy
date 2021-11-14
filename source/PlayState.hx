@@ -240,6 +240,8 @@ class PlayState extends MusicBeatState
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
 
+	public var healthDrainStuff:Bool = false;
+
 	public static var campaignScore:Int = 0;
 	public static var campaignMisses:Int = 0;
 	public static var seenCutscene:Bool = false;
@@ -452,8 +454,8 @@ class PlayState extends MusicBeatState
 				crowd.antialiasing = ClientPrefs.globalAntialiasing;
 				add(crowd);
 				
-				ring = new BGSprite('indyBG/3_ring', 50, 50, 1, 1);
-				ring.setGraphicSize(Std.int(ring.width * 1.3));
+				ring = new BGSprite('indyBG/3_ring', 50, 0, 1, 1);
+				ring.setGraphicSize(Std.int(ring.width * 1.5));
 				ring.antialiasing = ClientPrefs.globalAntialiasing;
 				add(ring);
 
@@ -461,8 +463,8 @@ class PlayState extends MusicBeatState
 				lightsindy.setGraphicSize(Std.int(lightsindy.width * 1.3));
 				lightsindy.antialiasing = ClientPrefs.globalAntialiasing;
 
-				ringfront = new BGSprite('indyBG/5_ringfront', 50, 50, 1.2, 1.2);
-				ringfront.setGraphicSize(Std.int(ringfront.width * 1.3));
+				ringfront = new BGSprite('indyBG/5_ringfront', 50, 0, 1.2, 1.2);
+				ringfront.setGraphicSize(Std.int(ringfront.width * 1.5));
 				ringfront.antialiasing = ClientPrefs.globalAntialiasing;
 			
 			case 'street':
@@ -993,49 +995,6 @@ class PlayState extends MusicBeatState
 		fadeIn();
 	}
 
-	public function videoOutro(name:String):Void {
-		#if VIDEOS_ALLOWED
-		var foundFile:Bool = false;
-		var fileName:String = #if MODS_ALLOWED Paths.mods('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
-		#if sys
-		if(FileSystem.exists(fileName)) {
-			foundFile = true;
-		}
-		#end
-
-		if(!foundFile) {
-			fileName = Paths.video(name);
-			#if sys
-			if(FileSystem.exists(fileName)) {
-			#else
-			if(OpenFlAssets.exists(fileName)) {
-			#end
-				foundFile = true;
-			}
-		}
-
-		if(foundFile) {
-			inCutscene = true;
-			var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
-			bg.scrollFactor.set();
-			add(bg);
-			videoCurrentlyPlaying = new FlxVideo(fileName);
-			isVideoCurrentlyPlaying = true;
-
-			(videoCurrentlyPlaying).finishCallback = function() {
-				remove(bg);
-				FlxG.sound.playMusic(Paths.music('menu_variation_0'));
-				MusicBeatState.switchState(new StoryMenuState());
-			}
-			return;
-		} else {
-			FlxG.log.warn('Couldnt find video file: ' + fileName);
-		}
-		#end
-		FlxG.sound.playMusic(Paths.music('menu_variation_0'));
-		MusicBeatState.switchState(new StoryMenuState());
-	}
-
 	var dialogueCount:Int = 0;
 	//You don't have to add a song, just saying. You can just do "dialogueIntro(dialogueJson);" and it should work
 	public function startDialogue(dialogueFile:DialogueFile, ?song:String = null):Void
@@ -1413,14 +1372,14 @@ class PlayState extends MusicBeatState
 		{
 			if (curStage == 'tosslerBG')
 			{
-				lightshd.visible = false;
-				foregroundshithd.visible = false;
-				lightscorrupted.visible = false;
-				foregroundshitcorrupted.visible = false;
-				foregroundshitpixel.visible = false;
-				tosslerbghd.visible = false;
-				tosslerbgcorrupted.visible = false;
-				tosslerbgpixel.visible = false;
+				lightshd.y += 5000;
+				foregroundshithd.y += 5000;
+				lightscorrupted.y += 5000;
+				foregroundshitcorrupted.y += 5000;
+				foregroundshitpixel.y += 5000;
+				tosslerbghd.y += 5000;
+				tosslerbgcorrupted.y += 5000;
+				tosslerbgpixel.y += 5000;
 			}
 			FlxTween.tween(black, {alpha: 0}, 1, {ease: FlxEase.circOut,
 				onComplete: function(twn:FlxTween) {
@@ -2347,8 +2306,12 @@ class PlayState extends MusicBeatState
 									dad.playAnim('balance');
 								case 'may':
 									dad.playAnim('shoot');
+									boyfriend.playAnim('ouch');
+									health -= 0.2;
 								case 'thomas':
 									dad.playAnim('attack');
+									FlxG.camera.shake(0.02, 0.2);
+									health -= 1;
 							}
 						}
 
@@ -2387,6 +2350,12 @@ class PlayState extends MusicBeatState
 						daNote.kill();
 						notes.remove(daNote, true);
 						daNote.destroy();
+					}
+
+					if (healthDrainStuff)
+					{
+						if (health)
+						
 					}
 
 					if (dad.curCharacter == 'tricky')
@@ -2887,6 +2856,23 @@ class PlayState extends MusicBeatState
 					defaultCamZoom = val1;
 					camMovement = val2;
 				}
+
+			case 'Health Drain':
+				{
+					var val1:Float = Std.parseFloat(value1);
+					var val2:Float = Std.parseFloat(value2);
+					if(Math.isNaN(val1)) val1 = 0;
+					if(Math.isNaN(val2)) val2 = 0;
+
+					if (val1 == 1)
+					{
+						healthDrainStuff = true;
+					}
+					else if (val1 == 0)
+					{
+						healthDrainStuff = false;
+					}
+				}
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
@@ -3014,19 +3000,14 @@ class PlayState extends MusicBeatState
 
 			if (storyPlaylist.length <= 0)
 			{
-				switch (SONG.song.toLowerCase())
+
+				if (SONG.song.toLowerCase() == 'fix-the-broken')
 				{
-					case 'fix-the-broken':
-						if (ClientPrefs.subtitles)
-						{
-							videoOutro('subtitles/Week 1 Cutscene 4 GAME');
-						}
-						else if (!ClientPrefs.subtitles)
-						{
-							videoOutro('Week 1 Cutscene 4 GAME');
-						}	
-					case 'game-time':
-						videoOutro('week2/Week 2 Cutscene 3 GAME');
+					MusicBeatState.switchState(new TosslerEndState());
+				}
+				else if (SONG.song.toLowerCase() == 'game-time')
+				{
+					MusicBeatState.switchState(new IndyEndState());
 				}
 
 				// if ()
@@ -3901,25 +3882,9 @@ class PlayState extends MusicBeatState
 				add(black);
 				camHUD.visible = false;
 				black.scrollFactor.set();
-				lightshd.visible = true;
-				foregroundshithd.visible = true;
-				lightscorrupted.visible = true;
-				foregroundshitcorrupted.visible = true;
-				foregroundshitpixel.visible = true;
-				tosslerbghd.visible = true;
-				tosslerbgcorrupted.visible = true;
-				tosslerbgpixel.visible = true;
 			}
 			if (curStep == 1152)
 			{
-				lightshd.visible = false;
-				foregroundshithd.visible = false;
-				lightscorrupted.visible = false;
-				foregroundshitcorrupted.visible = false;
-				foregroundshitpixel.visible = false;
-				tosslerbghd.visible = false;
-				tosslerbgcorrupted.visible = false;
-				tosslerbgpixel.visible = false;
 				FlxTween.tween(black, {alpha: 0}, 0.1, 
 				{
 					onComplete: function(twn:FlxTween) 
@@ -3939,13 +3904,13 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					tosslerbg.visible = false;
-					lights.visible = false;
-					foregroundshit.visible = false;
-					audience.visible = false;
-					tosslerbgcorrupted.visible = true;
-					lightscorrupted.visible = true;
-					foregroundshitcorrupted.visible = true;
+					tosslerbg.y += 5000;
+					lights.y += 5000;
+					foregroundshit.y += 5000;
+					audience.y += 5000;
+					tosslerbgcorrupted.y -= 5000;
+					lightscorrupted.y -= 5000;
+					foregroundshitcorrupted.y -= 5000;
 				}
 			}
 			if (curStep == 1664)
@@ -3956,13 +3921,13 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					tosslerbg.visible = true;
-					lights.visible = true;
-					foregroundshit.visible = true;
-					audience.visible = true;
-					tosslerbgcorrupted.visible = false;
-					lightscorrupted.visible = false;
-					foregroundshitcorrupted.visible = false;
+					tosslerbg.y -= 5000;
+					lights.y -= 5000;
+					foregroundshit.y -= 5000;
+					audience.y -= 5000;
+					tosslerbgcorrupted.y += 5000;
+					lightscorrupted.y += 5000;
+					foregroundshitcorrupted.y += 5000;
 				}
 			}
 			if (curStep == 1792)
@@ -3974,12 +3939,12 @@ class PlayState extends MusicBeatState
 				if (!ClientPrefs.lowQuality)
 				{
 					defaultCamZoom = 1.1;
-					tosslerbg.visible = false;
-					lights.visible = false;
-					foregroundshit.visible = false;
-					audience.visible = false;
-					tosslerbgpixel.visible = true;
-					foregroundshitpixel.visible = true;
+					tosslerbg.y += 5000;
+					lights.y += 5000;
+					foregroundshit.y += 5000;
+					audience.y += 5000;
+					tosslerbgpixel.y -= 5000;
+					foregroundshitpixel.y -= 5000;
 				}
 			}
 			if (curStep == 1920)
@@ -3991,12 +3956,12 @@ class PlayState extends MusicBeatState
 				if (!ClientPrefs.lowQuality)
 				{
 					defaultCamZoom = 1;
-					tosslerbg.visible = true;
-					lights.visible = true;
-					foregroundshit.visible = true;
-					audience.visible = true;
-					tosslerbgpixel.visible = false;
-					foregroundshitpixel.visible = false;
+					tosslerbg.y -= 5000;
+					lights.y -= 5000;
+					foregroundshit.y -= 5000;
+					audience.y -= 5000;
+					tosslerbgpixel.y += 5000;
+					foregroundshitpixel.y += 5000;
 				}
 			}
 			if (curStep == 2176)
@@ -4007,13 +3972,13 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					tosslerbg.visible = false;
-					lights.visible = false;
-					foregroundshit.visible = false;
-					audience.visible = false;
-					tosslerbghd.visible = true;
-					lightshd.visible = true;
-					foregroundshithd.visible = true;
+					tosslerbg.y += 5000;
+					lights.y += 5000;
+					foregroundshit.y += 5000;
+					audience.y += 5000;
+					tosslerbghd.y -= 5000;
+					lightshd.y -= 5000;
+					foregroundshithd.y -= 5000;
 				}
 			}
 			if (curStep == 2432)
@@ -4024,20 +3989,17 @@ class PlayState extends MusicBeatState
 				}
 				if (!ClientPrefs.lowQuality)
 				{
-					tosslerbg.visible = true;
-					foregroundshit.visible = true;
-					audience.visible = true;
-					tosslerbghd.visible = false;
-					lightshd.visible = false;
-					foregroundshithd.visible = false;
+					tosslerbg.y -= 5000;
+					foregroundshit.y -= 5000;
+					audience.y -= 5000;
+					tosslerbghd.y += 5000;
+					lightshd.y += 5000;
+					foregroundshithd.y += 5000;
 				}
 			}
-			if (curStep == 2688)
+			if (curStep == 2688 && ClientPrefs.flashing)
 			{
-				if (ClientPrefs.flashing)
-				{
-					FlxG.camera.flash(FlxColor.WHITE, 0.4);
-				}
+				FlxG.camera.flash(FlxColor.WHITE, 0.4);
 			}
 			if (curStep == 3200)
 			{

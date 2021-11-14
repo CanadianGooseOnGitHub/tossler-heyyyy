@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="opponents.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="opponents main menu left0000" x="0" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0001" x="0" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0002" x="603" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0003" x="603" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0004" x="1206" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0005" x="1206" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0006" x="1809" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0007" x="1809" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0008" x="2412" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0009" x="2412" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0010" x="3015" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0011" x="3015" y="0" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0012" x="0" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu left0013" x="0" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0000" x="603" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0001" x="603" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0002" x="1206" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0003" x="1206" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0004" x="1809" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0005" x="1809" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0006" x="2412" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0007" x="2412" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0008" x="3015" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0009" x="3015" y="482" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0010" x="0" y="964" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0011" x="0" y="964" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0012" x="603" y="964" width="603" height="482"/>
+	<SubTexture name="opponents main menu right0013" x="603" y="964" width="603" height="482"/>
+</TextureAtlas>
