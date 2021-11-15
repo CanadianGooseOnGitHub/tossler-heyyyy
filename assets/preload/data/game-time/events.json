@@ -346,6 +346,13 @@
 						"Play Animation",
 						"transition",
 						"1"
+					],
+					[
+						31916.6666666667,
+						-1,
+						"Health Drain",
+						"1",
+						""
 					]
 				],
 				"bpm": 0,
@@ -485,7 +492,15 @@
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						46666.6666666667,
+						-1,
+						"Health Drain",
+						"0",
+						""
+					]
+				],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
@@ -855,6 +870,13 @@
 						"Play Animation",
 						"transition",
 						"1"
+					],
+					[
+						79916.6666666667,
+						-1,
+						"Health Drain",
+						"1",
+						""
 					]
 				],
 				"bpm": 0,
@@ -999,7 +1021,15 @@
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						98666.6666666666,
+						-1,
+						"Health Drain",
+						"0",
+						""
+					]
+				],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
@@ -1026,6 +1056,15 @@
 						"1"
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false

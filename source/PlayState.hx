@@ -883,7 +883,7 @@ class PlayState extends MusicBeatState
 			}
 			seenCutscene = true;
 		} else {
-			fadeIn();
+			startCountdown();
 		}
 		RecalculateRating();
 
@@ -2354,8 +2354,10 @@ class PlayState extends MusicBeatState
 
 					if (healthDrainStuff)
 					{
-						if (health)
-						
+						if (health > 0.03)
+						{
+							health -= 0.03;
+						}
 					}
 
 					if (dad.curCharacter == 'tricky')
