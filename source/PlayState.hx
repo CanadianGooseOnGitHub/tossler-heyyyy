@@ -2451,7 +2451,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 		
-		//stole this from taeyai (taeyai is so cool)
+		//stole this from aikoyori :p
 		if(isVideoCurrentlyPlaying)
 		{
 			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ESCAPE)
