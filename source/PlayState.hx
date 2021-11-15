@@ -2307,7 +2307,10 @@ class PlayState extends MusicBeatState
 								case 'may':
 									dad.playAnim('shoot');
 									boyfriend.playAnim('ouch');
-									health -= 0.2;
+									if (health > 0.1)
+									{
+										health -= 0.1;
+									}
 								case 'thomas':
 									dad.playAnim('attack');
 									FlxG.camera.shake(0.02, 0.2);
@@ -2938,8 +2941,8 @@ class PlayState extends MusicBeatState
 
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
-		vocals.volume = 0;
-		vocals.pause();
+		/*vocals.volume = 0;
+		vocals.pause();*/
 		if(ClientPrefs.noteOffset <= 0) {
 			finishCallback();
 		} else {
