@@ -1,114 +1,114 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Indy IDLE",
-			"indices": []
+			"indices": [],
+			"name": "Indy IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				28,
-				-64
+				11,
+				-86
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "indy note DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "indy note DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-2,
-				9
+				-1
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "indy note UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "indy note UP"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-38,
-				10
+				-3
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "indy note RIGHT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "indy note RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				31,
-				-5
+				-15
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "indy note LEFT",
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "indy note LEFT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				-85
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "indy note MISS DOWN",
 			"indices": []
 		},
 		{
-			"offsets": [
-				45,
-				85
-			],
 			"loop": false,
-			"fps": 24,
-			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "indy note MISS DOWN"
-		},
-		{
 			"offsets": [
-				77,
-				132
+				35,
+				-16
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "indy note MISS LEFT"
-		},
-		{
-			"offsets": [
-				86,
-				8
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "indy note MISS RIGHT"
+			"name": "indy note MISS LEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				74,
+				-24,
+				-7
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "indy note MISS RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
 				2
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUPmiss",
-			"indices": [],
-			"name": "indy note MISS UP"
+			"fps": 24,
+			"name": "indy note MISS UP",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				40,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "dodge",
-			"loop": false,
-			"name": "Indy DODGE"
+			"fps": 24,
+			"name": "Indy DODGE",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

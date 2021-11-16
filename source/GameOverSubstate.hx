@@ -41,22 +41,14 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		Conductor.songPosition = 0;
 
-		if (PlayState.curStage == 'indyBG')
+		if (PlayState.SONG.player1 == 'indy' || PlayState.SONG.player1 == 'indyworried' || PlayState.SONG.player1 == 'indyexhausted' || PlayState.SONG.player1 == 'indybrainwashed')
 		{
 			characterName = 'indy';
-		}
-		else
-		{
-			characterName = 'bf';
 		}
 		
 		if (ClientPrefs.sticky)
 		{
 			characterName = 'sticky';
-		}
-		else
-		{
-			characterName = 'bf';
 		}
 		
 		bf = new Boyfriend(x, y, characterName);	
