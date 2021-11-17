@@ -3971,6 +3971,14 @@ class PlayState extends MusicBeatState
 				black.screenCenter();
 			}
 		}
+		if (curSong == 'Game-Time')
+		{
+			if (curStep == 1228)
+			{
+				black = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+				add(black);
+			}
+		}
 
 		if (curBeat % gfSpeed == 0 && !gf.stunned)
 		{
