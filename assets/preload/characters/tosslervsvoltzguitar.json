@@ -1,110 +1,110 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "tosslerbass IDLE"
+			"fps": 24,
+			"name": "tosslerbass IDLE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				49,
 				-18
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "tosslerbass NOTE down"
+			"fps": 24,
+			"name": "tosslerbass NOTE down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				154,
 				41
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "tosslerbass MISS down"
+			"fps": 24,
+			"name": "tosslerbass MISS down",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				185,
 				128
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerbass MISS up",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "tosslerbass MISS up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				33,
 				40
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslerbass NOTE up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "tosslerbass NOTE up"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				226,
 				34
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFTmiss",
-			"loop": false,
-			"name": "tosslerbass MISS right"
+			"fps": 24,
+			"name": "tosslerbass MISS right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				49,
 				-3
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "tosslerbass NOTE right"
+			"fps": 24,
+			"name": "tosslerbass NOTE right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-31,
 				1
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "tosslerbass NOTE left"
+			"fps": 24,
+			"name": "tosslerbass NOTE left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				100,
 				53
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"loop": false,
-			"name": "tosslerbass MISS left"
+			"fps": 24,
+			"name": "tosslerbass MISS left",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "bonus/danvolt/tosslervsvoltzguitar",
 	"position": [
 		0,
-		310
+		320
 	],
 	"healthicon": "tossler",
 	"flip_x": false,
