@@ -1309,7 +1309,7 @@
 						192029.31007832,
 						-1,
 						"Change Character",
-						"0",
+						"1",
 						"tosslerpixel"
 					],
 					[
@@ -2498,6 +2498,15 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false

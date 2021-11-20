@@ -410,7 +410,7 @@ class PlayState extends MusicBeatState
 
 				audience = new FlxSprite( -350, 100);
 				audience.frames = crowdTex;
-				audience.animation.addByPrefix('crowdbop', 'crowdbop', 24);
+				audience.animation.addByPrefix('idle', 'crowdbop', 24, false);
 				audience.scrollFactor.set(1.5, 1.5);
 				audience.antialiasing = ClientPrefs.globalAntialiasing;
 				if(!ClientPrefs.lowQuality)
@@ -460,7 +460,7 @@ class PlayState extends MusicBeatState
 				crowd = new FlxSprite(25, 50);
 				crowd.scrollFactor.set(0.7, 0.7);
 				crowd.frames = Paths.getSparrowAtlas('indyBG/2_crowd');
-				crowd.animation.addByPrefix('idle', 'weektwocrowd', 24);
+				crowd.animation.addByPrefix('idle', 'weektwocrowd', 24, false);
 				crowd.animation.play('idle');
 				crowd.setGraphicSize(Std.int(crowd.width * 1.3));
 				crowd.antialiasing = ClientPrefs.globalAntialiasing;
@@ -3814,6 +3814,17 @@ class PlayState extends MusicBeatState
 
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
+
+		if (curStage == 'tosslerBG')
+		{
+			if(audience != null)
+				audience.animation.play('idle', true);
+		}
+		if (curStage == 'indyBG')
+		{
+			if(crowd != null)
+				crowd.animation.play('idle', true);
+		}
 
 		if (curSong == 'Fix-The-Broken')
 		{
