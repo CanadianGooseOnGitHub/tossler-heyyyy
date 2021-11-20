@@ -1,81 +1,81 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-5,
 				-16
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "May NOTE DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "May NOTE DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				24,
 				-1
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "May NOTE RIGHT",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "May NOTE RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-48,
 				-12
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "May NOTE LEFT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "May NOTE LEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-25,
 				73
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "May NOTE UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "May NOTE UP"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				53,
 				23
 			],
-			"anim": "shoot",
+			"loop": false,
 			"fps": 24,
-			"name": "May ALT",
-			"indices": []
+			"anim": "shoot",
+			"indices": [],
+			"name": "May ALT"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				32,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "danceLeft",
-			"loop": false,
-			"name": "May IdleRight SPRITE"
+			"fps": 24,
+			"name": "May IdleRight SPRITE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "danceRight",
-			"loop": false,
-			"name": "May IdleLeft SPRITE"
+			"fps": 24,
+			"name": "May IdleLeft SPRITE",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -93,7 +93,7 @@
 	],
 	"camera_position": [
 		-200,
-		-120
+		-80
 	],
 	"sing_duration": 6.1,
 	"scale": 1

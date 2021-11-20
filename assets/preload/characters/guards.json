@@ -9,7 +9,7 @@
 			"fps": 24,
 			"anim": "idle",
 			"loop": false,
-			"name": "Guards Idle"
+			"name": "danceLeft"
 		}
 	],
 	"no_antialiasing": false,
