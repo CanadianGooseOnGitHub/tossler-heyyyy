@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cherry_splashes.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="note splash cherry 10000" x="0" y="0" width="291" height="303"/>
+	<SubTexture name="note splash cherry 10001" x="291" y="0" width="291" height="303"/>
+	<SubTexture name="note splash cherry 10002" x="582" y="0" width="291" height="303"/>
+	<SubTexture name="note splash cherry 10003" x="0" y="303" width="291" height="303"/>
+	<SubTexture name="note splash cherry 20000" x="291" y="303" width="315" height="321"/>
+	<SubTexture name="note splash cherry 20001" x="606" y="303" width="315" height="321"/>
+	<SubTexture name="note splash cherry 20002" x="0" y="624" width="315" height="321"/>
+	<SubTexture name="note splash cherry 20003" x="315" y="624" width="315" height="321"/>
+</TextureAtlas>
