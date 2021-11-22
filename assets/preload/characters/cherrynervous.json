@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				111,
+				61
+			],
+			"anim": "balance",
+			"fps": 24,
+			"name": "Cherry ALT BALANCE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-11,
+				-37
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Cherry Nervous NOTE DOWN"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Cherry Nervous IDLE"
+		},
+		{
+			"offsets": [
+				-6,
+				-9
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Cherry Nervous NOTE RIGHT"
+		},
+		{
+			"offsets": [
+				-12,
+				-8
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Cherry Nervous NOTE LEFT"
+		},
+		{
+			"offsets": [
+				22,
+				30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Cherry Nervous NOTE UP"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/week2/cherrynervous",
+	"position": [
+		90,
+		250
+	],
+	"healthicon": "cherry",
+	"flip_x": true,
+	"healthbar_colors": [
+		215,
+		60,
+		100
+	],
+	"camera_position": [
+		20,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
