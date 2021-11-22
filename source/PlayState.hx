@@ -413,37 +413,37 @@ class PlayState extends MusicBeatState
 				audience.antialiasing = ClientPrefs.globalAntialiasing;
 				audience.animation.play('crowdbop');
 
-				tosslerbghd = new BGSprite('tosslerBG/artstyles/background_hd', -600, -250, 1, 1);
+				tosslerbghd = new BGSprite('tosslerBG/artstyles/background_hd', -600, 4750, 1, 1);
 				tosslerbghd.setGraphicSize(Std.int(tosslerbg.width * 0.32));
 				tosslerbghd.antialiasing = ClientPrefs.globalAntialiasing;
 				add(tosslerbghd);
 				
-				lightshd = new BGSprite('tosslerBG/artstyles/middleground_hd', -50, 0, 1.1, 1.1);
+				lightshd = new BGSprite('tosslerBG/artstyles/middleground_hd', -50, 5000, 1.1, 1.1);
 				lightshd.setGraphicSize(Std.int(lights.width * 1.4));
 				lightshd.antialiasing = ClientPrefs.globalAntialiasing;
 
-				foregroundshithd = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 185, 1.5, 1.5);
+				foregroundshithd = new BGSprite('tosslerBG/artstyles/foreground_hd', 0, 5185, 1.5, 1.5);
 				foregroundshithd.antialiasing = ClientPrefs.globalAntialiasing;
 
-				tosslerbgcorrupted = new BGSprite('tosslerBG/artstyles/background_corrupted', -600, -250, 1, 1);
+				tosslerbgcorrupted = new BGSprite('tosslerBG/artstyles/background_corrupted', -600, 4750, 1, 1);
 				tosslerbgcorrupted.setGraphicSize(Std.int(tosslerbg.width * 0.32));
 				tosslerbgcorrupted.antialiasing = ClientPrefs.globalAntialiasing;
 				add(tosslerbgcorrupted);
 				
-				lightscorrupted = new BGSprite('tosslerBG/artstyles/middleground_corrupted', 50, 0, 1.1, 1.1);
+				lightscorrupted = new BGSprite('tosslerBG/artstyles/middleground_corrupted', 50, 5000, 1.1, 1.1);
 				lightscorrupted.setGraphicSize(Std.int(lights.width * 1.4));
 				lightscorrupted.antialiasing = ClientPrefs.globalAntialiasing;
 
-				foregroundshitcorrupted = new BGSprite('tosslerBG/artstyles/foreground_corrupted', -50, 120, 1.5, 1.5);
+				foregroundshitcorrupted = new BGSprite('tosslerBG/artstyles/foreground_corrupted', -50, 5120, 1.5, 1.5);
 				foregroundshitcorrupted.setGraphicSize(Std.int(foregroundshit.width * 1.4));
 				foregroundshitcorrupted.antialiasing = ClientPrefs.globalAntialiasing;
 
-				tosslerbgpixel = new BGSprite('tosslerBG/artstyles/background_pixel', 400, 135, 1, 1);
+				tosslerbgpixel = new BGSprite('tosslerBG/artstyles/background_pixel', 400, 5135, 1, 1);
 				tosslerbgpixel.setGraphicSize(Std.int(tosslerbg.width * 1.4));
 				tosslerbgpixel.scale.set(6, 6);
 				add(tosslerbgpixel);
 
-				foregroundshitpixel = new BGSprite('tosslerBG/artstyles/foreground_pixel', 335, 450, 1.5, 1.5);
+				foregroundshitpixel = new BGSprite('tosslerBG/artstyles/foreground_pixel', 335, 5450, 1.5, 1.5);
 				foregroundshitpixel.scale.set(6, 6);
 
 			case 'indyBG':
@@ -1133,18 +1133,6 @@ class PlayState extends MusicBeatState
 		if(startedCountdown) {
 			callOnLuas('onStartCountdown', []);
 			return;
-		}
-
-		if (curStage == 'tosslerBG')
-		{
-			lightshd.y += 5000;
-			foregroundshithd.y += 5000;
-			lightscorrupted.y += 5000;
-			foregroundshitcorrupted.y += 5000;
-			foregroundshitpixel.y += 5000;
-			tosslerbghd.y += 5000;
-			tosslerbgcorrupted.y += 5000;
-			tosslerbgpixel.y += 5000;
 		}
 
 		inCutscene = false;
