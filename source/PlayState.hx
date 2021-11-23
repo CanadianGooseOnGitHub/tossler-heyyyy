@@ -229,6 +229,9 @@ class PlayState extends MusicBeatState
 	var lightsindy:FlxSprite;
 	var ringfront:FlxSprite;
 
+	var tint:FlxSprite;
+	var blackBars:FlxSprite;
+
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
@@ -467,7 +470,7 @@ class PlayState extends MusicBeatState
 				ring.antialiasing = ClientPrefs.globalAntialiasing;
 				add(ring);
 
-				lightsindy = new BGSprite('indyBG/4_lights', 50, 50, 1.2, 1.2);
+				lightsindy = new BGSprite('indyBG/4_lights', 50, -50, 1.2, 1.2);
 				lightsindy.setGraphicSize(Std.int(lightsindy.width * 1.3));
 				lightsindy.antialiasing = ClientPrefs.globalAntialiasing;
 
@@ -488,6 +491,16 @@ class PlayState extends MusicBeatState
 				var cafe:BGSprite = new BGSprite('bonus/cafe/cafe', -600, -250, 0.95, 0.95);
 				cafe.antialiasing = ClientPrefs.globalAntialiasing;
 				add(cafe);
+
+				blackBars = new FlxSprite(0, 0).loadGraphic(Paths.image('bonus/cafe/black'));
+				blackBars.setGraphicSize(Std.int(blackBars.width * 1.15));
+				blackBars.scrollFactor.set();
+				blackBars.screenCenter();
+
+				tint = new FlxSprite(0, 0).loadGraphic(Paths.image('bonus/cafe/reconnect-tint'));
+				tint.setGraphicSize(Std.int(tint.width * 1.15));
+				tint.scrollFactor.set();
+				tint.screenCenter();
 
 			case 'hellclown':
 				var island:BGSprite = new BGSprite('bonus/hellclown/island_but_red', -2000, -400, 0.95, 0.95);
@@ -662,6 +675,10 @@ class PlayState extends MusicBeatState
 		if (curStage == 'indyBG')
 			add(lightsindy);
 			add(ringfront);
+
+		if (curStage == 'cafe')
+			add(tint);
+			add(blackBars);
 
 		add(foregroundGroup);
 

@@ -25,7 +25,7 @@ class IndyEndState extends MusicBeatState
 	{
 		super.create();
 
-		function videoIntro(name:String):Void {
+		function playCredits(name:String):Void {
 			#if VIDEOS_ALLOWED
 			var foundFile:Bool = false;
 			var fileName:String = #if MODS_ALLOWED Paths.mods('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
@@ -66,6 +66,45 @@ class IndyEndState extends MusicBeatState
 			#end
 			FlxG.sound.playMusic(Paths.music('menu_variation_0'));
 			MusicBeatState.switchState(new StoryMenuState());
+		}
+
+		function videoIntro(name:String):Void {
+			#if VIDEOS_ALLOWED
+			var foundFile:Bool = false;
+			var fileName:String = #if MODS_ALLOWED Paths.mods('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
+			#if sys
+			if(FileSystem.exists(fileName)) {
+				foundFile = true;
+			}
+			#end
+	
+			if(!foundFile) {
+				fileName = Paths.video(name);
+				#if sys
+				if(FileSystem.exists(fileName)) {
+				#else
+				if(OpenFlAssets.exists(fileName)) {
+				#end
+					foundFile = true;
+				}
+			}
+	
+			if(foundFile) {
+				var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+				bg.scrollFactor.set();
+				add(bg);
+				videoCurrentlyPlaying = new FlxVideo(fileName);
+				isVideoCurrentlyPlaying = true;
+	
+				(videoCurrentlyPlaying).finishCallback = function() {
+					playCredits('week2/Week 2 Credits GAME');
+				}
+				return;
+			} else {
+				FlxG.log.warn('Couldnt find video file: ' + fileName);
+			}
+			#end
+			playCredits('week2/Week 2 Credits GAME');
 		}
 
 		videoIntro('week2/Week 2 Cutscene 3 GAME');
