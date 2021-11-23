@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry IDLE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Cherry IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-50,
 				-37
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry NOTE DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Cherry NOTE DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-47,
 				-9
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry NOTE RIGHT",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Cherry NOTE RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-52,
 				-8
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry NOTE LEFT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Cherry NOTE LEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-19,
 				30
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Cherry NOTE UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Cherry NOTE UP"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				71,
 				61
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "balance",
-			"loop": false,
-			"name": "Cherry ALT BALANCE"
+			"fps": 24,
+			"name": "Cherry ALT BALANCE",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -81,8 +81,8 @@
 		100
 	],
 	"camera_position": [
-		20,
-		-20
+		-30,
+		20
 	],
 	"sing_duration": 6.1,
 	"scale": 1

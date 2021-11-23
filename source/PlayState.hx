@@ -199,6 +199,8 @@ class PlayState extends MusicBeatState
 	var grpLimoDancers:FlxTypedGroup<BackgroundDancer>;
 	var fastCar:BGSprite;
 
+	var GOLDNOTE:Bool = false;
+
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
 	var santa:BGSprite;
@@ -3787,8 +3789,14 @@ class PlayState extends MusicBeatState
 
 						note.wasGoodHit = true;
 
+						FlxG.camera.shake(0.02, 0.2);
 						boyfriend.playAnim('shake', true);
 						dad.playAnim('balance');
+						/*GOLDNOTE = true;
+						new FlxTimer().start(0.5, function(tmr:FlxTimer)
+						{
+							GOLDNOTE = false;
+						});*/
 
 						if (!note.isSustainNote)
 						{
@@ -3834,7 +3842,10 @@ class PlayState extends MusicBeatState
 				case 3:
 					animToPlay = 'singRIGHT';
 			}
-			boyfriend.playAnim(animToPlay + daAlt, true);
+			if (!boyfriend.animation.curAnim.name.startsWith('shake'))
+			{
+				boyfriend.playAnim(animToPlay + daAlt, true);
+			}
 			if(note.noteType == 'Hey!') {
 				if(boyfriend.animOffsets.exists('hey')) {
 					boyfriend.playAnim('hey', true);
@@ -4318,6 +4329,16 @@ class PlayState extends MusicBeatState
 			if (curStep == 1228)
 			{
 				black = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+				black.cameras = [camHUD];
+				add(black);
+			}
+		}
+		if (curSong == 'Yours Truly')
+		{
+			if (curStep == 1152)
+			{
+				black = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+				black.cameras = [camHUD];
 				add(black);
 			}
 		}
