@@ -2598,21 +2598,55 @@ class PlayState extends MusicBeatState
 									if (!dodgeAAAAAA)
 									{
 										boyfriend.playAnim('ouch');
-										if (health > 0.2)
+										if (storyDifficulty == 2)
 										{
-											health -= 0.2;
+											if (health > 0.2)
+											{
+												health -= 0.2;
+											}
+										}
+										else if (storyDifficulty == 1)
+										{
+											if (health > 0.1)
+											{
+												health -= 0.1;
+											}
+										}
+										else if (storyDifficulty == 0)
+										{
+											if (health > 0.05)
+											{
+												health -= 0.05;
+											}
 										}
 									}
 								case 'thomas':
 									dad.playAnim('attack');
 									FlxG.camera.shake(0.02, 0.2);
-									if (health > 1)
+									if (storyDifficulty == 2)
 									{
-										health -= 1;
+										if (health > 1)
+										{
+											health -= 1;
+										}
+										if (health < 1 && health > 0.5)
+										{
+											health -= 0.5;
+										}
 									}
-									if (health < 1 && health > 0.5)
+									else if (storyDifficulty == 1)
 									{
-										health -= 0.5;
+										if (health > 0.5)
+										{
+											health -= 0.5;
+										}
+									}
+									else if (storyDifficulty == 0)
+									{
+										if (health > 0.3)
+										{
+											health -= 0.3;
+										}
 									}
 							}
 						}
@@ -2656,9 +2690,12 @@ class PlayState extends MusicBeatState
 
 					if (healthDrainStuff)
 					{
-						if (health > 0.03)
+						if (storyDifficulty == 2)
 						{
-							health -= 0.03;
+							if (health > 0.03)
+							{
+								health -= 0.03;
+							}
 						}
 					}
 
