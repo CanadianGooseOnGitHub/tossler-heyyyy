@@ -136,6 +136,8 @@ class PlayState extends MusicBeatState
 	private static var prevCamFollow:FlxPoint;
 	private static var prevCamFollowPos:FlxObject;
 
+	var dodgeAAAAAA:Bool = false;
+
 	public var strumLineNotes:FlxTypedGroup<StrumNote>;
 	public var opponentStrums:FlxTypedGroup<StrumNote>;
 	public var playerStrums:FlxTypedGroup<StrumNote>;
@@ -246,6 +248,7 @@ class PlayState extends MusicBeatState
 	var scoreTxtTween:FlxTween;
 
 	public var healthDrainStuff:Bool = false;
+	var canDodge:Bool = false;
 
 	public static var campaignScore:Int = 0;
 	public static var campaignMisses:Int = 0;
@@ -2142,8 +2145,6 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-		floatshit += 0.01;
-
 		#if !debug
 		perfectMode = false;
 		#end
@@ -2341,6 +2342,19 @@ class PlayState extends MusicBeatState
 		if (dad.curCharacter == "tossleraccendsecond")
 		{
 			dad.y = Math.sin((Conductor.songPosition / 1000)*(Conductor.bpm/60) * 1) * 15; //brightfyre told me how to do this, I love you brightfyre xoxo
+		}
+
+		if (canDodge)
+		{
+			if (FlxG.keys.justPressed.SPACE)
+			{
+				boyfriend.playAnim('dodge');
+				dodgeAAAAAA = true;
+				new FlxTimer().start(1, function(tmr:FlxTimer)
+				{
+					dodgeAAAAAA = false;
+				});
+			}
 		}
 
 		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
@@ -2581,10 +2595,13 @@ class PlayState extends MusicBeatState
 									dad.playAnim('balance');
 								case 'may':
 									dad.playAnim('shoot');
-									boyfriend.playAnim('ouch');
-									if (health > 0.1)
+									if (!dodgeAAAAAA)
 									{
-										health -= 0.1;
+										boyfriend.playAnim('ouch');
+										if (health > 0.2)
+										{
+											health -= 0.2;
+										}
 									}
 								case 'thomas':
 									dad.playAnim('attack');
@@ -3166,6 +3183,23 @@ class PlayState extends MusicBeatState
 					else if (val1 == 0)
 					{
 						healthDrainStuff = false;
+					}
+				}
+
+			case 'Dodge': //lol don't tell tossler I added this
+				{
+					var val1:Float = Std.parseFloat(value1);
+					var val2:Float = Std.parseFloat(value2);
+					if(Math.isNaN(val1)) val1 = 0;
+					if(Math.isNaN(val2)) val2 = 0;
+
+					if (val1 == 1)
+					{
+						canDodge = true;
+					}
+					else if (val1 == 0)
+					{
+						canDodge = false;
 					}
 				}
 		}

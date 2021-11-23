@@ -112,7 +112,6 @@ class IndyEndState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{		
-		//stole this from taeyai (taeyai is so cool)
 		if(isVideoCurrentlyPlaying)
 		{
 			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ESCAPE)
