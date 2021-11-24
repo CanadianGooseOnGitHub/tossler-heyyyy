@@ -320,6 +320,14 @@ class FreeplayState extends MusicBeatState
 		#end
 
 		PlayState.storyDifficulty = curDifficulty;
+		if (curDifficulty == 3)
+		{
+			diffText.color = FlxColor.RED;
+		}
+		else
+		{
+			diffText.color = FlxColor.WHITE;
+		}
 		diffText.text = '< ' + CoolUtil.difficultyString() + ' >';
 		positionHighscore();
 	}

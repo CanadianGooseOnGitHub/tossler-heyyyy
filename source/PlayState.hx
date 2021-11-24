@@ -1,5 +1,6 @@
 package;
 
+import flixel.math.FlxRandom;
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -246,6 +247,9 @@ class PlayState extends MusicBeatState
 	public var black:FlxSprite;
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
+
+	var windowlol:Int = 0;
+	var istherewindow:Bool = false;
 
 	public var healthDrainStuff:Bool = false;
 	var canDodge:Bool = false;
@@ -820,6 +824,13 @@ class PlayState extends MusicBeatState
 		iconP2.y = healthBar.y - (iconP2.height / 2);
 		iconP2.visible = !ClientPrefs.hideHud;
 		add(iconP2);
+	if (storyDifficulty == 3)
+		{
+			healthBar.visible = false;
+			healthBarBG.visible = false;
+			iconP2.visible = false;
+			iconP1.visible = false;
+		}
 		reloadHealthBarColors();
 
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
@@ -2357,6 +2368,33 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		if (storyDifficulty == 3)
+		{
+			if (!istherewindow && !inCutscene)
+			{
+				var funnyX:Int = FlxG.random.int(-100, 900);
+				var funnyY:Int = FlxG.random.int(0, 500);
+				var timething:Int = FlxG.random.int(10, 20);
+				windowlol = FlxG.random.int(0, 11);
+				var distraction:FlxSprite = new FlxSprite(funnyX, funnyY).loadGraphic(Paths.image('windows/window' + windowlol));
+				distraction.scrollFactor.set();
+				distraction.cameras = [camHUD];
+				add(distraction);
+				istherewindow = true;
+				new FlxTimer().start(timething, function(tmr:FlxTimer)
+				{
+					timething = FlxG.random.int(10, 20);
+					windowlol = FlxG.random.int(0, 5);
+					istherewindow = false;
+				});
+			}
+		}
+
+		if (storyDifficulty == 3 && songMisses > 0)
+		{
+			health -= 2;
+		}
+
 		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
 		iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
 
@@ -2598,7 +2636,7 @@ class PlayState extends MusicBeatState
 									if (!dodgeAAAAAA)
 									{
 										boyfriend.playAnim('ouch');
-										if (storyDifficulty == 2)
+										if (storyDifficulty == 2 || storyDifficulty == 3)
 										{
 											if (health > 0.2)
 											{
@@ -2623,7 +2661,7 @@ class PlayState extends MusicBeatState
 								case 'thomas':
 									dad.playAnim('attack');
 									FlxG.camera.shake(0.02, 0.2);
-									if (storyDifficulty == 2)
+									if (storyDifficulty == 2 || storyDifficulty == 3)
 									{
 										if (health > 1)
 										{
