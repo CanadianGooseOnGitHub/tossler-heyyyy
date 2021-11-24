@@ -1,114 +1,147 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-30,
 				50
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "tossler NOTE up",
-			"indices": []
+			"indices": [],
+			"name": "tossler NOTE up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-30,
 				50
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "tossler MISS up",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "tossler MISS up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-3,
 				-40
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "tossler NOTE down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "tossler NOTE down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "tossler IDLE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "tossler IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				17,
 				2
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "tossler NOTE left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "tossler NOTE left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-65,
 				0
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "tossler NOTE right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "tossler NOTE right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-5,
 				-34
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "tossler MISS down",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "tossler MISS down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				152,
 				70
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "tossler MISS left",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "tossler MISS left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-66,
 				1
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "tossler MISS right",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "tossler MISS right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				83,
 				0
 			],
-			"anim": "guitar",
+			"loop": false,
 			"fps": 24,
-			"name": "tosslertransitiontobass",
-			"indices": []
+			"anim": "guitar",
+			"indices": [],
+			"name": "tosslertransitiontobass"
+		},
+		{
+			"offsets": [
+				0,
+				5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "TosslerDeath"
+		},
+		{
+			"offsets": [
+				0,
+				146
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "TosslerConfirmDeath"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "TosslerLoopedDeath"
 		}
 	],
 	"no_antialiasing": false,

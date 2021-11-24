@@ -44,10 +44,12 @@ class GameOverSubstate extends MusicBeatSubstate
 		if (PlayState.SONG.player1 == 'indy' || PlayState.SONG.player1 == 'indyworried' || PlayState.SONG.player1 == 'indyexhausted' || PlayState.SONG.player1 == 'indybrainwashed')
 		{
 			characterName = 'indy';
+			deathSoundName = 'indy_loss_sfx';
 		}
 		if (PlayState.SONG.player1 == 'tosslervsvoltzmic' || PlayState.SONG.player1 == 'tosslervsvoltzmic' || PlayState.SONG.player1 == 'tosslergtricky' || PlayState.SONG.player1 == 'tosslermtricky')
 		{
 			characterName = 'tosslervsvoltzmic';
+			deathSoundName = 'toss_loss_sfx';
 		}
 		
 		if (ClientPrefs.sticky)

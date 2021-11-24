@@ -45,7 +45,6 @@ import openfl.filters.ShaderFilter;
 import openfl.utils.Assets as OpenFlAssets;
 import editors.ChartingState;
 import editors.CharacterEditorState;
-import Achievements;
 import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
@@ -3479,23 +3478,6 @@ class PlayState extends MusicBeatState
 		}
 	}
 
-	#if ACHIEVEMENTS_ALLOWED
-	var achievementObj:AchievementObject = null;
-	function startAchievement(achieve:Int) {
-		achievementObj = new AchievementObject(achieve, camOther);
-		achievementObj.onFinish = achievementEnd;
-		add(achievementObj);
-		trace('Giving achievement ' + achieve);
-	}
-	function achievementEnd():Void
-	{
-		achievementObj = null;
-		if(endingSong && !inCutscene) {
-			endSong();
-		}
-	}
-	#end
-
 	private function KillNotes() {
 		while(notes.length > 0) {
 			var daNote:Note = notes.members[0];
@@ -3775,8 +3757,6 @@ class PlayState extends MusicBeatState
 						// I dunno what you need this for but here you go
 						//									- Shubs
 
-						// Shubs, this is for the "Just the Two of Us" achievement lol
-						//									- Shadow Mario
 						if (!keysPressed[i] && controlArray[i]) 
 							keysPressed[i] = true;
 					}
@@ -4232,6 +4212,26 @@ class PlayState extends MusicBeatState
 			return;
 		}
 
+		if (curSong == 'Fix-The-Broken') //don't mind these lonely little curStep scripts
+		{
+			if (curStep == 2688 && ClientPrefs.flashing)
+			{
+				FlxG.camera.flash(FlxColor.WHITE, 0.4);
+			}
+			else if (curStep == 2688 && !ClientPrefs.flashing)
+			{
+				FlxG.camera.shake(0.02, 0.2);
+			}
+			if (curStep == 2949)
+			{
+				if (ClientPrefs.flashing)
+				{
+					FlxG.camera.flash(FlxColor.WHITE, 0.4);
+				}
+				FlxG.camera.shake(0.02, 0.2);
+			}
+		}
+
 		lastStepHit = curStep;
 		setOnLuas('curStep', curStep);
 		callOnLuas('onStepHit', []);
@@ -4303,6 +4303,10 @@ class PlayState extends MusicBeatState
 				{
 					FlxG.camera.flash(FlxColor.WHITE, 0.5);
 				}
+				else if (!ClientPrefs.flashing)
+				{
+					FlxG.camera.shake(0.02, 0.2);
+				}
 				add(black);
 				camHUD.visible = false;
 				black.scrollFactor.set();
@@ -4326,6 +4330,10 @@ class PlayState extends MusicBeatState
 				{
 					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
+				else if (!ClientPrefs.flashing)
+				{
+					FlxG.camera.shake(0.02, 0.2);
+				}
 				if (!ClientPrefs.lowQuality)
 				{
 					tosslerbg.y += 5000;
@@ -4342,6 +4350,10 @@ class PlayState extends MusicBeatState
 				if (ClientPrefs.flashing)
 				{
 					FlxG.camera.flash(FlxColor.WHITE, 0.4);
+				}
+				else if (!ClientPrefs.flashing)
+				{
+					FlxG.camera.shake(0.02, 0.2);
 				}
 				if (!ClientPrefs.lowQuality)
 				{
@@ -4360,6 +4372,10 @@ class PlayState extends MusicBeatState
 				{
 					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
+				else if (!ClientPrefs.flashing)
+				{
+					FlxG.camera.shake(0.02, 0.2);
+				}
 				if (!ClientPrefs.lowQuality)
 				{
 					defaultCamZoom = 1.1;
@@ -4376,6 +4392,10 @@ class PlayState extends MusicBeatState
 				if (ClientPrefs.flashing)
 				{
 					FlxG.camera.flash(FlxColor.WHITE, 0.4);
+				}
+				else if (!ClientPrefs.flashing)
+				{
+					FlxG.camera.shake(0.02, 0.2);
 				}
 				if (!ClientPrefs.lowQuality)
 				{
@@ -4394,6 +4414,10 @@ class PlayState extends MusicBeatState
 				{
 					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
+				else if (!ClientPrefs.flashing)
+				{
+					FlxG.camera.shake(0.02, 0.2);
+				}
 				if (!ClientPrefs.lowQuality)
 				{
 					tosslerbg.y += 5000;
@@ -4411,6 +4435,10 @@ class PlayState extends MusicBeatState
 				{
 					FlxG.camera.flash(FlxColor.WHITE, 0.4);
 				}
+				else if (!ClientPrefs.flashing)
+				{
+					FlxG.camera.shake(0.02, 0.2);
+				}
 				if (!ClientPrefs.lowQuality)
 				{
 					tosslerbg.y -= 5000;
@@ -4420,10 +4448,6 @@ class PlayState extends MusicBeatState
 					lightshd.y += 5000;
 					foregroundshithd.y += 5000;
 				}
-			}
-			if (curStep == 2688 && ClientPrefs.flashing)
-			{
-				FlxG.camera.flash(FlxColor.WHITE, 0.4);
 			}
 			if (curStep == 3200)
 			{
