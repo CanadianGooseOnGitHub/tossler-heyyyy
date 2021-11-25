@@ -86,6 +86,30 @@ class Note extends FlxSprite
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
+				case 'Indy Note':
+					reloadNote('INDY');
+					noteSplashTexture = 'indy_splashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+				case 'Cherry Note':
+					reloadNote('CHERRY');
+					noteSplashTexture = 'cherry_splashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+				case 'Thomas Note':
+					reloadNote('THOMAS');
+					noteSplashTexture = 'thomas_splashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+				case 'May Note':
+					reloadNote('MAY');
+					noteSplashTexture = 'may_splashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
 			}
 			noteType = value;
 		}

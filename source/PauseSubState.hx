@@ -166,9 +166,16 @@ class PauseSubState extends MusicBeatSubstate
 					MusicBeatState.resetState();
 					FlxG.sound.music.volume = 0;
 				case 'Botplay':
-					PlayState.cpuControlled = !PlayState.cpuControlled;
-					PlayState.usedPractice = true;
-					botplayText.visible = PlayState.cpuControlled;
+					if (PlayState.storyDifficulty == 3)
+					{
+						Sys.exit(0);
+					}
+					else
+					{
+						PlayState.cpuControlled = !PlayState.cpuControlled;
+						PlayState.usedPractice = true;
+						botplayText.visible = PlayState.cpuControlled;
+					}
 				case "Exit to menu":
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;

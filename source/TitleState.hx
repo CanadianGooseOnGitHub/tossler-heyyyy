@@ -45,6 +45,9 @@ class TitleState extends MusicBeatState
 	static var initialized:Bool = false;
 	public var prologueplayed:Bool = false;
 
+	private var videoCurrentlyPlaying:FlxVideo;
+	private var isVideoCurrentlyPlaying:Bool;
+
 	var blackScreen:FlxSprite;
 	var credGroup:FlxGroup;
 	var credTextShit:Alphabet;
@@ -109,30 +112,7 @@ class TitleState extends MusicBeatState
 		#elseif CHARTING
 		MusicBeatState.switchState(new ChartingState());
 		#else
-		if(FlxG.save.data.prologueplayed == null && !FlashingState.leftState)
-		{
-			videoIntro('Week 1 Prologue GAME');
-		}
-		else if (FlxG.save.data.prologueplayed != null)
-		{
-			if (!PrologueState.prologuePlayedAgain)
-			{
-				MusicBeatState.switchState(new PrologueState());
-			}
-			if (PrologueState.prologuePlayedAgain)
-			{
-				#if desktop
-				DiscordClient.initialize();
-				Application.current.onExit.add (function (exitCode) {
-					DiscordClient.shutdown();
-				});
-				#end
-				new FlxTimer().start(1, function(tmr:FlxTimer)
-				{
-					startIntro();
-				});
-			}
-		}
+		videoIntro('Week 1 Prologue GAME');
 		#end
 	}
 
@@ -166,11 +146,13 @@ class TitleState extends MusicBeatState
 			var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
 			bg.scrollFactor.set();
 			add(bg);
+			videoCurrentlyPlaying = new FlxVideo(fileName);
+			isVideoCurrentlyPlaying = true;
 
-			(new FlxVideo(fileName)).finishCallback = function() {
+			(videoCurrentlyPlaying).finishCallback = function() {
 				remove(bg);
 				startIntro();
-				FlxG.save.data.prologueplayed = true;
+				isVideoCurrentlyPlaying = false;
 			}
 			return;
 		} else {
@@ -206,7 +188,7 @@ class TitleState extends MusicBeatState
 			// music.play();
 
 			if(FlxG.sound.music == null) {
-				FlxG.sound.playMusic(Paths.musicRandom('menu_variation_', 1, 5), 0);
+				FlxG.sound.playMusic(Paths.musicRandom('menu_variation_', 1, 8), 0);
 
 				FlxG.sound.music.fadeIn(4, 0, 0.7);
 			}
@@ -296,6 +278,16 @@ class TitleState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		//stole this from aikoyori :p
+		if(isVideoCurrentlyPlaying)
+		{
+			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ESCAPE)
+			{
+				videoCurrentlyPlaying.skipVideo();
+				isVideoCurrentlyPlaying = false;
+			}
+		}
+
 		if (FlxG.sound.music != null)
 			Conductor.songPosition = FlxG.sound.music.time;
 		// FlxG.watch.addQuick('amp', FlxG.sound.music.amplitude);

@@ -20,6 +20,7 @@ class IndyEndState extends MusicBeatState
 {
 	private var videoCurrentlyPlaying:FlxVideo;
 	private var isVideoCurrentlyPlaying:Bool;
+	var skippedToCredits:Bool = false;
 
 	override function create()
 	{
@@ -68,7 +69,7 @@ class IndyEndState extends MusicBeatState
 			MusicBeatState.switchState(new StoryMenuState());
 		}
 
-		function videoIntro(name:String):Void {
+		function videoIntroPart2(name:String):Void {
 			#if VIDEOS_ALLOWED
 			var foundFile:Bool = false;
 			var fileName:String = #if MODS_ALLOWED Paths.mods('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
@@ -107,6 +108,59 @@ class IndyEndState extends MusicBeatState
 			playCredits('week2/Week 2 Credits GAME');
 		}
 
+		function videoIntro(name:String):Void {
+			#if VIDEOS_ALLOWED
+			var foundFile:Bool = false;
+			var fileName:String = #if MODS_ALLOWED Paths.mods('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
+			#if sys
+			if(FileSystem.exists(fileName)) {
+				foundFile = true;
+			}
+			#end
+	
+			if(!foundFile) {
+				fileName = Paths.video(name);
+				#if sys
+				if(FileSystem.exists(fileName)) {
+				#else
+				if(OpenFlAssets.exists(fileName)) {
+				#end
+					foundFile = true;
+				}
+			}
+	
+			if(foundFile) {
+				var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+				bg.scrollFactor.set();
+				add(bg);
+				videoCurrentlyPlaying = new FlxVideo(fileName);
+				isVideoCurrentlyPlaying = true;
+	
+				(videoCurrentlyPlaying).finishCallback = function() {
+					if (skippedToCredits)
+					{
+						playCredits('week2/Week 2 Credits GAME');
+					}
+					else
+					{
+						videoIntroPart2('week2/Week 2 Cutscene 4 GAME');
+					}
+				}
+				return;
+			} else {
+				FlxG.log.warn('Couldnt find video file: ' + fileName);
+			}
+			#end
+			if (skippedToCredits)
+			{
+				playCredits('week2/Week 2 Credits GAME');
+			}
+			else
+			{
+				videoIntroPart2('week2/Week 2 Cutscene 4 GAME');
+			}
+		}
+
 		videoIntro('week2/Week 2 Cutscene 3 GAME');
 	}
 
@@ -116,8 +170,8 @@ class IndyEndState extends MusicBeatState
 		{
 			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ESCAPE)
 			{
+				skippedToCredits = true;
 				videoCurrentlyPlaying.skipVideo();
-				isVideoCurrentlyPlaying = false;
 			}
 		}
 		

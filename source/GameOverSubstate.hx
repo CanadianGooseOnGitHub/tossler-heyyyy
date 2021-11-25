@@ -41,7 +41,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		Conductor.songPosition = 0;
 
-		if (PlayState.SONG.player1 == 'indy' || PlayState.SONG.player1 == 'indyworried' || PlayState.SONG.player1 == 'indyexhausted' || PlayState.SONG.player1 == 'indybrainwashed')
+		if (PlayState.SONG.player1 == 'indy' || PlayState.SONG.player1 == 'indyworried' || PlayState.SONG.player1 == 'indyexhausted' || PlayState.SONG.player1 == 'indybrainwashed' || PlayState.SONG.player1 == 'indyskate')
 		{
 			characterName = 'indy';
 			deathSoundName = 'indy_loss_sfx';

@@ -1618,8 +1618,7 @@ class PlayState extends MusicBeatState
 				{
 					case 'cherry':
 					{
-						Note.custom = 'cherry';
-						babyArrow.frames = Paths.getSparrowAtlas('NOTE_assets' + Note.custom);
+						babyArrow.frames = Paths.getSparrowAtlas('CHERRYNOTE_assets');
 						babyArrow.animation.addByPrefix('green', 'arrowUP');
 						babyArrow.animation.addByPrefix('blue', 'arrowDOWN');
 						babyArrow.animation.addByPrefix('purple', 'arrowLEFT');
@@ -1655,7 +1654,7 @@ class PlayState extends MusicBeatState
 					case 'may':
 					{
 						Note.custom = 'may';
-						babyArrow.frames = Paths.getSparrowAtlas('NOTE_assets' + Note.custom);
+						babyArrow.frames = Paths.getSparrowAtlas('MAYNOTE_assets');
 						babyArrow.animation.addByPrefix('green', 'arrowUP');
 						babyArrow.animation.addByPrefix('blue', 'arrowDOWN');
 						babyArrow.animation.addByPrefix('purple', 'arrowLEFT');
@@ -1691,7 +1690,7 @@ class PlayState extends MusicBeatState
 					case 'thomas':
 					{
 						Note.custom = 'thomas';
-						babyArrow.frames = Paths.getSparrowAtlas('NOTE_assets' + Note.custom);
+						babyArrow.frames = Paths.getSparrowAtlas('THOMASNOTE_assets');
 						babyArrow.animation.addByPrefix('green', 'arrowUP');
 						babyArrow.animation.addByPrefix('blue', 'arrowDOWN');
 						babyArrow.animation.addByPrefix('purple', 'arrowLEFT');
@@ -1727,7 +1726,7 @@ class PlayState extends MusicBeatState
 					case 'indy' | 'indybrainwash' | 'indyexhausted' | 'indyskate' | 'indyworried':
 					{
 						Note.custom = 'indy';
-						babyArrow.frames = Paths.getSparrowAtlas('NOTE_assets' + Note.custom);
+						babyArrow.frames = Paths.getSparrowAtlas('INDYNOTE_assets');
 						babyArrow.animation.addByPrefix('green', 'arrowUP');
 						babyArrow.animation.addByPrefix('blue', 'arrowDOWN');
 						babyArrow.animation.addByPrefix('purple', 'arrowLEFT');
@@ -1805,7 +1804,7 @@ class PlayState extends MusicBeatState
 					case 'cherry':
 					{
 						Note.custom = 'cherry';
-						babyArrow.frames = Paths.getSparrowAtlas('NOTE_assets' + Note.custom);
+						babyArrow.frames = Paths.getSparrowAtlas('CHERRYNOTE_assets');
 						babyArrow.animation.addByPrefix('green', 'arrowUP');
 						babyArrow.animation.addByPrefix('blue', 'arrowDOWN');
 						babyArrow.animation.addByPrefix('purple', 'arrowLEFT');
@@ -1841,7 +1840,7 @@ class PlayState extends MusicBeatState
 					case 'may':
 					{
 						Note.custom = 'may';
-						babyArrow.frames = Paths.getSparrowAtlas('NOTE_assets' + Note.custom);
+						babyArrow.frames = Paths.getSparrowAtlas('MAYNOTE_assets');
 						babyArrow.animation.addByPrefix('green', 'arrowUP');
 						babyArrow.animation.addByPrefix('blue', 'arrowDOWN');
 						babyArrow.animation.addByPrefix('purple', 'arrowLEFT');
@@ -1877,7 +1876,7 @@ class PlayState extends MusicBeatState
 					case 'thomas':
 					{
 						Note.custom = 'thomas';
-						babyArrow.frames = Paths.getSparrowAtlas('NOTE_assets' + Note.custom);
+						babyArrow.frames = Paths.getSparrowAtlas('THOMASNOTE_assets');
 						babyArrow.animation.addByPrefix('green', 'arrowUP');
 						babyArrow.animation.addByPrefix('blue', 'arrowDOWN');
 						babyArrow.animation.addByPrefix('purple', 'arrowLEFT');
@@ -1913,7 +1912,7 @@ class PlayState extends MusicBeatState
 					case 'indy' | 'indybrainwash' | 'indyexhausted' | 'indyskate' | 'indyworried':
 					{
 						Note.custom = 'indy';
-						babyArrow.frames = Paths.getSparrowAtlas('NOTE_assets' + Note.custom);
+						babyArrow.frames = Paths.getSparrowAtlas('INDYNOTE_assets');
 						babyArrow.animation.addByPrefix('green', 'arrowUP');
 						babyArrow.animation.addByPrefix('blue', 'arrowDOWN');
 						babyArrow.animation.addByPrefix('purple', 'arrowLEFT');
@@ -3403,6 +3402,22 @@ class PlayState extends MusicBeatState
 
 			if (storyPlaylist.length <= 0)
 			{
+				if (StoryMenuState.curWeek == 1 && storyDifficulty > 0)
+				{
+					FlxG.save.data.indyWeekDone = true;
+				}
+				if (StoryMenuState.curWeek == 0 && storyDifficulty > 0)
+				{
+					FlxG.save.data.tosslerWeekDone = true;
+				}
+				if (StoryMenuState.curWeek == 0 && storyDifficulty == 2)
+				{
+					FlxG.save.data.tosslerHardModeCompleted = true;
+				}
+				if (StoryMenuState.curWeek == 1 && storyDifficulty == 2)
+				{
+					FlxG.save.data.indyHardModeCompleted = true;
+				}
 
 				if (SONG.song.toLowerCase() == 'fix-the-broken')
 				{

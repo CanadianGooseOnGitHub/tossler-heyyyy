@@ -309,10 +309,27 @@ class FreeplayState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		if (curDifficulty < 0)
-			curDifficulty = CoolUtil.difficultyStuff.length-1;
-		if (curDifficulty >= CoolUtil.difficultyStuff.length)
-			curDifficulty = 0;
+		if (FlxG.save.data.indyWeekDone && FlxG.save.data.tosslerHardModeCompleted && FlxG.save.data.indyHardModeCompleted)
+		{
+			if (curDifficulty < 0)
+				curDifficulty = CoolUtil.difficultyStuff.length-1;
+			if (curDifficulty >= CoolUtil.difficultyStuff.length)
+				curDifficulty = 0;
+		}
+		else if (FlxG.save.data.indyWeekDone && !FlxG.save.data.tosslerHardModeCompleted && !FlxG.save.data.indyHardModeCompleted)
+		{
+			if (curDifficulty < 0)
+				curDifficulty = 3;
+			if (curDifficulty >= 3)
+				curDifficulty = 0;
+		}
+		else
+		{
+			if (curDifficulty < 0)
+				curDifficulty = 2;
+			if (curDifficulty >= 2)
+				curDifficulty = 0;
+		}
 
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
