@@ -313,7 +313,7 @@ class StoryMenuState extends MusicBeatState
 		else if (!FlxG.save.data.tosslerHardModeCompleted && !FlxG.save.data.indyHardModeCompleted)
 		{
 			if (curDifficulty < 0)
-				curDifficulty = 3;
+				curDifficulty = CoolUtil.difficultyStuff.length-1;
 			if (curDifficulty >= 3)
 				curDifficulty = 0;
 		}
