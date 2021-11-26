@@ -1303,7 +1303,7 @@ class PlayState extends MusicBeatState
 							FlxG.sound.play(Paths.sound('boxing_bell'));
 							FlxG.sound.play(Paths.sound('introGo' + altSuffix), 0.6);
 						}
-						else
+						else if (StoryMenuState.curWeek == 0 || !isStoryMode)
 						{
 							FlxG.sound.play(Paths.sound('introGo' + altSuffix), 0.6);
 						}
