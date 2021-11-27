@@ -47,7 +47,6 @@ class IndyEndStateNew extends FlxState
 
 	function playCredits():Void
 	{
-		video = null;
 		video = new FlxVideo(Paths.video('week2/Week 2 Credits GAME'));
 		video.finishCallback = back2Menu;
 		curVideo = 'credits';
