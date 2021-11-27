@@ -23,7 +23,7 @@ class IndyEndStateNew extends FlxState
 		if (FlxG.keys.justPressed.ENTER && video != null) 
 			switch (curVideo)
 			{
-				case 'cutscene1' | 'cutscene2':
+				case 'cutscene2':
 					playCredits();
 				case 'credits':
 					trace('no u aint skippin this shit');
@@ -47,7 +47,6 @@ class IndyEndStateNew extends FlxState
 
 	function playCredits():Void
 	{
-		video = null;
 		video = new FlxVideo(Paths.video('week2/Week 2 Credits GAME'));
 		video.finishCallback = back2Menu;
 		curVideo = 'credits';
@@ -55,8 +54,8 @@ class IndyEndStateNew extends FlxState
 
 	function back2Menu():Void
 	{
+		video.finishCallback = function(){trace('huh');};
 		FlxG.sound.playMusic(Paths.music('menu_variation_0'));
-		video.skipVideo();
 		FlxG.switchState(new StoryMenuState());
 
 	}
