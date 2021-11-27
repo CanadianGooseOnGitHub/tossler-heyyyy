@@ -285,15 +285,22 @@ class StoryMenuState extends MusicBeatState
 
 			PlayState.storyDifficulty = curDifficulty;
 
-			PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
-			PlayState.storyWeek = curWeek;
-			PlayState.campaignScore = 0;
-			PlayState.campaignMisses = 0;
-			new FlxTimer().start(1, function(tmr:FlxTimer)
+			if (curDifficulty == 3)
 			{
-				LoadingState.loadAndSwitchState(new PlayState(), true);
-				FreeplayState.destroyFreeplayVocals();
-			});
+				MusicBeatState.switchState(new HellmodeSubstate());
+			}
+			else
+			{
+				PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
+				PlayState.storyWeek = curWeek;
+				PlayState.campaignScore = 0;
+				PlayState.campaignMisses = 0;
+				new FlxTimer().start(1, function(tmr:FlxTimer)
+				{
+					LoadingState.loadAndSwitchState(new PlayState(), true);
+					FreeplayState.destroyFreeplayVocals();
+				});
+			}
 		} else {
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 		}
@@ -303,20 +310,10 @@ class StoryMenuState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		if (FlxG.save.data.indyWeekDone && FlxG.save.data.tosslerHardModeCompleted && FlxG.save.data.indyHardModeCompleted)
-		{
-			if (curDifficulty < 0)
-				curDifficulty = CoolUtil.difficultyStuff.length-1;
-			if (curDifficulty >= CoolUtil.difficultyStuff.length)
-				curDifficulty = 0;
-		}
-		else if (!FlxG.save.data.tosslerHardModeCompleted && !FlxG.save.data.indyHardModeCompleted)
-		{
-			if (curDifficulty < 0)
-				curDifficulty = CoolUtil.difficultyStuff.length-1;
-			if (curDifficulty >= 3)
-				curDifficulty = 0;
-		}
+		if (curDifficulty < 0)
+			curDifficulty = CoolUtil.difficultyStuff.length-1;
+		if (curDifficulty >= CoolUtil.difficultyStuff.length)
+			curDifficulty = 0;
 
 		sprDifficultyGroup.forEach(function(spr:FlxSprite) {
 			spr.visible = false;

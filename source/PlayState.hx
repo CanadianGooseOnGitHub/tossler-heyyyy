@@ -1329,17 +1329,6 @@ class PlayState extends MusicBeatState
 		add(black);
 		new FlxTimer().start(2, function(tmr:FlxTimer)
 		{
-			if (curStage == 'tosslerBG')
-			{
-				lightshd.y += 5000;
-				foregroundshithd.y += 5000;
-				lightscorrupted.y += 5000;
-				foregroundshitcorrupted.y += 5000;
-				foregroundshitpixel.y += 5000;
-				tosslerbghd.y += 5000;
-				tosslerbgcorrupted.y += 5000;
-				tosslerbgpixel.y += 5000;
-			}
 			FlxTween.tween(black, {alpha: 0}, 1, {ease: FlxEase.circOut,
 				onComplete: function(twn:FlxTween) {
 					startCountdown();

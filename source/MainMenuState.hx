@@ -38,6 +38,15 @@ class MainMenuState extends MusicBeatState
 
 	override function create()
 	{
+		if (FlxG.save.data.indyWeekDone)
+		{
+			optionShit = ['story_mode', 'freeplay', 'credits', 'options'];
+		}
+		else
+		{
+			optionShit = ['story_mode', 'credits', 'options'];
+		}
+
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
