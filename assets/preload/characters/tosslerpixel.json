@@ -62,7 +62,7 @@
 		150,
 		500
 	],
-	"healthicon": "tossler",
+	"healthicon": "tossler-pixel",
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
