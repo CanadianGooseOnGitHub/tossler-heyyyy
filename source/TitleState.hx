@@ -43,10 +43,6 @@ class TitleState extends MusicBeatState
 	public static var volumeUpKeys:Array<FlxKey> = [FlxKey.NUMPADPLUS, FlxKey.PLUS];
 
 	static var initialized:Bool = false;
-	public var prologueplayed:Bool = false;
-
-	private var videoCurrentlyPlaying:FlxVideo;
-	private var isVideoCurrentlyPlaying:Bool;
 
 	var blackScreen:FlxSprite;
 	var credGroup:FlxGroup;
@@ -54,6 +50,8 @@ class TitleState extends MusicBeatState
 	var textGroup:FlxGroup;
 	var logoSpr:FlxSprite;
 	public var save:FlxSave = new FlxSave();
+
+	public static var lol:Bool = true;
 
 	var curWacky:Array<String> = [];
 
@@ -112,55 +110,20 @@ class TitleState extends MusicBeatState
 		#elseif CHARTING
 		MusicBeatState.switchState(new ChartingState());
 		#else
-		videoIntro('Week 1 Prologue GAME');
+		if (lol)
+		{
+			MusicBeatState.switchState(new PrologueState());
+		}
+		else
+		{
+			startIntro();
+		}
 		#end
 	}
 
 	var tosslertitle:FlxSprite;
 	var titleText:FlxSprite;
 	var swagShader:ColorSwap = null;
-
-	
-	public function videoIntro(name:String):Void {
-		#if VIDEOS_ALLOWED
-		var foundFile:Bool = false;
-		var fileName:String = #if MODS_ALLOWED Paths.mods('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
-		#if sys
-		if(FileSystem.exists(fileName)) {
-			foundFile = true;
-		}
-		#end
-
-		if(!foundFile) {
-			fileName = Paths.video(name);
-			#if sys
-			if(FileSystem.exists(fileName)) {
-			#else
-			if(OpenFlAssets.exists(fileName)) {
-			#end
-				foundFile = true;
-			}
-		}
-
-		if(foundFile) {
-			var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
-			bg.scrollFactor.set();
-			add(bg);
-			videoCurrentlyPlaying = new FlxVideo(fileName);
-			isVideoCurrentlyPlaying = true;
-
-			(videoCurrentlyPlaying).finishCallback = function() {
-				remove(bg);
-				startIntro();
-				isVideoCurrentlyPlaying = false;
-			}
-			return;
-		} else {
-			FlxG.log.warn('Couldnt find video file: ' + fileName);
-		}
-		#end
-		startIntro();
-	}
 
 	function startIntro()
 	{
@@ -278,16 +241,6 @@ class TitleState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		//stole this from aikoyori :p
-		if(isVideoCurrentlyPlaying)
-		{
-			if (FlxG.keys.justPressed.ENTER || FlxG.keys.justPressed.SPACE || FlxG.keys.justPressed.ESCAPE)
-			{
-				videoCurrentlyPlaying.skipVideo();
-				isVideoCurrentlyPlaying = false;
-			}
-		}
-
 		if (FlxG.sound.music != null)
 			Conductor.songPosition = FlxG.sound.music.time;
 		// FlxG.watch.addQuick('amp', FlxG.sound.music.amplitude);
@@ -395,7 +348,7 @@ class TitleState extends MusicBeatState
 			}
 		}
 
-		if (pressedEnter && !skippedIntro && FlxG.save.data.prologueplayed == true)
+		if (pressedEnter && !skippedIntro)
 		{
 			skipIntro();
 		}
