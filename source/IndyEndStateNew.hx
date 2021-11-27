@@ -55,6 +55,7 @@ class IndyEndStateNew extends FlxState
 
 	function back2Menu():Void
 	{
+		video.skipVideo();
 		FlxG.sound.playMusic(Paths.music('menu_variation_0'));
 		FlxG.switchState(new StoryMenuState());
 
