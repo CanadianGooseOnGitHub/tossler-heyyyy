@@ -485,7 +485,7 @@ class PlayState extends MusicBeatState
 				ringfront.antialiasing = ClientPrefs.globalAntialiasing;
 			
 			case 'street':
-				var street:FlxSprite = new FlxSprite(-600, -250);
+				var street:FlxSprite = new FlxSprite(-2500, -250);
 				street.frames = Paths.getSparrowAtlas('bonus/skater/streetbg');
 				street.animation.addByPrefix('street', 'Skater Background', 24, true);
 				street.animation.play('street');
@@ -665,8 +665,16 @@ class PlayState extends MusicBeatState
 			add(gfGroup);
 		}
 
-		add(boyfriendGroup);
-		add(dadGroup);
+		if (SONG.song.toLowerCase() == 'joyride')
+		{
+			add(dadGroup);
+			add(boyfriendGroup);
+		}
+		else
+		{
+			add(boyfriendGroup);
+			add(dadGroup);
+		}
 
 		if (curStage == 'tosslerBG')
 			add(lights);
@@ -1606,7 +1614,7 @@ class PlayState extends MusicBeatState
 						babyArrow.animation.add('confirm', [15, 19], 24, false);
 				}
 			}
-			if (SONG.song.toLowerCase() != 'joyride' || SONG.song.toLowerCase() != 'reconnect')
+			else if (SONG.song.toLowerCase() == 'yours-truly' || SONG.song.toLowerCase() == 'feast-for-the-eye' || SONG.song.toLowerCase() == 'game-time')
 			{
 				if (player == 1)
 				{
@@ -1980,7 +1988,7 @@ class PlayState extends MusicBeatState
 					}
 				}
 			}
-			else
+			else if (SONG.song.toLowerCase() != 'yours-truly' || SONG.song.toLowerCase() != 'feast-for-the-eye' || SONG.song.toLowerCase() != 'game-time')
 			{
 				Note.custom = '';
 				babyArrow.frames = Paths.getSparrowAtlas(skin);
