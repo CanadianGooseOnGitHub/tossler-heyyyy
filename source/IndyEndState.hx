@@ -108,6 +108,7 @@ class IndyEndState extends MusicBeatState
 			playCredits('week2/Week 2 Credits GAME');
 		}
 
+		var playedLastCutscene:Bool = false;
 		function videoIntro(name:String):Void {
 			#if VIDEOS_ALLOWED
 			var foundFile:Bool = false;
@@ -157,11 +158,14 @@ class IndyEndState extends MusicBeatState
 			}
 			else
 			{
+				playedLastCutscene = true;
 				videoIntroPart2('week2/Week 2 Cutscene 4 GAME');
 			}
+			return;
 		}
 
-		videoIntro('week2/Week 2 Cutscene 3 GAME');
+		if(!playedLastCutscene)
+			videoIntro('week2/Week 2 Cutscene 3 GAME');
 	}
 
 	override function update(elapsed:Float)
