@@ -2378,7 +2378,7 @@ class PlayState extends MusicBeatState
 				var funnyX:Int = FlxG.random.int(-100, 900);
 				var funnyY:Int = FlxG.random.int(0, 500);
 				var timething:Int = FlxG.random.int(10, 20);
-				windowlol = FlxG.random.int(0, 11);
+				windowlol = FlxG.random.int(0, 17);
 				var distraction:FlxSprite = new FlxSprite(funnyX, funnyY).loadGraphic(Paths.image('windows/window' + windowlol));
 				distraction.scrollFactor.set();
 				distraction.cameras = [camHUD];

@@ -19,15 +19,6 @@ class IndyEndStateNew extends FlxState
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
-
-		if (FlxG.keys.justPressed.ENTER && video != null) 
-			switch (curVideo)
-			{
-				case 'cutscene2':
-					playCredits();
-				case 'credits':
-					trace('no u aint skippin this shit');
-			}
 	}
 
 	function playVideo1():Void
