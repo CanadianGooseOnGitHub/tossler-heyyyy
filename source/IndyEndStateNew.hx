@@ -47,6 +47,7 @@ class IndyEndStateNew extends FlxState
 
 	function playCredits():Void
 	{
+		video.skipVideo();
 		video = new FlxVideo(Paths.video('week2/Week 2 Credits GAME'));
 		video.finishCallback = back2Menu;
 		curVideo = 'credits';
@@ -55,7 +56,6 @@ class IndyEndStateNew extends FlxState
 	function back2Menu():Void
 	{
 		FlxG.sound.playMusic(Paths.music('menu_variation_0'));
-		video.skipVideo();
 		FlxG.switchState(new StoryMenuState());
 
 	}
