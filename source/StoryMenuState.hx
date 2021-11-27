@@ -226,7 +226,15 @@ class StoryMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				selectWeek();
+				if (curWeek == 1 && !FlxG.save.data.tosslerWeekDone)
+				{
+					FlxG.sound.play(Paths.sound('Incorrect'));
+					FlxG.camera.shake(0.02, 0.5);
+				}
+				else
+				{
+					selectWeek();
+				}
 			}
 			else if(controls.RESET)
 			{
@@ -337,20 +345,10 @@ class StoryMenuState extends MusicBeatState
 	{
 		curWeek += change;
 
-		if (!FlxG.save.data.tosslerWeekDone)
-		{
-			if (curWeek >= 0)
-				curWeek = 0;
-			if (curWeek < 0)
-				curWeek = 0;
-		}
-		else
-		{
-			if (curWeek >= WeekData.weeksList.length)
-				curWeek = 0;
-			if (curWeek < 0)
-				curWeek = WeekData.weeksList.length - 1;
-		}
+		if (curWeek >= WeekData.weeksList.length)
+			curWeek = 0;
+		if (curWeek < 0)
+			curWeek = WeekData.weeksList.length - 1;
 
 		var leWeek:WeekFile = WeekData.weeksLoaded.get(WeekData.weeksList[curWeek]);
 
