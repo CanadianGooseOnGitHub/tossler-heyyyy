@@ -97,6 +97,7 @@ class PlayState extends MusicBeatState
 	#end
 
 	private var videoCurrentlyPlaying:FlxVideo;
+	var killthatStupidAssTimer:Bool = false;
 	private var isVideoCurrentlyPlaying:Bool;
 	public var BF_X:Float = 770;
 	public var BF_Y:Float = 100;
@@ -1523,7 +1524,9 @@ class PlayState extends MusicBeatState
 		}
 		checkEventNote();
 		generatedMusic = true;
-	}
+	
+
+}
 
 	function eventPushed(event:Array<Dynamic>) {
 		switch(event[2]) {
@@ -3376,17 +3379,21 @@ class PlayState extends MusicBeatState
 	function finishSong():Void
 	{
 		var finishCallback:Void->Void = endSong; //In case you want to change it in a specific song.
+		trace('shit');
 
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
 		/*vocals.volume = 0;
 		vocals.pause();*/
-		if(ClientPrefs.noteOffset <= 0) {
+		if(ClientPrefs.noteOffset <= 0 && !killthatStupidAssTimer) {
 			finishCallback();
 		} else {
+			if (!killthatStupidAssTimer)
 			finishTimer = new FlxTimer().start(ClientPrefs.noteOffset / 1000, function(tmr:FlxTimer) {
 				finishCallback();
 			});
+			else
+				(trace('Fuck you!'));
 		}
 	}
 
@@ -3394,6 +3401,8 @@ class PlayState extends MusicBeatState
 	var transitioning = false;
 	function endSong():Void
 	{
+		
+
 		//Should kill you if you tried to cheat
 		if(!startingSong) {
 			notes.forEach(function(daNote:Note) {
@@ -3436,6 +3445,13 @@ class PlayState extends MusicBeatState
 
 		if (isStoryMode)
 		{
+			if (SONG.song.toLowerCase() == 'game-time')
+				{
+					killthatStupidAssTimer = true;
+					trace(killthatStupidAssTimer);
+
+
+				}
 			campaignScore += songScore;
 			campaignMisses += songMisses;
 
@@ -3443,31 +3459,7 @@ class PlayState extends MusicBeatState
 
 			if (storyPlaylist.length <= 0)
 			{
-				if (StoryMenuState.curWeek == 1 && storyDifficulty > 0)
-				{
-					FlxG.save.data.indyWeekDone = true;
-				}
-				if (StoryMenuState.curWeek == 0 && storyDifficulty > 0)
-				{
-					FlxG.save.data.tosslerWeekDone = true;
-				}
-				if (StoryMenuState.curWeek == 0 && storyDifficulty == 2)
-				{
-					FlxG.save.data.tosslerHardModeCompleted = true;
-				}
-				if (StoryMenuState.curWeek == 1 && storyDifficulty == 2)
-				{
-					FlxG.save.data.indyHardModeCompleted = true;
-				}
-
-				if (SONG.song.toLowerCase() == 'fix-the-broken')
-				{
-					MusicBeatState.switchState(new TosslerEndState());
-				}
-				else if (SONG.song.toLowerCase() == 'game-time')
-				{
-					MusicBeatState.switchState(new IndyEndState());
-				}
+				
 
 				// if ()
 				StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
@@ -3482,6 +3474,41 @@ class PlayState extends MusicBeatState
 				usedPractice = false;
 				changedDifficulty = false;
 				cpuControlled = false;
+
+
+				if (StoryMenuState.curWeek == 1 && storyDifficulty > 0)
+					{
+						FlxG.save.data.indyWeekDone = true;
+					}
+					if (StoryMenuState.curWeek == 0 && storyDifficulty > 0)
+					{
+						FlxG.save.data.tosslerWeekDone = true;
+					}
+					if (StoryMenuState.curWeek == 0 && storyDifficulty == 2)
+					{
+						FlxG.save.data.tosslerHardModeCompleted = true;
+					}
+					if (StoryMenuState.curWeek == 1 && storyDifficulty == 2)
+					{
+						FlxG.save.data.indyHardModeCompleted = true;
+					}
+	
+					if (SONG.song.toLowerCase() == 'fix-the-broken')
+					{
+						MusicBeatState.switchState(new TosslerEndState());
+					}
+					else if (SONG.song.toLowerCase() == 'game-time')
+					{
+					
+						finishTimer = new FlxTimer().start(0.2,function(huh:FlxTimer)
+							{
+							trace('i hate psych engine');
+							FlxG.switchState(new IndyEndStateNew());
+						
+							});
+						
+
+					}
 			}
 			else
 			{
