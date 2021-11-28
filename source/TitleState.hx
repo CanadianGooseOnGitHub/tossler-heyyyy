@@ -88,7 +88,7 @@ class TitleState extends MusicBeatState
 		FlxG.sound.volumeUpKeys = volumeUpKeys;
 
 		#if debug
-		FlxG.save.data.tosslerWeekDone = true;
+		FlxG.save.data.tosslerWeekDone2 = true;
 		#end
 
 		PlayerSettings.init();
