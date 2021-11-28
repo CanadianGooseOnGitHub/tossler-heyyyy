@@ -3456,41 +3456,24 @@ class PlayState extends MusicBeatState
 				usedPractice = false;
 				changedDifficulty = false;
 				cpuControlled = false;
-
-
-				if (StoryMenuState.curWeek == 1 && storyDifficulty > 0)
+	
+				if (SONG.song.toLowerCase() == 'fix-the-broken')
+				{
+					FlxG.save.data.tosslerWeekDone = true;
+					MusicBeatState.switchState(new TosslerEndState());
+				}
+				else if (SONG.song.toLowerCase() == 'game-time')
+				{
+				
+					finishTimer = new FlxTimer().start(0.2,function(huh:FlxTimer)
 					{
 						FlxG.save.data.indyWeekDone = true;
-					}
-					if (StoryMenuState.curWeek == 0 && storyDifficulty > 0)
-					{
-						FlxG.save.data.tosslerWeekDone = true;
-					}
-					if (StoryMenuState.curWeek == 0 && storyDifficulty == 2)
-					{
-						FlxG.save.data.tosslerHardModeCompleted = true;
-					}
-					if (StoryMenuState.curWeek == 1 && storyDifficulty == 2)
-					{
-						FlxG.save.data.indyHardModeCompleted = true;
-					}
-	
-					if (SONG.song.toLowerCase() == 'fix-the-broken')
-					{
-						MusicBeatState.switchState(new TosslerEndState());
-					}
-					else if (SONG.song.toLowerCase() == 'game-time')
-					{
+						trace('i hate psych engine');
+						FlxG.switchState(new IndyEndStateNew());
+					});
 					
-						finishTimer = new FlxTimer().start(0.2,function(huh:FlxTimer)
-							{
-							trace('i hate psych engine');
-							FlxG.switchState(new IndyEndStateNew());
-						
-							});
-						
 
-					}
+				}
 			}
 			else
 			{
