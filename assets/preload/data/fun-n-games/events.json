@@ -686,8 +686,8 @@
 						104590.909090909,
 						-1,
 						"Change Character",
-						"tosslerirritated",
-						"0"
+						"1",
+						"tosslerirritated"
 					]
 				],
 				"bpm": 0,
@@ -707,15 +707,6 @@
 						""
 					]
 				],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
