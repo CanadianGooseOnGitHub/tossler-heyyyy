@@ -223,7 +223,7 @@ class StoryMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (curWeek == 1 && !FlxG.save.data.tosslerWeekDone2)
+				if (curWeek == 1 && !FlxG.save.data.tosslerWeekDone)
 				{
 					FlxG.sound.play(Paths.sound('Incorrect'));
 					FlxG.camera.shake(0.02, 0.5);
