@@ -34,6 +34,10 @@ class IndyEndStateNew extends FlxState
 	{
 		trace('Playing vid 1');
 		video = new FlxVideo(Paths.video('week2/Week 2 Cutscene 3 GAME'));
+		if (ClientPrefs.subtitles)
+		{
+			video = new FlxVideo(Paths.video('week2/subtitles/3'));
+		}
 		video.finishCallback = playVideo2;
 		curVideo = 'cutscene1';
 		isVideoCurrentlyPlaying = true;
@@ -42,6 +46,10 @@ class IndyEndStateNew extends FlxState
 	function playVideo2():Void
 	{
 		video = new FlxVideo(Paths.video('week2/Week 2 Cutscene 4 GAME'));
+		if (ClientPrefs.subtitles)
+		{
+			video = new FlxVideo(Paths.video('week2/subtitles/4'));
+		}
 		video.finishCallback = playCredits;
 		curVideo = 'cutscene2';
 		isVideoCurrentlyPlaying = true;

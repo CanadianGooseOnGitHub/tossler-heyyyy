@@ -935,11 +935,32 @@ class PlayState extends MusicBeatState
 						videoIntro('Week 1 Cutscene 3 GAME');
 					}
 				case 'yours-truly':
-					videoIntro('week2/Week 2 Prologue GAME');
+					if (ClientPrefs.subtitles)
+					{
+						videoIntro('week2/subtitles/prologue');
+					}
+					else if (!ClientPrefs.subtitles)
+					{
+						videoIntro('week2/Week 2 Prologue GAME');
+					}
 				case 'feast-for-the-eye':
-					videoIntro('week2/Week 2 Cutscene 1 GAME');
+					if (ClientPrefs.subtitles)
+					{
+						videoIntro('week2/subtitles/1');
+					}
+					else if (!ClientPrefs.subtitles)
+					{
+						videoIntro('week2/Week 2 Cutscene 1 GAME');
+					}
 				case 'game-time':
-					videoIntro('week2/Week 2 Cutscene 2 GAME');
+					if (ClientPrefs.subtitles)
+					{
+						videoIntro('week2/subtitles/2');
+					}
+					else if (!ClientPrefs.subtitles)
+					{
+						videoIntro('week2/Week 2 Cutscene 2 GAME');
+					}
 				default:
 					fadeIn();
 			}
