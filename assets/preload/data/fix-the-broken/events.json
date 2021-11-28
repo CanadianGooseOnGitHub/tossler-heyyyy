@@ -367,7 +367,7 @@
 						-1,
 						"Change Character",
 						"1",
-						"tosslerhappy"
+						"tosslercasual"
 					],
 					[
 						91163.6363636364,
@@ -529,7 +529,15 @@
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						117452.453428924,
+						-1,
+						"Change Character",
+						"1",
+						"tosslerhappy"
+					]
+				],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
