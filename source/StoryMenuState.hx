@@ -103,10 +103,7 @@ class StoryMenuState extends MusicBeatState
 			// Needs an offset thingie
 			if (weekIsLocked(i))
 			{
-				var lock:FlxSprite = new FlxSprite(weekThing.width + 10 + weekThing.x);
-				lock.frames = ui_tex;
-				lock.animation.addByPrefix('lock', 'lock');
-				lock.animation.play('lock');
+				var lock:FlxSprite = new FlxSprite(weekThing.x).loadGraphic(Paths.image('storymenu/week2crossed'));
 				lock.ID = i;
 				lock.antialiasing = ClientPrefs.globalAntialiasing;
 				grpLocks.add(lock);
@@ -226,7 +223,7 @@ class StoryMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (curWeek == 1 && !FlxG.save.data.tosslerWeekDone)
+				if (curWeek == 1 && !FlxG.save.data.tosslerWeekDone2)
 				{
 					FlxG.sound.play(Paths.sound('Incorrect'));
 					FlxG.camera.shake(0.02, 0.5);
