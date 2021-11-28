@@ -3443,7 +3443,7 @@ class PlayState extends MusicBeatState
 					}
 					if (StoryMenuState.curWeek == 0 && storyDifficulty > 0)
 					{
-						FlxG.save.data.tosslerWeekDone = true;
+						FlxG.save.data.tosslerWeekDone2 = true;
 					}
 					if (StoryMenuState.curWeek == 0 && storyDifficulty == 2)
 					{
