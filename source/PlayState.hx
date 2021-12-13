@@ -106,6 +106,8 @@ class PlayState extends MusicBeatState
 	public var GF_X:Float = 400;
 	public var GF_Y:Float = 130;
 
+	var camOnDad:Bool = false;
+
 	public var boyfriendGroup:FlxTypedGroup<Boyfriend>;
 	public var dadGroup:FlxTypedGroup<Character>;
 	public var gfGroup:FlxTypedGroup<Character>;
@@ -146,6 +148,11 @@ class PlayState extends MusicBeatState
 
 	private var camZooming:Bool = false;
 	private var curSong:String = "";
+
+	var camX:Int = 0;
+	var camY:Int = 0;
+	var bfcamX:Int = 0;
+	var bfcamY:Int = 0;
 
 	private var gfSpeed:Int = 1;
 	private var health:Float = 1;
@@ -418,7 +425,7 @@ class PlayState extends MusicBeatState
 				foregroundshit = new BGSprite('tosslerBG/foreground', -300, 150, 1.5, 1.5);
 				foregroundshit.antialiasing = ClientPrefs.globalAntialiasing;
 				
-				audience = new FlxSprite( -350, 100);
+				audience = new FlxSprite( -400, 100);
 				audience.frames = Paths.getSparrowAtlas('tosslerBG/crowdbop');
 				audience.animation.addByPrefix('idle', 'crowdbop', 24);
 				audience.scrollFactor.set(1.5, 1.5);
@@ -2184,6 +2191,11 @@ class PlayState extends MusicBeatState
 		perfectMode = false;
 		#end
 
+		camFollow.y += camY;
+		camFollow.x += camX;
+		camFollow.y += bfcamY;
+		camFollow.x += bfcamX;
+
 		/*if (FlxG.keys.justPressed.NINE)
 		{
 			iconP1.swapOldIcon();
@@ -2647,6 +2659,24 @@ class PlayState extends MusicBeatState
 							case 3:
 								animToPlay = 'singRIGHT';
 						}
+						if (camOnDad)
+						{
+							switch (Math.abs(daNote.noteData))
+							{
+								case 2:
+									camY = -15;
+									camX = 0;
+								case 3:
+									camX = 15;
+									camY = 0;
+								case 1:
+									camY = 15;
+									camX = 0;
+								case 0:
+									camX = -15;
+									camY = 0;
+							}
+						}
 						dad.playAnim(animToPlay + altAnim, true);
 
 						if(daNote.noteType == 'Gold Note')
@@ -2857,6 +2887,8 @@ class PlayState extends MusicBeatState
 				keyShit();
 			} else if(boyfriend.holdTimer > Conductor.stepCrochet * 0.001 * boyfriend.singDuration && boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.animation.curAnim.name.endsWith('miss')) {
 				boyfriend.dance();
+				bfcamX = 0;
+				bfcamY = 0;
 			}
 		}
 		
@@ -3322,6 +3354,7 @@ class PlayState extends MusicBeatState
 	public function moveCamera(isDad:Bool) {
 		var songName:String = Paths.formatToSongPath(SONG.song);
 		if(isDad) {
+			camOnDad = true;
 			camFollow.set(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
 			camFollow.x += dad.cameraPosition[0];
 			camFollow.y += dad.cameraPosition[1];
@@ -3331,6 +3364,7 @@ class PlayState extends MusicBeatState
 				tweenCamIn();
 			}
 		} else {
+			camOnDad = false;
 			camFollow.set(boyfriend.getMidpoint().x - 100, boyfriend.getMidpoint().y - 100);
 
 			switch (curStage)
@@ -3996,6 +4030,24 @@ class PlayState extends MusicBeatState
 				case 3:
 					animToPlay = 'singRIGHT';
 			}
+			if (!camOnDad)
+			{
+				switch (note.noteData)
+				{
+					case 2:
+						bfcamY = -15;
+						bfcamX = 0;
+					case 3:
+						bfcamX = 15;
+						bfcamY = 0;
+					case 1:
+						bfcamY = 15;
+						bfcamX = 0;
+					case 0:
+						bfcamX = -15;
+						bfcamY = 0;
+				}
+			}
 			if (!boyfriend.animation.curAnim.name.startsWith('shake'))
 			{
 				boyfriend.playAnim(animToPlay + daAlt, true);
@@ -4554,9 +4606,13 @@ class PlayState extends MusicBeatState
 			if (dad.animation.curAnim.name != null && !dad.animation.curAnim.name.startsWith("sing") && !dad.stunned)
 			{
 				dad.dance();
+				camX = 0;
+				camY = 0;
 			}
 		} else if(dad.danceIdle && dad.animation.curAnim.name != null && !dad.curCharacter.startsWith('gf') && !dad.animation.curAnim.name.startsWith("sing") && !dad.stunned && dad.curCharacter != 'may') {
 			dad.dance();
+			camX = 0;
+			camY = 0;
 		}
 
 		switch (curStage)
