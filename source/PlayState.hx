@@ -2661,20 +2661,23 @@ class PlayState extends MusicBeatState
 						}
 						if (camOnDad)
 						{
-							switch (Math.abs(daNote.noteData))
+							if (SONG.song.toLowerCase() != 'fix-the-broken' || SONG.song.toLowerCase() == 'fix-the-broken' && curStep < 1025)
 							{
-								case 2:
-									camY = -15;
-									camX = 0;
-								case 3:
-									camX = 15;
-									camY = 0;
-								case 1:
-									camY = 15;
-									camX = 0;
-								case 0:
-									camX = -15;
-									camY = 0;
+								switch (Math.abs(daNote.noteData))
+								{
+									case 2:
+										camY = -15;
+										camX = 0;
+									case 3:
+										camX = 15;
+										camY = 0;
+									case 1:
+										camY = 15;
+										camX = 0;
+									case 0:
+										camX = -15;
+										camY = 0;
+								}
 							}
 						}
 						dad.playAnim(animToPlay + altAnim, true);
